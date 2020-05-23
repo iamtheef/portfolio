@@ -1,5 +1,25 @@
 .header {
-  font-size: 100px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+
+  font-family: "VT323", monospace;
+}
+/* 
+.navbar-button {
+  padding-right: 12% auto !important;
+} */
+
+.navbar {
+  margin-left: space;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+}
+
+.navbar-button {
+  color: black;
+}
+
+.navbar-button:hover {
+  text-decoration: none;
+  color: rgb(170, 170, 182);
 }
