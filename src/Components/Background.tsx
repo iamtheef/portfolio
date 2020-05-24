@@ -1,43 +1,19 @@
 import React, { useEffect, useState } from "react";
+import { makeTable } from "../utils/makeTable";
 
 const Background: React.FC = () => {
-  function digit() {
-    const digits = [0, 1];
-    const num = () => Math.floor(Math.random() * digits.length);
-    let string = "";
-    for (let i = 0; i <= 43; i++) {
-      string = string + digits[num()].toString();
-    }
-    return string;
-  }
+  const [table, setTable] = useState(<div></div>);
 
-  const makeTable = () => {
-    return (
-      <div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-        <div className="header">{digit()}</div>
-      </div>
-    );
-  };
-
-  const [table, setTable] = useState(makeTable());
   useEffect(() => {
     setInterval(() => {
       setTable(makeTable());
-    }, 2000);
+    }, 200);
   }, [setTable]);
 
   return (
     <div className="container background nopadding">
-      <div className="col">
-        <div className="row">{table}</div>
+      <div className="row">
+        <div className="col-sm">{table}</div>
       </div>
     </div>
   );

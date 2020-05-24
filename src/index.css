@@ -30,8 +30,7 @@
 }
 
 .nopadding {
-  padding: 1px !important;
-  margin: 1px !important;
+  margin: 0px !important;
 }
 
 .hello {
@@ -44,13 +43,13 @@
 .intro {
   font-size: 30px;
   font-family: "Roboto Mono";
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .paragraph {
   font-size: 30px;
-  font-family: "Roboto Mono";
-  font-weight: lighter;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
 .blink {
