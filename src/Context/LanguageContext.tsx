@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
 type Props = {
   children: React.ReactNode;
@@ -17,7 +17,14 @@ export const LanguageContext = createContext<LanguageContext>({
 });
 
 export function LanguageProvider({ children }: Props) {
-  const [language, setLanguage] = useState<Language>(Language.english);
+  const [language, setLanguage] = useState<Language>(
+    JSON.parse(window.localStorage.getItem("lang") as string) ||
+      Language.english
+  );
+
+  useEffect(() => {
+    window.localStorage.setItem("lang", JSON.stringify(language));
+  });
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>

@@ -43,8 +43,8 @@
 
 .paragraph {
   font-size: 23px;
-  font-family: "PT Serif", serif;
-  font-weight: lighter;
+  font-family: "Crimson Text", serif;
+  /* font-weight: lighter; */
 }
 
 .blink {

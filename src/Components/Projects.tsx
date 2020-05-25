@@ -12,17 +12,15 @@ export default function Projects() {
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState<any>();
   useEffect(() => {
-    setTimeout(() => {
-      axios
-        .get("https://api.github.com/users/iamtheef/repos")
-        .then((projects) => {
-          setProjects(projects.data);
-          setLoaded(true);
-        })
-        .catch((e) => {
-          console.error(e.message);
-        });
-    }, 1000);
+    axios
+      .get("https://api.github.com/users/iamtheef/repos")
+      .then((projects) => {
+        setProjects(projects.data);
+        setLoaded(true);
+      })
+      .catch((e) => {
+        console.error(e.message);
+      });
   }, []);
   if (!loaded) return <Loader />;
   return (
