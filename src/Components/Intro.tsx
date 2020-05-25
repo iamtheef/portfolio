@@ -1,25 +1,54 @@
-import React from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 export function Intro() {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="container">
-      <h1 className="hello">
+      <h1 className="hello marginTop">
         Hello, friend<span className="blink">_</span>
       </h1>
 
-      <div className="intro">Welcome. I am glad you want to know me.</div>
-      <p className="paragraph" style={{ marginTop: "23px" }}>
-        My name is Thergiakis Eftichios, born and raised in the island of Crete
-        in Greece. I am {new Date().getFullYear() - 1994} years old. A
-        resourceful and self-taught web developer, who is hard working and a
-        quick learner. I am flexible as well as team orientated. I am currently
-        seeking for an engineering role where my existing expertise and
-        qualifications will add value to the outset, whilst I continue to
-        further develop my skills and knowledge in the software engineering
-        sector. I am eager to expand to AI sector. More on{" "}
-        <span style={{ fontWeight: "bolder", fontSize: "35px" }}>About Me</span>{" "}
-        section.
-      </p>
+      {language === "EN" ? (
+        <div>
+          <div className="intro">Welcome. I am glad you want to know me.</div>
+          <p className="paragraph" style={{ marginTop: "23px" }}>
+            My name is Thergiakis Eftichios, born and raised in the island of
+            Crete in Greece. I am {new Date().getFullYear() - 1994} years old. A
+            resourceful and self-taught web developer, who is hard working and a
+            quick learner. I am flexible as well as team orientated. I am
+            currently seeking for an engineering role where my existing
+            expertise and qualifications will add value to the outset, whilst I
+            continue to further develop my skills and knowledge in the software
+            engineering sector. I am eager to expand to AI sector. More on{" "}
+            <span style={{ fontWeight: "bolder", fontSize: "25px" }}>
+              About Me
+            </span>{" "}
+            section.
+          </p>
+        </div>
+      ) : (
+        <div>
+          <div className="intro">
+            Καλως ήρθατε. Χαίρομαι που θέλετε να με γνωρίσετε.
+          </div>
+          <p className="paragraph" style={{ marginTop: "23px" }}>
+            Ονομάζομαι Θεργιάκης Ευτύχιος και έχω γενηθεί και μεγαλώσει στο νησί
+            της Κρήτης στην Ελλάδα. Είμαι {new Date().getFullYear() - 1994}{" "}
+            χρονών. Είμαι ευφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω
+            γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω να μία θέση στον τομέα
+            ανάπτυξης εφαρμογών όπου η εμπειρία και οι δεξιότητες θα προσφέρουν
+            στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις
+            δυνατότητες μου και τις γνώσεις μου στον τομέα του software. Με
+            ενδιαφέρει αρκετά και ο τομέας του AI. Περισσότερα στην{" "}
+            <span style={{ fontWeight: "bolder", fontSize: "25px" }}>
+              Σχετικά με εμένα
+            </span>{" "}
+            σελίδα.
+          </p>
+        </div>
+      )}
     </div>
   );
 }

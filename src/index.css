@@ -4,10 +4,6 @@
 
   font-family: "VT323", monospace;
 }
-/* 
-.navbar-button {
-  padding-right: 12% auto !important;
-} */
 
 .navbar {
   margin-left: space;
@@ -34,7 +30,6 @@
 }
 
 .hello {
-  margin-top: -600px;
   font-family: "VT323";
   font-weight: lighter;
   font-size: 80px;
@@ -47,9 +42,9 @@
 }
 
 .paragraph {
-  font-size: 30px;
+  font-size: 23px;
   font-family: "PT Serif", serif;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .blink {
@@ -60,4 +55,26 @@
   50% {
     opacity: 0;
   }
+}
+
+.dropdown-menu {
+  margin-left: -100px;
+}
+
+.dropdown-item:active {
+  background-color: rgb(97, 95, 95);
+}
+.autoCenter {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loaderIcon {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.marginTop {
+  margin-top: -570px;
 }
