@@ -6,7 +6,7 @@ const Background: React.FC = () => {
 
   useEffect(() => {
     setInterval(() => {
-      setTable(makeTable());
+      setTable(makeTable(window.location.pathname));
     }, 100);
   }, [setTable]);
 

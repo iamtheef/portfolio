@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Loader from "./Loader";
+import Loader from "../assets/Loader";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 import postit from "../assets/postit.gif";
@@ -26,9 +26,10 @@ export default function Projects() {
         console.error(e.message);
       });
   }, []);
+
   if (!loaded) return <Loader />;
   return (
-    <div className="container marginTop">
+    <div className="container" style={{ marginTop: "-1700px" }}>
       <h3 className="intro">Spotlight:</h3>
       <div className="row">
         <div className="col-6">
