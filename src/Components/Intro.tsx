@@ -21,7 +21,7 @@ export function Intro() {
             currently seeking for an engineering role where my existing
             expertise and qualifications will add value to the outset, whilst I
             continue to further develop my skills and knowledge in the software
-            engineering sector. I am eager to expand to AI sector. More on{" "}
+            engineering sector. I am eager to expand on AI sector. More on{" "}
             <span style={{ fontWeight: "bolder", fontSize: "25px" }}>
               About Me
             </span>{" "}

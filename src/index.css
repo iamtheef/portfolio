@@ -64,6 +64,7 @@
 .dropdown-item:active {
   background-color: rgb(97, 95, 95);
 }
+
 .autoCenter {
   float: none;
   margin-left: auto;
@@ -77,4 +78,15 @@
 
 .marginTop {
   margin-top: -570px;
+}
+
+.project-btn {
+  color: rgb(78, 78, 78);
+  background-color: rgb(212, 212, 212);
+  padding: 2px;
+}
+
+.card-description {
+  font-family: "Roboto mono";
+  font-size: smaller;
 }
