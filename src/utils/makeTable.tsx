@@ -1,10 +1,13 @@
 import { generateDigits } from "./generateDigits";
 import React from "react";
 
-export const makeTable = (pathname: string) => {
+export const makeTable = () => {
   let lines: number = 0;
+  const pathname = window.location.pathname;
   if (pathname === "/projects") {
     lines = 25;
+  } else if (pathname === "/about") {
+    lines = 23;
   } else {
     lines = Math.floor(document.documentElement.clientHeight / 100) + 2;
   }

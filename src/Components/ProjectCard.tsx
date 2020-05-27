@@ -6,14 +6,15 @@ interface Props {
   description: string;
   url: string;
   language: string;
+  outline: boolean;
 }
 
-export default function ProjectCard(props: Props) {
-  const { title, description, url, language } = props;
+const ProjectCard: React.FC<Props> = (props: Props) => {
+  const { title, description, url, language, outline } = props;
 
   return (
     <div className="card" style={{ width: "80%" }}>
-      <div className="card-body">
+      <div className={`card-body ${outline && "spotlight"}`}>
         <div className="container">
           <div className="row">
             <div className="col-10">
@@ -40,4 +41,6 @@ export default function ProjectCard(props: Props) {
       </div>
     </div>
   );
-}
+};
+
+export default ProjectCard;

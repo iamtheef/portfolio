@@ -8,8 +8,9 @@ enum Language {
   greek = "GR",
 }
 interface LanguageContext {
-  language: Language;
+  language?: Language;
   setLanguage?: any;
+  isGreek?: any;
 }
 
 export const LanguageContext = createContext<LanguageContext>({
@@ -22,12 +23,16 @@ export function LanguageProvider({ children }: Props) {
       Language.english
   );
 
+  function isGreek() {
+    if (language === "GR") return true;
+    return false;
+  }
   useEffect(() => {
     window.localStorage.setItem("lang", JSON.stringify(language));
   });
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage, isGreek }}>
       {children}
     </LanguageContext.Provider>
   );

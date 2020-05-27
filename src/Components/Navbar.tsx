@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 
 export const Navbar: React.FC = () => {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { language, setLanguage, isGreek } = useContext(LanguageContext);
 
-  function isGreek() {
-    if (language === "GR") return true;
-    return false;
-  }
   return (
     <div className="mt-4">
       <div className="container">

@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 
-export function Intro() {
-  const { language } = useContext(LanguageContext);
+const Intro: React.FC = () => {
+  const { isGreek } = useContext(LanguageContext);
 
   return (
     <div className="container">
@@ -10,7 +10,7 @@ export function Intro() {
         Hello, friend<span className="blink">_</span>
       </h1>
 
-      {language === "EN" ? (
+      {!isGreek() ? (
         <div>
           <div className="intro">Welcome. I am glad you want to know me.</div>
           <p className="paragraph" style={{ marginTop: "23px" }}>
@@ -51,6 +51,6 @@ export function Intro() {
       )}
     </div>
   );
-}
+};
 
 export default Intro;

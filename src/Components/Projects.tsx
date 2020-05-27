@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import Loader from "../assets/Loader";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 import postit from "../assets/postit.gif";
 import graphql from "../assets/graphql.png";
+import { LanguageContext } from "../Context/LanguageContext";
 
 interface Project {
   name: string;
@@ -12,9 +13,11 @@ interface Project {
   language: string;
 }
 
-export default function Projects() {
+const Projects: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState<any>();
+  const { isGreek } = useContext(LanguageContext);
+
   useEffect(() => {
     axios
       .get("https://api.github.com/users/iamtheef/repos?sort=created")
@@ -30,7 +33,7 @@ export default function Projects() {
   if (!loaded) return <Loader />;
   return (
     <div className="container" style={{ marginTop: "-1700px" }}>
-      <h3 className="intro">Spotlight:</h3>
+      <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>
       <div className="row">
         <div className="col-6">
           <div className="card">
@@ -73,8 +76,8 @@ export default function Projects() {
         </div>
       </div>
 
-      <h3 className="intro mt-5">Current:</h3>
-      {projects.map((project: Project) => (
+      <h3 className="intro mt-5">{isGreek() ? "Τρέχων" : "Current"}:</h3>
+      {projects.map((project: Project, i: number) => (
         <div className="row mb-4" key={project.html_url}>
           <div className="col-md">
             <ProjectCard
@@ -82,10 +85,13 @@ export default function Projects() {
               description={project.description}
               url={project.html_url}
               language={project.language}
+              outline={i === 0}
             />
           </div>
         </div>
       ))}
     </div>
   );
-}
+};
+
+export default Projects;
