@@ -1,11 +1,42 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import CVpic from "../assets/me.jpg";
 
 const About: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
   return (
-    <div className="container paragraph" style={{ marginTop: "-1550px" }}>
+    <div className="container paragraph" style={{ marginTop: "-2050px" }}>
       <div className="row">
+        <div className="col-10">
+          <h1>{isGreek() ? "ΠΡΟΦΙΛ" : "PROFILE"}</h1>
+          <ul>
+            <li>
+              {isGreek() ? (
+                <p>
+                  Είμαι full-stack developer αλλά συνήθως βρίσκω το back-end πιο
+                  ενδιαφέρον. Μου αρέσουν οι άνθρωποι που χαμογελάνε και έχουν
+                  χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο
+                  προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις
+                  προβλήματα. Στον ελέυθερο μου χρόνο μου αρέσει να γράφω
+                  ηλεκτρονική μουσική.
+                </p>
+              ) : (
+                <p>
+                  I am a full-stack web developer with strong preference to the
+                  back-end. I am quite humorous and I like people who smile and
+                  are open. Generally I love solving puzzles etc and I think
+                  programming is just that in a more elegant and professional
+                  level. Ι like electronic music and I try to produde when I
+                  have some spare time.
+                </p>
+              )}
+            </li>
+          </ul>
+        </div>
+        <img src={CVpic} className="col-2" alt="the ugly guy" />
+      </div>
+
+      <div className="row" style={{ marginTop: "5rem" }}>
         <h1>{isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}</h1>
         <div className="col-12">
           <ul>
@@ -17,7 +48,8 @@ const About: React.FC = () => {
                   προυπηρεσία αλλά θέλω να δοκιμάζω καινούρια πράγματα,
                   τελευταίες τεχνολογίες, να συμμετεχώ σε ομάδες με μεγαλύτερα
                   projects και πάντα να μαθαίνω και να αναπτύσω καινούριες
-                  δεξιότητες.
+                  δεξιότητες. Με ενδιαφέρει ο τομέας του AI και σκοπεύω να
+                  επεκταθώ και να ασχοληθώ με αυτό με την πρώτη ευκαιρία.
                 </p>
               ) : (
                 <p>
@@ -25,7 +57,8 @@ const About: React.FC = () => {
                   all of them have been succesfully completed. I have no formal
                   work exprerience but I am willing to try out new things,
                   contribute to team work and always to expand my knowledge and
-                  skills for as much as I can.
+                  skills for as much as I can. I am interested in the AI sector
+                  and I plan to engage as soon as possible.
                 </p>
               )}
             </li>
@@ -39,7 +72,7 @@ const About: React.FC = () => {
         </h1>
         <div className="col-12">
           <ul>
-            <ul style={{ marginLeft: "-30px" }}>
+            <ul style={{ marginLeft: "-30px", fontSize: "19px" }}>
               <li>TypeScript/JavaScript</li>
               <li>ReactJS</li>
               <li>GraphQL/Rest API Design</li>
@@ -73,7 +106,7 @@ const About: React.FC = () => {
         <div className="col-12">
           <ul>
             <ul style={{ marginLeft: "-30px" }}>
-              <li>The Web Developer BootCamp</li>
+              <li>The Web Developer Bootcamp</li>
               <li>The complete web developer course 2.0</li>
               <li>Advanced JavaScript Concepts</li>
               <li>The Modern React Bootcamp</li>
@@ -86,8 +119,25 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>{isGreek() ? "ΓΛΩΣΣΕΣ" : "LANGUAGES"}</h1>
+        <h1>{isGreek() ? "BIBΛΙΑ" : "ΒΟΟΚS"}</h1>
+        <div className="col-12">
+          <ul>
+            <ul style={{ marginLeft: "-30px" }}>
+              <li>
+                Clean Code: A Handbook of Agile Software Craftsmanship 1st
+                Edition by Robert C. Martin
+              </li>
+              <li>
+                Designing Data-Intensive Applications: The Big Ideas Behind
+                Reliable, Scalable, and Maintainable Systems By Martin Kleppmann
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
 
+      <div className="row" style={{ marginTop: "5rem" }}>
+        <h1>{isGreek() ? "ΓΛΩΣΣΕΣ" : "LANGUAGES"}</h1>
         <div className="col-12">
           <ul>
             <ul style={{ marginLeft: "-30px" }}>

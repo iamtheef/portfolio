@@ -7,7 +7,7 @@ export const makeTable = () => {
   if (pathname === "/projects") {
     lines = 25;
   } else if (pathname === "/about") {
-    lines = 23;
+    lines = 30;
   } else {
     lines = Math.floor(document.documentElement.clientHeight / 100) + 2;
   }
