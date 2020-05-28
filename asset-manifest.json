@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1e7f949.chunk.css",
-    "main.js": "/static/js/main.296ba8bb.chunk.js",
-    "main.js.map": "/static/js/main.296ba8bb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a18f7d93.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a18f7d93.js.map",
-    "static/js/2.386e4a5e.chunk.js": "/static/js/2.386e4a5e.chunk.js",
-    "static/js/2.386e4a5e.chunk.js.map": "/static/js/2.386e4a5e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8f12e009e280fcf123d7b94f4526f0c1.js": "/precache-manifest.8f12e009e280fcf123d7b94f4526f0c1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f1e7f949.chunk.css.map": "/static/css/main.f1e7f949.chunk.css.map",
-    "static/js/2.386e4a5e.chunk.js.LICENSE.txt": "/static/js/2.386e4a5e.chunk.js.LICENSE.txt",
-    "static/media/discord.png": "/static/media/discord.1621404a.png",
-    "static/media/graphql.png": "/static/media/graphql.4bd220b9.png",
-    "static/media/loading-icon.png": "/static/media/loading-icon.6d57d4cb.png",
-    "static/media/mail.png": "/static/media/mail.44a05797.png",
-    "static/media/me.jpg": "/static/media/me.6172bcf5.jpg",
-    "static/media/postit.gif": "/static/media/postit.b977c6cc.gif",
-    "static/media/sc.png": "/static/media/sc.fcfbb100.png",
-    "static/media/wavy.gif": "/static/media/wavy.05f3635a.gif"
+    "main.css": "/iamtheef/my-portofolio/static/css/main.f1e7f949.chunk.css",
+    "main.js": "/iamtheef/my-portofolio/static/js/main.39fa3761.chunk.js",
+    "main.js.map": "/iamtheef/my-portofolio/static/js/main.39fa3761.chunk.js.map",
+    "runtime-main.js": "/iamtheef/my-portofolio/static/js/runtime-main.217a50af.js",
+    "runtime-main.js.map": "/iamtheef/my-portofolio/static/js/runtime-main.217a50af.js.map",
+    "static/js/2.386e4a5e.chunk.js": "/iamtheef/my-portofolio/static/js/2.386e4a5e.chunk.js",
+    "static/js/2.386e4a5e.chunk.js.map": "/iamtheef/my-portofolio/static/js/2.386e4a5e.chunk.js.map",
+    "index.html": "/iamtheef/my-portofolio/index.html",
+    "precache-manifest.6f572381c3e1bfd1658f956eb55373f5.js": "/iamtheef/my-portofolio/precache-manifest.6f572381c3e1bfd1658f956eb55373f5.js",
+    "service-worker.js": "/iamtheef/my-portofolio/service-worker.js",
+    "static/css/main.f1e7f949.chunk.css.map": "/iamtheef/my-portofolio/static/css/main.f1e7f949.chunk.css.map",
+    "static/js/2.386e4a5e.chunk.js.LICENSE.txt": "/iamtheef/my-portofolio/static/js/2.386e4a5e.chunk.js.LICENSE.txt",
+    "static/media/discord.png": "/iamtheef/my-portofolio/static/media/discord.1621404a.png",
+    "static/media/graphql.png": "/iamtheef/my-portofolio/static/media/graphql.4bd220b9.png",
+    "static/media/loading-icon.png": "/iamtheef/my-portofolio/static/media/loading-icon.6d57d4cb.png",
+    "static/media/mail.png": "/iamtheef/my-portofolio/static/media/mail.44a05797.png",
+    "static/media/me.jpg": "/iamtheef/my-portofolio/static/media/me.6172bcf5.jpg",
+    "static/media/postit.gif": "/iamtheef/my-portofolio/static/media/postit.b977c6cc.gif",
+    "static/media/sc.png": "/iamtheef/my-portofolio/static/media/sc.fcfbb100.png",
+    "static/media/wavy.gif": "/iamtheef/my-portofolio/static/media/wavy.05f3635a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a18f7d93.js",
+    "static/js/runtime-main.217a50af.js",
     "static/js/2.386e4a5e.chunk.js",
     "static/css/main.f1e7f949.chunk.css",
-    "static/js/main.296ba8bb.chunk.js"
+    "static/js/main.39fa3761.chunk.js"
   ]
 }
