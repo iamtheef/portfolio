@@ -103,9 +103,11 @@ a {
 
 .footer {
   background-color: black;
-  position: fixed;
   bottom: 0;
+  position: fixed;
   width: 100%;
+  margin-bottom: unset;
+  padding-bottom: unset;
 }
 .footer-background {
   width: 100%;
@@ -122,4 +124,12 @@ a {
 .footer-icon {
   width: 70px;
   height: 70px;
+}
+
+.contact-list {
+  outline-style: double;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
 }

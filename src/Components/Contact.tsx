@@ -17,23 +17,27 @@ const Contact: React.FC = () => {
             ) : (
               <p>
                 Not sure what else I should mention so if I left anything out or
-                you have further questions about anything feel free to contact
-                me.
+                you have further questions feel free to contact me.
               </p>
             )}
 
-            <ul
-              style={{
-                marginTop: "100px",
-                fontWeight: "bold",
-                fontSize: "25px",
-              }}
-            >
+            <div className="contact-list">
               <ul>
-                <li>iamtheef_th@protonmail.com</li>
-                <li>+30 6980970012 (WhatsApp, Viber)</li>
-                <li>Discord Th#1833</li>
+                <ul>
+                  <li>iamtheef_th@protonmail.com</li>
+                  <li>+30 6980970012 (WhatsApp, Viber)</li>
+                  <li>Discord Th#1833</li>
+                </ul>
               </ul>
+            </div>
+            <p>
+              {isGreek()
+                ? "Κατεβάστε μία έντυπη έκδοση"
+                : "Download a printable version"}
+            </p>
+            <ul>
+              <li>PDF</li>
+              <li style={{ marginBottom: "120px" }}>Word</li>
             </ul>
           </div>
         </div>

@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
           <div className="col">
             <a href="https://github.com/iamtheef">
               <img
+                title="iamtheef"
                 alt="github icon"
                 src={github}
                 className="footer-icon mr-4"
@@ -27,6 +28,7 @@ const Footer: React.FC = () => {
 
             <a href="#/">
               <img
+                title="Th#1833"
                 alt="discord icon"
                 src={discord}
                 className="footer-icon mr-4"

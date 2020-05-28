@@ -33,7 +33,11 @@ const About: React.FC = () => {
             </li>
           </ul>
         </div>
-        <img src={CVpic} className="col-2" alt="the ugly guy" />
+        <img
+          src={CVpic}
+          className="col-2 d-lg-block d-none"
+          alt="the ugly guy"
+        />
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
@@ -54,8 +58,8 @@ const About: React.FC = () => {
               ) : (
                 <p>
                   I 've given myself several tasks for the last two years and
-                  all of them have been succesfully completed. I have no formal
-                  work exprerience but I am willing to try out new things,
+                  all of them have been successfully completed. I have no formal
+                  work experience but I am willing to try out new things,
                   contribute to team work and always to expand my knowledge and
                   skills for as much as I can. I am interested in the AI sector
                   and I plan to engage as soon as possible.
