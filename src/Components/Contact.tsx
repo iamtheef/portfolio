@@ -30,15 +30,41 @@ const Contact: React.FC = () => {
                 </ul>
               </ul>
             </div>
-            <p>
-              {isGreek()
-                ? "Κατεβάστε μία έντυπη έκδοση"
-                : "Download a printable version"}
-            </p>
-            <ul>
-              <li>PDF</li>
-              <li style={{ marginBottom: "120px" }}>Word</li>
-            </ul>
+            {isGreek() ? (
+              <div>
+                <p>Kατεβάστε μια έντυπη έκδοση</p>
+                <ul>
+                  <li>
+                    <a href="../assets/cv_GR.pdf" download>
+                      PDF
+                    </a>
+                  </li>
+                  <li style={{ marginBottom: "120px" }}>
+                    {" "}
+                    <a href="../assets/cv_GR.docx" download>
+                      Word
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            ) : (
+              <div>
+                <p>Download a printable version</p>
+                <ul>
+                  <li>
+                    <a href="../assets/cv_EN.pdf" download>
+                      PDF
+                    </a>
+                  </li>
+                  <li style={{ marginBottom: "120px" }}>
+                    {" "}
+                    <a href="../assets/cv_EN.docx" download>
+                      Word
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
