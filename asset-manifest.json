@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/iamtheef/github.io/my-portofolio/static/css/main.f1e7f949.chunk.css",
-    "main.js": "/iamtheef/github.io/my-portofolio/static/js/main.2d780613.chunk.js",
-    "main.js.map": "/iamtheef/github.io/my-portofolio/static/js/main.2d780613.chunk.js.map",
+    "main.js": "/iamtheef/github.io/my-portofolio/static/js/main.956a22fa.chunk.js",
+    "main.js.map": "/iamtheef/github.io/my-portofolio/static/js/main.956a22fa.chunk.js.map",
     "runtime-main.js": "/iamtheef/github.io/my-portofolio/static/js/runtime-main.0aab3d6a.js",
     "runtime-main.js.map": "/iamtheef/github.io/my-portofolio/static/js/runtime-main.0aab3d6a.js.map",
-    "static/js/2.386e4a5e.chunk.js": "/iamtheef/github.io/my-portofolio/static/js/2.386e4a5e.chunk.js",
-    "static/js/2.386e4a5e.chunk.js.map": "/iamtheef/github.io/my-portofolio/static/js/2.386e4a5e.chunk.js.map",
+    "static/js/2.9900e9bc.chunk.js": "/iamtheef/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js",
+    "static/js/2.9900e9bc.chunk.js.map": "/iamtheef/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js.map",
     "index.html": "/iamtheef/github.io/my-portofolio/index.html",
-    "precache-manifest.7dca59ef5f130a858426a69fa21b5d0e.js": "/iamtheef/github.io/my-portofolio/precache-manifest.7dca59ef5f130a858426a69fa21b5d0e.js",
+    "precache-manifest.eab36220cf2104f0ee1471ee139e6afb.js": "/iamtheef/github.io/my-portofolio/precache-manifest.eab36220cf2104f0ee1471ee139e6afb.js",
     "service-worker.js": "/iamtheef/github.io/my-portofolio/service-worker.js",
     "static/css/main.f1e7f949.chunk.css.map": "/iamtheef/github.io/my-portofolio/static/css/main.f1e7f949.chunk.css.map",
-    "static/js/2.386e4a5e.chunk.js.LICENSE.txt": "/iamtheef/github.io/my-portofolio/static/js/2.386e4a5e.chunk.js.LICENSE.txt",
+    "static/js/2.9900e9bc.chunk.js.LICENSE.txt": "/iamtheef/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js.LICENSE.txt",
     "static/media/discord.png": "/iamtheef/github.io/my-portofolio/static/media/discord.1621404a.png",
     "static/media/graphql.png": "/iamtheef/github.io/my-portofolio/static/media/graphql.4bd220b9.png",
     "static/media/loading-icon.png": "/iamtheef/github.io/my-portofolio/static/media/loading-icon.6d57d4cb.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0aab3d6a.js",
-    "static/js/2.386e4a5e.chunk.js",
+    "static/js/2.9900e9bc.chunk.js",
     "static/css/main.f1e7f949.chunk.css",
-    "static/js/main.2d780613.chunk.js"
+    "static/js/main.956a22fa.chunk.js"
   ]
 }
