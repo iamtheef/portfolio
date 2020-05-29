@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/iamtheef/github.io/static/css/main.f1e7f949.chunk.css",
-    "main.js": "/iamtheef/github.io/static/js/main.d1931252.chunk.js",
-    "main.js.map": "/iamtheef/github.io/static/js/main.d1931252.chunk.js.map",
-    "runtime-main.js": "/iamtheef/github.io/static/js/runtime-main.a186ab8a.js",
-    "runtime-main.js.map": "/iamtheef/github.io/static/js/runtime-main.a186ab8a.js.map",
-    "static/js/2.386e4a5e.chunk.js": "/iamtheef/github.io/static/js/2.386e4a5e.chunk.js",
-    "static/js/2.386e4a5e.chunk.js.map": "/iamtheef/github.io/static/js/2.386e4a5e.chunk.js.map",
-    "index.html": "/iamtheef/github.io/index.html",
-    "precache-manifest.94592a706c9108c3dfa45c4f52377a80.js": "/iamtheef/github.io/precache-manifest.94592a706c9108c3dfa45c4f52377a80.js",
-    "service-worker.js": "/iamtheef/github.io/service-worker.js",
-    "static/css/main.f1e7f949.chunk.css.map": "/iamtheef/github.io/static/css/main.f1e7f949.chunk.css.map",
-    "static/js/2.386e4a5e.chunk.js.LICENSE.txt": "/iamtheef/github.io/static/js/2.386e4a5e.chunk.js.LICENSE.txt",
-    "static/media/discord.png": "/iamtheef/github.io/static/media/discord.1621404a.png",
-    "static/media/graphql.png": "/iamtheef/github.io/static/media/graphql.4bd220b9.png",
-    "static/media/loading-icon.png": "/iamtheef/github.io/static/media/loading-icon.6d57d4cb.png",
-    "static/media/mail.png": "/iamtheef/github.io/static/media/mail.44a05797.png",
-    "static/media/me.jpg": "/iamtheef/github.io/static/media/me.6172bcf5.jpg",
-    "static/media/postit.gif": "/iamtheef/github.io/static/media/postit.b977c6cc.gif",
-    "static/media/sc.png": "/iamtheef/github.io/static/media/sc.fcfbb100.png",
-    "static/media/wavy.gif": "/iamtheef/github.io/static/media/wavy.05f3635a.gif"
+    "main.css": "/iamtheef/github.io/my/static/css/main.f1e7f949.chunk.css",
+    "main.js": "/iamtheef/github.io/my/static/js/main.3629aeb1.chunk.js",
+    "main.js.map": "/iamtheef/github.io/my/static/js/main.3629aeb1.chunk.js.map",
+    "runtime-main.js": "/iamtheef/github.io/my/static/js/runtime-main.eedd9903.js",
+    "runtime-main.js.map": "/iamtheef/github.io/my/static/js/runtime-main.eedd9903.js.map",
+    "static/js/2.386e4a5e.chunk.js": "/iamtheef/github.io/my/static/js/2.386e4a5e.chunk.js",
+    "static/js/2.386e4a5e.chunk.js.map": "/iamtheef/github.io/my/static/js/2.386e4a5e.chunk.js.map",
+    "index.html": "/iamtheef/github.io/my/index.html",
+    "precache-manifest.e84e15c9f762aed3f339fb09b105b983.js": "/iamtheef/github.io/my/precache-manifest.e84e15c9f762aed3f339fb09b105b983.js",
+    "service-worker.js": "/iamtheef/github.io/my/service-worker.js",
+    "static/css/main.f1e7f949.chunk.css.map": "/iamtheef/github.io/my/static/css/main.f1e7f949.chunk.css.map",
+    "static/js/2.386e4a5e.chunk.js.LICENSE.txt": "/iamtheef/github.io/my/static/js/2.386e4a5e.chunk.js.LICENSE.txt",
+    "static/media/discord.png": "/iamtheef/github.io/my/static/media/discord.1621404a.png",
+    "static/media/graphql.png": "/iamtheef/github.io/my/static/media/graphql.4bd220b9.png",
+    "static/media/loading-icon.png": "/iamtheef/github.io/my/static/media/loading-icon.6d57d4cb.png",
+    "static/media/mail.png": "/iamtheef/github.io/my/static/media/mail.44a05797.png",
+    "static/media/me.jpg": "/iamtheef/github.io/my/static/media/me.6172bcf5.jpg",
+    "static/media/postit.gif": "/iamtheef/github.io/my/static/media/postit.b977c6cc.gif",
+    "static/media/sc.png": "/iamtheef/github.io/my/static/media/sc.fcfbb100.png",
+    "static/media/wavy.gif": "/iamtheef/github.io/my/static/media/wavy.05f3635a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a186ab8a.js",
+    "static/js/runtime-main.eedd9903.js",
     "static/js/2.386e4a5e.chunk.js",
     "static/css/main.f1e7f949.chunk.css",
-    "static/js/main.d1931252.chunk.js"
+    "static/js/main.3629aeb1.chunk.js"
   ]
 }
