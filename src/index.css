@@ -36,15 +36,14 @@
 }
 
 .intro {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Roboto Mono";
   font-weight: bold;
 }
 
 .paragraph {
   font-size: 20px;
-  font-family: "Roboto Mono";
-  font-weight: bold;
+  font-family: "Lora", serif;
 }
 
 .blink {

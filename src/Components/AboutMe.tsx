@@ -8,7 +8,7 @@ const About: React.FC = () => {
     <div className="container paragraph" style={{ marginTop: "-2050px" }}>
       <div className="row">
         <div className="col-10">
-          <h1>{isGreek() ? "ΠΡΟΦΙΛ" : "PROFILE"}</h1>
+          <h1 className="intro">{isGreek() ? "ΠΡΟΦΙΛ" : "PROFILE"}</h1>
           <ul>
             <li>
               {isGreek() ? (
@@ -41,7 +41,9 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>{isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}</h1>
+        <h1 className="intro">
+          {isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}
+        </h1>
         <div className="col-12">
           <ul>
             <li>
@@ -71,7 +73,7 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>
+        <h1 className="intro">
           {isGreek() ? "ΔΕΞΙΟΤΗΤΕΣ ΚΑΙ ΤΕΧΝΟΓΝΩΣΙΑ" : "SKILLS & KNOWLEDGE"}
         </h1>
         <div className="col-12">
@@ -101,7 +103,7 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
+        <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
         <p>
           {isGreek()
             ? "Έχω παρακολουθήσει πάνω απο 280 ωρες στο Udemy και εχω ολοκληρώσει επιτυχώς τα παρακάτω courses:"
@@ -123,7 +125,7 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>{isGreek() ? "BIBΛΙΑ" : "ΒΟΟΚS"}</h1>
+        <h1 className="intro">{isGreek() ? "BIBΛΙΑ" : "ΒΟΟΚS"}</h1>
         <div className="col-12">
           <ul>
             <ul style={{ marginLeft: "-30px" }}>
@@ -141,7 +143,7 @@ const About: React.FC = () => {
       </div>
 
       <div className="row" style={{ marginTop: "5rem" }}>
-        <h1>{isGreek() ? "ΓΛΩΣΣΕΣ" : "LANGUAGES"}</h1>
+        <h1 className="intro">{isGreek() ? "ΓΛΩΣΣΕΣ" : "LANGUAGES"}</h1>
         <div className="col-12">
           <ul>
             <ul style={{ marginLeft: "-30px" }}>

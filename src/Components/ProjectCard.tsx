@@ -17,7 +17,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
       <div className={`card-body ${outline && "spotlight"}`}>
         <div className="container">
           <div className="row">
-            <div className="col-10">
+            <div className="col-9">
               <a className="mb-2" href={url}>
                 {title}
               </a>
@@ -31,8 +31,8 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                 {language}
               </p>
             </div>
-            <div className="col-2">
-              <a href={url} className="btn project-btn">
+            <div className="col-3">
+              <a href={url} className="btn project-btn float-right">
                 View Project
               </a>
             </div>

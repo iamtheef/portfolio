@@ -22,13 +22,19 @@ const Contact: React.FC = () => {
             )}
 
             <div className="contact-list">
-              <ul>
-                <ul>
-                  <li>iamtheef_th@protonmail.com</li>
-                  <li>+30 6980970012 (WhatsApp, Viber)</li>
-                  <li>Discord Th#1833</li>
-                </ul>
-              </ul>
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <ul style={{ marginLeft: "-3rem" }}>
+                      <ul>
+                        <li>iamtheef_th@protonmail.com</li>
+                        <li>+30 6980970012 (WhatsApp, Viber)</li>
+                        <li>Discord Th#1833</li>
+                      </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
             {isGreek() ? (
               <div>
