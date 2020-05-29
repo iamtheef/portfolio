@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <div>
       <div className="container">
-        <div className="row paragraph" style={{ marginTop: "-550px" }}>
+        <div className="row paragraph marginTop">
           <div className="col">
             {isGreek() ? (
               <p>
