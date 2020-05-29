@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/my-portofolio/static/css/main.f1e7f949.chunk.css",
-    "main.js": "/my-portofolio/static/js/main.343311d6.chunk.js",
-    "main.js.map": "/my-portofolio/static/js/main.343311d6.chunk.js.map",
-    "runtime-main.js": "/my-portofolio/static/js/runtime-main.e91e106b.js",
-    "runtime-main.js.map": "/my-portofolio/static/js/runtime-main.e91e106b.js.map",
-    "static/js/2.669f048a.chunk.js": "/my-portofolio/static/js/2.669f048a.chunk.js",
-    "static/js/2.669f048a.chunk.js.map": "/my-portofolio/static/js/2.669f048a.chunk.js.map",
-    "index.html": "/my-portofolio/index.html",
-    "precache-manifest.e747bceedf7086cb10a8079fc02befa8.js": "/my-portofolio/precache-manifest.e747bceedf7086cb10a8079fc02befa8.js",
-    "service-worker.js": "/my-portofolio/service-worker.js",
-    "static/css/main.f1e7f949.chunk.css.map": "/my-portofolio/static/css/main.f1e7f949.chunk.css.map",
-    "static/js/2.669f048a.chunk.js.LICENSE.txt": "/my-portofolio/static/js/2.669f048a.chunk.js.LICENSE.txt",
-    "static/media/discord.png": "/my-portofolio/static/media/discord.1621404a.png",
-    "static/media/graphql.png": "/my-portofolio/static/media/graphql.4bd220b9.png",
-    "static/media/loading-icon.png": "/my-portofolio/static/media/loading-icon.6d57d4cb.png",
-    "static/media/mail.png": "/my-portofolio/static/media/mail.44a05797.png",
-    "static/media/me.jpg": "/my-portofolio/static/media/me.6172bcf5.jpg",
-    "static/media/postit.gif": "/my-portofolio/static/media/postit.b977c6cc.gif",
-    "static/media/sc.png": "/my-portofolio/static/media/sc.fcfbb100.png",
-    "static/media/wavy.gif": "/my-portofolio/static/media/wavy.05f3635a.gif"
+    "main.css": "/portofolio/static/css/main.f1e7f949.chunk.css",
+    "main.js": "/portofolio/static/js/main.5ca83932.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.5ca83932.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.bbe8d85e.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.bbe8d85e.js.map",
+    "static/js/2.669f048a.chunk.js": "/portofolio/static/js/2.669f048a.chunk.js",
+    "static/js/2.669f048a.chunk.js.map": "/portofolio/static/js/2.669f048a.chunk.js.map",
+    "index.html": "/portofolio/index.html",
+    "precache-manifest.917e53b01975bd0960161eaf39a76c83.js": "/portofolio/precache-manifest.917e53b01975bd0960161eaf39a76c83.js",
+    "service-worker.js": "/portofolio/service-worker.js",
+    "static/css/main.f1e7f949.chunk.css.map": "/portofolio/static/css/main.f1e7f949.chunk.css.map",
+    "static/js/2.669f048a.chunk.js.LICENSE.txt": "/portofolio/static/js/2.669f048a.chunk.js.LICENSE.txt",
+    "static/media/discord.png": "/portofolio/static/media/discord.1621404a.png",
+    "static/media/graphql.png": "/portofolio/static/media/graphql.4bd220b9.png",
+    "static/media/loading-icon.png": "/portofolio/static/media/loading-icon.6d57d4cb.png",
+    "static/media/mail.png": "/portofolio/static/media/mail.44a05797.png",
+    "static/media/me.jpg": "/portofolio/static/media/me.6172bcf5.jpg",
+    "static/media/postit.gif": "/portofolio/static/media/postit.b977c6cc.gif",
+    "static/media/sc.png": "/portofolio/static/media/sc.fcfbb100.png",
+    "static/media/wavy.gif": "/portofolio/static/media/wavy.05f3635a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e91e106b.js",
+    "static/js/runtime-main.bbe8d85e.js",
     "static/js/2.669f048a.chunk.js",
     "static/css/main.f1e7f949.chunk.css",
-    "static/js/main.343311d6.chunk.js"
+    "static/js/main.5ca83932.chunk.js"
   ]
 }
