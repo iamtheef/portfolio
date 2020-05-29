@@ -36,10 +36,7 @@ const Contact: React.FC = () => {
                 <ul>
                   <li>
                     <a
-                      href={
-                        process.env.PUBLIC_URL +
-                        "/thergiakis-eftichios_cv_GR.pdf"
-                      }
+                      href="/portofolio/thergiakis-eftichios_cv_GR.pdf"
                       download
                     >
                       PDF
@@ -48,10 +45,7 @@ const Contact: React.FC = () => {
                   <li style={{ marginBottom: "120px" }}>
                     {" "}
                     <a
-                      href={
-                        process.env.PUBLIC_URL +
-                        "/thergiakis-eftichios_cv_GR.docx"
-                      }
+                      href="/portofolio/thergiakis-eftichios_cv_GR.docx"
                       download
                     >
                       Word
@@ -65,10 +59,7 @@ const Contact: React.FC = () => {
                 <ul>
                   <li>
                     <a
-                      href={
-                        process.env.PUBLIC_URL +
-                        "/thergiakis-eftichios_cv_EN.pdf"
-                      }
+                      href="/portofolio/thergiakis-eftichios_cv_EN.pdf"
                       download
                     >
                       PDF
@@ -77,10 +68,7 @@ const Contact: React.FC = () => {
                   <li style={{ marginBottom: "120px" }}>
                     {" "}
                     <a
-                      href={
-                        process.env.PUBLIC_URL +
-                        "/thergiakis-eftichios_cv_EN.docx"
-                      }
+                      href="/portofolio/thergiakis-eftichios_cv_EN.docx"
                       download
                     >
                       Word
