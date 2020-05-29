@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/github.io/my-portofolio/static/css/main.f1e7f949.chunk.css",
-    "main.js": "/github.io/my-portofolio/static/js/main.7b2ed44b.chunk.js",
-    "main.js.map": "/github.io/my-portofolio/static/js/main.7b2ed44b.chunk.js.map",
-    "runtime-main.js": "/github.io/my-portofolio/static/js/runtime-main.e9db2e87.js",
-    "runtime-main.js.map": "/github.io/my-portofolio/static/js/runtime-main.e9db2e87.js.map",
-    "static/js/2.9900e9bc.chunk.js": "/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js",
-    "static/js/2.9900e9bc.chunk.js.map": "/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js.map",
-    "index.html": "/github.io/my-portofolio/index.html",
-    "precache-manifest.6afa80e98a3ed9b0ce4a6356449655ef.js": "/github.io/my-portofolio/precache-manifest.6afa80e98a3ed9b0ce4a6356449655ef.js",
-    "service-worker.js": "/github.io/my-portofolio/service-worker.js",
-    "static/css/main.f1e7f949.chunk.css.map": "/github.io/my-portofolio/static/css/main.f1e7f949.chunk.css.map",
-    "static/js/2.9900e9bc.chunk.js.LICENSE.txt": "/github.io/my-portofolio/static/js/2.9900e9bc.chunk.js.LICENSE.txt",
-    "static/media/discord.png": "/github.io/my-portofolio/static/media/discord.1621404a.png",
-    "static/media/graphql.png": "/github.io/my-portofolio/static/media/graphql.4bd220b9.png",
-    "static/media/loading-icon.png": "/github.io/my-portofolio/static/media/loading-icon.6d57d4cb.png",
-    "static/media/mail.png": "/github.io/my-portofolio/static/media/mail.44a05797.png",
-    "static/media/me.jpg": "/github.io/my-portofolio/static/media/me.6172bcf5.jpg",
-    "static/media/postit.gif": "/github.io/my-portofolio/static/media/postit.b977c6cc.gif",
-    "static/media/sc.png": "/github.io/my-portofolio/static/media/sc.fcfbb100.png",
-    "static/media/wavy.gif": "/github.io/my-portofolio/static/media/wavy.05f3635a.gif"
+    "main.css": "/my-portofolio/static/css/main.f1e7f949.chunk.css",
+    "main.js": "/my-portofolio/static/js/main.68a9caaf.chunk.js",
+    "main.js.map": "/my-portofolio/static/js/main.68a9caaf.chunk.js.map",
+    "runtime-main.js": "/my-portofolio/static/js/runtime-main.e91e106b.js",
+    "runtime-main.js.map": "/my-portofolio/static/js/runtime-main.e91e106b.js.map",
+    "static/js/2.9900e9bc.chunk.js": "/my-portofolio/static/js/2.9900e9bc.chunk.js",
+    "static/js/2.9900e9bc.chunk.js.map": "/my-portofolio/static/js/2.9900e9bc.chunk.js.map",
+    "index.html": "/my-portofolio/index.html",
+    "precache-manifest.e146cf18f7c0a73350281f8a594cb306.js": "/my-portofolio/precache-manifest.e146cf18f7c0a73350281f8a594cb306.js",
+    "service-worker.js": "/my-portofolio/service-worker.js",
+    "static/css/main.f1e7f949.chunk.css.map": "/my-portofolio/static/css/main.f1e7f949.chunk.css.map",
+    "static/js/2.9900e9bc.chunk.js.LICENSE.txt": "/my-portofolio/static/js/2.9900e9bc.chunk.js.LICENSE.txt",
+    "static/media/discord.png": "/my-portofolio/static/media/discord.1621404a.png",
+    "static/media/graphql.png": "/my-portofolio/static/media/graphql.4bd220b9.png",
+    "static/media/loading-icon.png": "/my-portofolio/static/media/loading-icon.6d57d4cb.png",
+    "static/media/mail.png": "/my-portofolio/static/media/mail.44a05797.png",
+    "static/media/me.jpg": "/my-portofolio/static/media/me.6172bcf5.jpg",
+    "static/media/postit.gif": "/my-portofolio/static/media/postit.b977c6cc.gif",
+    "static/media/sc.png": "/my-portofolio/static/media/sc.fcfbb100.png",
+    "static/media/wavy.gif": "/my-portofolio/static/media/wavy.05f3635a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9db2e87.js",
+    "static/js/runtime-main.e91e106b.js",
     "static/js/2.9900e9bc.chunk.js",
     "static/css/main.f1e7f949.chunk.css",
-    "static/js/main.7b2ed44b.chunk.js"
+    "static/js/main.68a9caaf.chunk.js"
   ]
 }
