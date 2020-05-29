@@ -7,7 +7,7 @@ import discord from "../assets/discord.png";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer" style={{ marginTop: "100px" }}>
+    <footer className="footer">
       <img src={background} className="footer-background" alt="background" />
       <div className="container footer-text">
         <div className="row">
