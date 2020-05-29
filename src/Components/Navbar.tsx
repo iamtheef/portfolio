@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
               <Link className="col-lg navbar-button" to="/about">
                 {isGreek() ? "Σχετικά με εμένα" : "About Me"}
               </Link>
-              <Link className="col-lg navbar-button" to="contact">
+              <Link className="col-lg navbar-button" to="/contact">
                 {isGreek() ? "Επικοινωνήστε" : "Contact"}
               </Link>
             </div>

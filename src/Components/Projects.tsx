@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
                 A fully equiped boilerplate with GraphQL & TypeScript
               </p>
               <a
-                href="https://github.com/iamtheef/GraphQL_boilerplate "
+                href="https://github.com/iamtheef/GraphQL_boilerplate"
                 className="btn project-btn"
               >
                 View repository
