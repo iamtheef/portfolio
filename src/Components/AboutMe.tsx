@@ -88,6 +88,8 @@ const About: React.FC = () => {
               <li>Basic BASH scripting</li>
               <li>Entry level Python & Java</li>
               <li>Good understanding of C</li>
+              <li>Analytical and problem solving abilities</li>
+              <li>Strong debugging skills</li>
               <li>Tools:</li>
               <ul>
                 <li>Node</li>
