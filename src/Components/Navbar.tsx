@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
+import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 
 export const Navbar: React.FC = () => {
   const { language, setLanguage, isGreek } = useContext(LanguageContext);
+  const history = useHistory();
 
   return (
     <div className="mt-4">
@@ -11,16 +13,32 @@ export const Navbar: React.FC = () => {
         <div className="row navbar">
           <div className="col">
             <div className="row">
-              <Link to="/" className="col-lg navbar-button">
+              <Link
+                to="/"
+                className="col-lg navbar-button"
+                onClick={() => history.push("/")}
+              >
                 {isGreek() ? "Αρχική" : "Home"}
               </Link>
-              <Link className="col-lg navbar-button" to="/projects">
+              <Link
+                className="col-lg navbar-button"
+                to="/projects"
+                onClick={() => history.push("/projects")}
+              >
                 Projects
               </Link>
-              <Link className="col-lg navbar-button" to="/about">
+              <Link
+                className="col-lg navbar-button"
+                to="/about"
+                onClick={() => history.push("/about")}
+              >
                 {isGreek() ? "Σχετικά με εμένα" : "About Me"}
               </Link>
-              <Link className="col-lg navbar-button" to="/contact">
+              <Link
+                className="col-lg navbar-button"
+                to="/contact"
+                onClick={() => history.push("/contact")}
+              >
                 {isGreek() ? "Επικοινωνήστε" : "Contact"}
               </Link>
             </div>
