@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
             <div className="contact-list">
               <div className="container">
                 <div className="row">
-                  <div className="col-12">
+                  <div className="col-12 float-left">
                     <ul style={{ marginLeft: "-3rem" }}>
                       <ul>
                         <li>iamtheef_th@protonmail.com</li>
