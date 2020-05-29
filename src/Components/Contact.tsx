@@ -35,13 +35,19 @@ const Contact: React.FC = () => {
                 <p>Kατεβάστε μια έντυπη έκδοση</p>
                 <ul>
                   <li>
-                    <a href="/thergiakis-eftichios_cv_GR.pdf" download>
+                    <a
+                      href="%PUBLIC_URL%/thergiakis-eftichios_cv_GR.pdf"
+                      download
+                    >
                       PDF
                     </a>
                   </li>
                   <li style={{ marginBottom: "120px" }}>
                     {" "}
-                    <a href="/thergiakis-eftichios_cv_GR.docx" download>
+                    <a
+                      href="%PUBLIC_URL%/thergiakis-eftichios_cv_GR.docx"
+                      download
+                    >
                       Word
                     </a>
                   </li>
@@ -52,13 +58,19 @@ const Contact: React.FC = () => {
                 <p>Download a printable version</p>
                 <ul>
                   <li>
-                    <a href="/thergiakis-eftichios_cv_EN.pdf" download>
+                    <a
+                      href="%PUBLIC_URL%/thergiakis-eftichios_cv_EN.pdf"
+                      download
+                    >
                       PDF
                     </a>
                   </li>
                   <li style={{ marginBottom: "120px" }}>
                     {" "}
-                    <a href="/thergiakis-eftichios_cv_EN.docx" download>
+                    <a
+                      href="%PUBLIC_URL%/thergiakis-eftichios_cv_EN.docx"
+                      download
+                    >
                       Word
                     </a>
                   </li>
