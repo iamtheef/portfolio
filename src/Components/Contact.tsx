@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         <div className="row paragraph marginTop">
           <div className="col">
             {isGreek() ? (
-              <p>
+              <p className="contact-line">
                 Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε
                 μαζί μου με τους εξής τρόπους:
               </p>
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-12 float-left">
-                    <ul style={{ marginLeft: "-3rem", fontSize: "1.9vw" }}>
+                    <ul style={{ marginLeft: "-3rem", fontSize: "100%" }}>
                       <ul>
                         <li>iamtheef_th@protonmail.com</li>
                         <li>+30 6980970012 (WhatsApp, Viber)</li>

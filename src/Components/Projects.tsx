@@ -19,15 +19,17 @@ const Projects: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
 
   useEffect(() => {
-    axios
-      .get("https://api.github.com/users/iamtheef/repos?sort=created")
-      .then((projects) => {
-        setProjects(projects.data);
-        setLoaded(true);
-      })
-      .catch((e) => {
-        console.error(e.message);
-      });
+    setTimeout(() => {
+      axios
+        .get("https://api.github.com/users/iamtheef/repos?sort=created")
+        .then((projects) => {
+          setProjects(projects.data);
+          setLoaded(true);
+        })
+        .catch((e) => {
+          console.error(e.message);
+        });
+    }, 1500);
   }, []);
 
   if (!loaded) return <Loader />;

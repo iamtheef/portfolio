@@ -131,3 +131,25 @@ a {
   font-weight: bold;
   font-size: 25px;
 }
+
+@media screen and (max-width: 601px) {
+  .contact-list {
+    float: left;
+    margin-left: -20px;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .contact-line {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .loaderIcon {
+    margin: auto;
+    padding: auto;
+    width: 8rem;
+  }
+}
