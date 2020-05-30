@@ -42,8 +42,10 @@
 }
 
 .paragraph {
+  opacity: 1;
   font-size: 20px;
   font-family: "Lora", serif;
+  font-weight: initial;
 }
 
 .blink {
@@ -71,8 +73,8 @@
 }
 
 .loaderIcon {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 700px;
+  max-height: 800px;
 }
 
 .marginTop {
@@ -143,17 +145,25 @@ a {
   .contact-line {
     margin-top: 3rem;
   }
+  .active {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+  }
 }
 
 @media screen and (max-width: 601px) {
   .loaderIcon {
-    margin: auto;
+    margin: -50%;
     padding: auto;
-    width: 8rem;
+    width: 20rem;
   }
   .nobull img {
     width: 100%;
     height: auto;
+  }
+
+  .active {
+    border-bottom: unset;
   }
 }
 
@@ -167,4 +177,11 @@ a {
   width: 4%;
   height: auto;
   margin-right: 2vw;
+}
+
+@media screen and (min-width: 600px) {
+  .active {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+  }
 }

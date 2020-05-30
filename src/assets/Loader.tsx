@@ -1,5 +1,5 @@
 import React from "react";
-import loader from "../assets/loading-icon.png";
+import loop from "../assets/loop.svg";
 
 export default function Loader() {
   return (
@@ -8,9 +8,9 @@ export default function Loader() {
         <div className="row">
           <div
             className="col-6"
-            style={{ marginTop: "-1500px", marginLeft: "25%" }}
+            style={{ marginTop: "-1800px", marginLeft: "25%" }}
           >
-            <img src={loader} alt="loader icon" className="loaderIcon" />
+            <img src={loop} alt="loader icon" className="loaderIcon" />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export function generateDigits() {
   const num = () => Math.floor(Math.random() * digits.length);
 
   let string = "";
-  let width = Math.floor(window.innerWidth / 90);
+  let width = Math.floor(window.innerWidth / 400);
   for (let i = 0; i <= width; i++) {
     string = string + digits[num()].toString();
   }

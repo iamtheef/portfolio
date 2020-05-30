@@ -15,8 +15,7 @@ const Intro: React.FC = () => {
           <div className="intro">Welcome. I am glad you want to know me.</div>
           <p className="paragraph" style={{ marginTop: "23px" }}>
             My name is Thergiakis Eftichios, I am a full-stack developer born
-            and raised in the island of Crete in Greece. I am{" "}
-            {new Date().getFullYear() - 1994} years old. A resourceful and
+            and raised in the island of Crete in Greece. A resourceful and
             self-taught web developer, who is hard working and a quick learner.
             I am flexible as well as team orientated. I am currently seeking for
             an engineering role where my existing expertise and qualifications

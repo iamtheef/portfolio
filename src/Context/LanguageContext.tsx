@@ -24,8 +24,7 @@ export function LanguageProvider({ children }: Props) {
   );
 
   function isGreek() {
-    if (language === "GR") return true;
-    return false;
+    return language === "GR";
   }
   useEffect(() => {
     window.localStorage.setItem("lang", JSON.stringify(language));

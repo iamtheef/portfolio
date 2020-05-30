@@ -26,7 +26,7 @@ const About: React.FC = () => {
                   back-end. I am quite humorous and I like people who smile and
                   are open. Generally I love solving puzzles etc and I think
                   programming is just that in a more elegant and professional
-                  level. Ι like electronic music and I try to produde when I
+                  level. Ι like electronic music and I try to produce when I
                   have some spare time.
                 </p>
               )}
@@ -78,7 +78,7 @@ const About: React.FC = () => {
         </h1>
         <div className="col-12">
           <ul>
-            <ul style={{ marginLeft: "-30px", fontSize: "19px" }}>
+            <ul style={{ marginLeft: "-30px", fontSize: "23px" }}>
               <li>TypeScript/JavaScript</li>
               <li>ReactJS</li>
               <li>GraphQL/Rest API Design</li>

@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
 
             {isGreek() ? (
               <div>
-                <p>Kατεβάστε μια έντυπη έκδοση</p>
+                <p>Kατεβάστε το παρόν βιογραφικό</p>
                 <ul>
                   <li>
                     <a
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
               </div>
             ) : (
               <div>
-                <p>Download a printable version</p>
+                <p>Download my resume</p>
                 <ul>
                   <li>
                     <a

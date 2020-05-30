@@ -7,7 +7,10 @@ const ContectList: React.FC = () => {
   return (
     <div className="contact-list">
       <div className="container">
-        <div className="col-12 float-left">
+        <div
+          className="col-12 float-left"
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <ul className="nobull">
             <li>
               {" "}
