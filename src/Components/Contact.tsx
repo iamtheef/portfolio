@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
                 μαζί μου με τους εξής τρόπους:
               </p>
             ) : (
-              <p>
+              <p className="contact-line">
                 Not sure what else I should mention so if I left anything out or
                 you have further questions feel free to contact me.
               </p>
