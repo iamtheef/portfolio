@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Navbar } from "./Components/Navbar";
 import Background from "./Components/Background";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import Intro from "./Components/Intro";
 import About from "./Components/AboutMe";
 import Contact from "./Components/Contact";
@@ -11,7 +11,7 @@ import { LanguageProvider } from "./Context/LanguageContext";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Switch>
         <LanguageProvider>
           <Navbar />
@@ -24,7 +24,7 @@ function App() {
           </div>
         </LanguageProvider>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
