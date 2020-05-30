@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Footer from "./Footer";
 import { LanguageContext } from "../Context/LanguageContext";
+import ContactList from "./ContactList";
 
 const Contact: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
@@ -21,21 +22,8 @@ const Contact: React.FC = () => {
               </p>
             )}
 
-            <div className="contact-list">
-              <div className="container">
-                <div className="row">
-                  <div className="col-12 float-left">
-                    <ul style={{ marginLeft: "-3rem", fontSize: "100%" }}>
-                      <ul>
-                        <li>iamtheef_th@protonmail.com</li>
-                        <li>+30 6980970012 (WhatsApp, Viber)</li>
-                        <li>Discord Th#1833</li>
-                      </ul>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ContactList />
+
             {isGreek() ? (
               <div>
                 <p>Kατεβάστε μια έντυπη έκδοση</p>

@@ -135,8 +135,7 @@ a {
 @media screen and (max-width: 601px) {
   .contact-list {
     float: left;
-    margin-left: -20px;
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 }
 
@@ -152,4 +151,20 @@ a {
     padding: auto;
     width: 8rem;
   }
+  .nobull img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.nobull {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+
+.nobull img {
+  width: 4%;
+  height: auto;
+  margin-right: 2vw;
 }
