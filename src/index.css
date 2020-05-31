@@ -1,7 +1,6 @@
 .header {
   font-size: 80px;
   font-weight: 500;
-
   font-family: "VT323", monospace;
 }
 
@@ -139,19 +138,15 @@ a {
     float: left;
     font-size: 18px !important;
   }
-}
 
-@media screen and (max-width: 601px) {
   .contact-line {
     margin-top: 3rem;
   }
   .active {
-    border-bottom: 1px solid black;
+    border-bottom: none;
+    text-decoration: underline;
     padding-bottom: 3px;
   }
-}
-
-@media screen and (max-width: 601px) {
   .loaderIcon {
     margin: -50%;
     padding: auto;
@@ -160,10 +155,6 @@ a {
   .nobull img {
     width: 100%;
     height: auto;
-  }
-
-  .active {
-    border-bottom: unset;
   }
 }
 
@@ -179,9 +170,17 @@ a {
   margin-right: 2vw;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
   .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+  }
+  .active:active {
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+  }
+  .active:hover {
+    border-bottom: 1px solid;
     padding-bottom: 3px;
   }
 }
