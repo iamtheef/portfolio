@@ -15,13 +15,12 @@ function App() {
       <Switch>
         <LanguageProvider>
           <Navbar />
-          <div className="App">
-            <Background />
-            <Route exact path="/" component={Intro} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-          </div>
+          <Background />
+          <Route exact path="/" component={Intro} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          />
         </LanguageProvider>
       </Switch>
     </HashRouter>

@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
               </div>
             ) : (
               <div>
-                <p>Download my resume</p>
+                <p>Download a printable document of my CV</p>
                 <ul>
                   <li>
                     <a

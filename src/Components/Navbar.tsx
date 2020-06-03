@@ -1,12 +1,10 @@
 import React, { useContext } from "react";
-import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 import isActive from "../utils/isActive";
 
 export const Navbar: React.FC = () => {
   const { language, setLanguage, isGreek } = useContext(LanguageContext);
-  const history = useHistory();
 
   return (
     <div className="mt-4">
@@ -17,7 +15,6 @@ export const Navbar: React.FC = () => {
               <Link
                 to="/"
                 className={`col-lg navbar-button ${isActive("#/") && "active"}`}
-                onClick={() => history.push("/")}
               >
                 {isGreek() ? "Αρχική" : "Home"}
               </Link>
@@ -26,7 +23,6 @@ export const Navbar: React.FC = () => {
                   isActive("#/projects") && "active"
                 }`}
                 to="/projects"
-                onClick={() => history.push("/projects")}
               >
                 Projects
               </Link>
@@ -35,7 +31,6 @@ export const Navbar: React.FC = () => {
                   isActive("#/about") && "active"
                 }`}
                 to="/about"
-                onClick={() => history.push("/about")}
               >
                 {isGreek() ? "Σχετικά με εμένα" : "About Me"}
               </Link>
@@ -44,12 +39,12 @@ export const Navbar: React.FC = () => {
                   isActive("#/contact") && "active"
                 }`}
                 to="/contact"
-                onClick={() => history.push("/contact")}
               >
                 {isGreek() ? "Επικοινωνήστε" : "Contact"}
               </Link>
             </div>
           </div>
+
           <div className="dropdown">
             <button
               className="btn dropdown-toggle"

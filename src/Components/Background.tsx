@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { makeTable } from "../utils/makeTable";
 
-const Background: React.FC = () => {
+const Background: React.FC = (props) => {
   const [table, setTable] = useState(<div></div>);
 
   useEffect(() => {
@@ -15,6 +15,7 @@ const Background: React.FC = () => {
       <div className="row">
         <div className="col-sm">{table}</div>
       </div>
+      {props.children}
     </div>
   );
 };
