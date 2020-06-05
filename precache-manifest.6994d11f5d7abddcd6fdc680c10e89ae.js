@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e811c6c95cfa85d92b2788e3b62438",
+    "revision": "c300a98c665382d0d492289b8171595d",
     "url": "/portofolio/index.html"
   },
   {
-    "revision": "974f1e55f604f2509df2",
+    "revision": "6af221bb7d864f3c0320",
     "url": "/portofolio/static/css/main.265e21a4.chunk.css"
   },
   {
@@ -12,40 +12,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portofolio/static/js/2.8f3d88df.chunk.js"
   },
   {
-    "revision": "cd01d15ce155400567bc",
-    "url": "/portofolio/static/js/3.b4df9dc3.chunk.js"
+    "revision": "184bb44e64277fe5bcfc",
+    "url": "/portofolio/static/js/3.fc0acf02.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portofolio/static/js/3.b4df9dc3.chunk.js.LICENSE.txt"
+    "url": "/portofolio/static/js/3.fc0acf02.chunk.js.LICENSE.txt"
   },
   {
     "revision": "40ac6d5de3b1940cdeca",
     "url": "/portofolio/static/js/4.e282cf38.chunk.js"
   },
   {
-    "revision": "d9db677b61c02018c2c3",
-    "url": "/portofolio/static/js/5.b98f05af.chunk.js"
+    "revision": "e9ffbd1c7a0332e6687b",
+    "url": "/portofolio/static/js/5.719a126d.chunk.js"
   },
   {
     "revision": "5c4596c713b941be6ccc",
     "url": "/portofolio/static/js/6.46c65bd4.chunk.js"
   },
   {
-    "revision": "2242aff1ffdcee97139b",
-    "url": "/portofolio/static/js/7.50289111.chunk.js"
+    "revision": "4cc87e552cc8a33dba73",
+    "url": "/portofolio/static/js/7.5facf0c3.chunk.js"
   },
   {
     "revision": "0c8da8c741c995431b9a",
     "url": "/portofolio/static/js/8.384a5658.chunk.js"
   },
   {
-    "revision": "974f1e55f604f2509df2",
-    "url": "/portofolio/static/js/main.c31dadd2.chunk.js"
+    "revision": "6af221bb7d864f3c0320",
+    "url": "/portofolio/static/js/main.51404e78.chunk.js"
   },
   {
-    "revision": "49f0cdaa9ef2a8da25fa",
-    "url": "/portofolio/static/js/runtime-main.2266cae4.js"
+    "revision": "d9d95c105f1d5039b652",
+    "url": "/portofolio/static/js/runtime-main.084c898b.js"
   },
   {
     "revision": "1621404a7d7e015c98e85b961febdfad",
