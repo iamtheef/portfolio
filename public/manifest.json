@@ -1,9 +1,24 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-
-  "start_url": ".",
+  "short_name": "iamtheef",
+  "name": "iamtheef",
+  "start_url": "%PUBLIC_URL%",
+  "icons": [
+    {
+      "src": "/loop.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ],
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "prefer_related_applications": true
 }

@@ -1,13 +1,14 @@
 import React from "react";
-import "./App.css";
-import { Navbar } from "./Components/Navbar";
-import Background from "./Components/Background";
+import loadable from "@loadable/component";
 import { Route, Switch, HashRouter } from "react-router-dom";
-import Intro from "./Components/Intro";
-import About from "./Components/AboutMe";
-import Contact from "./Components/Contact";
-import Projects from "./Components/Projects";
 import { LanguageProvider } from "./Context/LanguageContext";
+import { Navbar } from "./Components/Navbar";
+
+const Background = loadable(() => import("./Components/Background"));
+const Intro = loadable(() => import("./Components/Intro"));
+const About = loadable(() => import("./Components/AboutMe"));
+const Contact = loadable(() => import("./Components/Contact"));
+const Projects = loadable(() => import("./Components/Projects"));
 
 function App() {
   return (
@@ -20,7 +21,6 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
-          />
         </LanguageProvider>
       </Switch>
     </HashRouter>

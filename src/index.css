@@ -184,3 +184,11 @@ a {
     padding-bottom: 3px;
   }
 }
+
+.navbar-button {
+  min-height: 48px;
+}
+
+.active {
+  display: block;
+}
