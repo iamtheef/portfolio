@@ -8,6 +8,12 @@
       "sizes": "512x512",
       "type": "image/png",
       "density": "4.0"
+    },
+    {
+      "src": "/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "density": "4.0"
     }
   ],
   "display": "standalone",
