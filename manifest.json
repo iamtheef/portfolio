@@ -4,7 +4,7 @@
   "start_url": "%PUBLIC_URL%",
   "icons": [
     {
-      "src": "/loop.png",
+      "src": "./loop.png",
       "sizes": "512x512",
       "type": "image/png",
       "density": "4.0",
