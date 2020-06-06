@@ -9,12 +9,6 @@
       "type": "image/png",
       "density": "4.0",
       "purpose": "any maskable"
-    },
-    {
-      "src": "/portofolio/apple-icon-180x180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "density": "4.0"
     }
   ],
   "display": "standalone",
