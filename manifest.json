@@ -4,13 +4,6 @@
   "start_url": "%PUBLIC_URL%",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "512x512",
-      "type": "image/png",
-      "density": "4.0",
-      "purpose": "any maskable"
-    },
-    {
       "src": "/apple-icon-180x180.png",
       "sizes": "180x180",
       "type": "image/png",
