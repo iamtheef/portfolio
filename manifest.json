@@ -4,11 +4,17 @@
   "start_url": "%PUBLIC_URL%",
   "icons": [
     {
-      "src": "./loop.png",
+      "src": "https://iamtheef.github.io/portofolio/loop.png",
       "sizes": "512x512",
       "type": "image/png",
       "density": "4.0",
       "purpose": "any maskable"
+    },
+    {
+      "src": "https://iamtheef.github.io/portofolio/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "density": "4.0"
     }
   ],
   "display": "standalone",
