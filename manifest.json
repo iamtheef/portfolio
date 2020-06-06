@@ -4,7 +4,7 @@
   "start_url": "%PUBLIC_URL%",
   "icons": [
     {
-      "src": "/apple-icon-180x180.png",
+      "src": "https://iamtheef.github.io/portofolio/apple-icon-180x180.png",
       "sizes": "180x180",
       "type": "image/png",
       "density": "4.0"
