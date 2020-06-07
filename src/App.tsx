@@ -1,14 +1,14 @@
 import React from "react";
-import loadable from "@loadable/component";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import { LanguageProvider } from "./Context/LanguageContext";
 import { Navbar } from "./Components/Navbar";
+import loadable from "@loadable/component";
 
 const Background = loadable(() => import("./Components/Background"));
 const Intro = loadable(() => import("./Components/Intro"));
 const About = loadable(() => import("./Components/AboutMe"));
-const Contact = loadable(() => import("./Components/Contact"));
 const Projects = loadable(() => import("./Components/Projects"));
+const Contact = loadable(() => import("./Components/Contact"));
 
 function App() {
   return (

@@ -82,7 +82,7 @@ const About: React.FC = () => {
             <ul>
               <ul style={{ marginLeft: "-30px", fontSize: "23px" }}>
                 <li>TypeScript/JavaScript</li>
-                <li>ReactJS</li>
+                <li>React</li>
                 <li>GraphQL/Rest API Design</li>
                 <li>SQL/MongoDB </li>
                 <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
@@ -92,6 +92,7 @@ const About: React.FC = () => {
                 <li>Good understanding of C</li>
                 <li>Analytical and problem solving abilities</li>
                 <li>Strong debugging skills</li>
+                <li>SEO & Performance optimization techniques</li>
                 <li>Tools:</li>
                 <ul>
                   <li>Node</li>
