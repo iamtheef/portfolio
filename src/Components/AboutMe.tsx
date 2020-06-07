@@ -42,7 +42,7 @@ const About: React.FC = () => {
           />
         </div>
 
-        <div className="row" style={{ marginTop: "5rem" }}>
+        {/* <div className="row" style={{ marginTop: "5rem" }}>
           <h1 className="intro">
             {isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}
           </h1>
@@ -72,7 +72,7 @@ const About: React.FC = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="row" style={{ marginTop: "5rem" }}>
           <h1 className="intro">

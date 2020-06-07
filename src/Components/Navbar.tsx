@@ -1,16 +1,10 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 import isActive from "../utils/isActive";
 
 export const Navbar: React.FC = () => {
   const { language, setLanguage, isGreek } = useContext(LanguageContext);
-  // const [dropdown, setDropdown] = useState(false);
-
-  function changeLang(lang: string) {
-    setLanguage(lang);
-    // setDropdown(false);
-  }
 
   return (
     <div className="mt-4">
@@ -64,10 +58,10 @@ export const Navbar: React.FC = () => {
               className={`dropdown-menu`}
               aria-labelledby="dropdownMenuButton"
             >
-              <div className="dropdown-item" onClick={() => changeLang("EN")}>
+              <div className="dropdown-item" onClick={() => setLanguage("EN")}>
                 EN
               </div>
-              <div className="dropdown-item" onClick={() => changeLang("GR")}>
+              <div className="dropdown-item" onClick={() => setLanguage("GR")}>
                 GR
               </div>
             </div>
