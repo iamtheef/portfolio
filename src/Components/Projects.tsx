@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import ProjectCard from "./ProjectCard";
 import postit from "../assets/postit.gif";
 import graphql from "../assets/graphql.png";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
 
 const Loader = loadable(() => import("../assets/Loader"));
+const ProjectCard = loadable(() => import("./ProjectCard"));
 
 interface Project {
   name: string;

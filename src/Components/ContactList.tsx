@@ -3,7 +3,7 @@ import tel from "../assets/tel.png";
 import mail from "../assets/mail.png";
 import discord from "../assets/discord.png";
 
-const ContectList: React.FC = () => {
+const ContactList: React.FC = () => {
   return (
     <div className="contact-list">
       <div className="container">
@@ -35,4 +35,4 @@ const ContectList: React.FC = () => {
   );
 };
 
-export default ContectList;
+export default ContactList;

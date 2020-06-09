@@ -1,9 +1,9 @@
-import React, { useContext, lazy } from "react";
-import Footer from "./Footer";
+import React, { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
 
 const ContactList = loadable(() => import("./ContactList"));
+const Footer = loadable(() => import("./Footer"));
 
 const Contact: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);

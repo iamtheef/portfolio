@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 import isActive from "../utils/isActive";
 
 export const Navbar: React.FC = () => {
   const { language, setLanguage, isGreek } = useContext(LanguageContext);
+  const [dropdown, setDropdown] = useState(false);
 
   return (
     <div className="mt-4">
@@ -45,7 +46,7 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
 
-          <div className="dropdown">
+          <div className="dropdown" onClick={() => setDropdown(!dropdown)}>
             <button
               className="btn dropdown-toggle"
               type="button"
@@ -55,7 +56,10 @@ export const Navbar: React.FC = () => {
               {language}
             </button>
             <div
-              className={`dropdown-menu`}
+              style={{
+                marginLeft: "-170%",
+              }}
+              className={`dropdown-menu ${dropdown && "expanded"}`}
               aria-labelledby="dropdownMenuButton"
             >
               <div className="dropdown-item" onClick={() => setLanguage("EN")}>
