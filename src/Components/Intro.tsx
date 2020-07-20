@@ -41,7 +41,7 @@ const Intro: React.FC = () => {
       ) : (
         <div>
           <div className="intro">
-            Καλως ήρθατε. Χαίρομαι που θέλετε να με γνωρίσετε.
+            Καλώς ήρθατε. Χαίρομαι που θέλετε να με γνωρίσετε.
           </div>
 
           <p className="paragraph" style={{ marginTop: "23px" }}>

@@ -82,17 +82,22 @@ const About: React.FC = () => {
             <ul>
               <ul style={{ marginLeft: "-30px", fontSize: "23px" }}>
                 <li>TypeScript/JavaScript</li>
-                <li>React</li>
-                <li>GraphQL/Rest API Design</li>
-                <li>SQL/MongoDB </li>
+                <li>React/Next.js</li>
+                <li>GraphQL</li>
+                <li>Rest API Design</li>
+                <li>
+                  Relational/Document-oriented Databases (PostgreSQL/MongoDB)
+                </li>
                 <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
+                <li>Analytical and problem solving abilities</li>
                 <li>Testing</li>
                 <li>Basic BASH scripting</li>
-                <li>Entry level Python & Java</li>
+                <li>Python</li>
+                <li>Entry level Java</li>
                 <li>Good understanding of C</li>
-                <li>Analytical and problem solving abilities</li>
                 <li>Strong debugging skills</li>
                 <li>SEO & Performance optimization techniques</li>
+                <li>AWS</li>
                 <li>Tools:</li>
                 <ul>
                   <li>Node</li>
