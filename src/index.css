@@ -81,9 +81,10 @@
 }
 
 .project-btn {
-  color: rgb(78, 78, 78);
-  background-color: rgb(212, 212, 212);
+  color: rgb(32, 32, 32) !important;
+  background-color: rgb(226, 219, 219) !important;
   padding: 2px;
+  margin-left: 10px;
 }
 
 .card-description {

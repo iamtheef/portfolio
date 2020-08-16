@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import postit from "../assets/postit.gif";
+import chatRoom from "../assets/chat-room.gif";
 import graphql from "../assets/graphql.png";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
@@ -61,17 +61,23 @@ const Projects: React.FC = () => {
         </div>
         <div className="col-6">
           <div className="card">
-            <img className="card-img-top" src={postit} alt="postit gif" />
+            <img className="card-img-top" src={chatRoom} alt="chatRoom gif" />
             <div className="card-body">
-              <h5 className="card-title">Postit</h5>
+              <h5 className="card-title">Chat Room</h5>
               <p className="card-text">
-                A reddit clone. Find walkthrough gifs in the Github repository.
+                One-time messaging app with encrypted messages.
               </p>
               <a
-                href=" https://github.com/iamtheef/Post-It"
+                href="https://github.com/iamtheef/chat-room"
                 className="btn project-btn"
               >
                 View repository
+              </a>
+              <a
+                href="https://iamtheef-chat-room.herokuapp.com/#/login"
+                className="btn project-btn"
+              >
+                Visit App
               </a>
             </div>
           </div>
