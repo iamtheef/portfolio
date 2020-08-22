@@ -116,17 +116,19 @@ const About: React.FC = () => {
           <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
           <p>
             {isGreek()
-              ? "Έχω παρακολουθήσει πάνω απο 280 ωρες στο Udemy και εχω ολοκληρώσει επιτυχώς τα παρακάτω courses:"
-              : "Total time spend on lectures on Udemy is over 280 hours and I have succesfully obtained the certificates below:"}
+              ? "Έχω παρακολουθήσει πάνω απο 350 ωρες στο Udemy και εχω ολοκληρώσει επιτυχώς τα παρακάτω courses:"
+              : "Total time spend on lectures on Udemy is over 350 hours and I have succesfully obtained the certificates below:"}
           </p>
           <div className="col-12">
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
                 <li>The Web Developer Bootcamp</li>
-                <li>The complete web developer course 2.0</li>
-                <li>Advanced JavaScript Concepts</li>
-                <li>The Modern React Bootcamp</li>
                 <li>JavaScript Algorithms & Data Structures Masterclass</li>
+                <li>The Modern React Bootcamp</li>
+                <li>Advanced JavaScript Concepts</li>
+                <li>The modern Python bootcamp</li>
+                <li>Ethical hacking from scratch</li>
+                <li>Math with Python</li>
                 <li>The Complete Junior to Senior Web Developer</li>
                 <li>Electronics for Beginners</li>
               </ul>
