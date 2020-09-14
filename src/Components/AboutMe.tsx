@@ -14,19 +14,18 @@ const About: React.FC = () => {
               <li>
                 {isGreek() ? (
                   <p>
-                    Είμαι full-stack developer αλλά συνήθως βρίσκω το back-end
-                    πιο ενδιαφέρον. Μου αρέσουν οι άνθρωποι που χαμογελούν και
-                    έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο
-                    προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις
-                    προβλήματα. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω
-                    ηλεκτρονική μουσική.
+                    Full-stack developer με προτίμηση στο back-end. Μου αρέσουν
+                    οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και
+                    οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό
+                    κομψός τρόπος να λύνεις προβλήματα. Στον ελεύθερο μου χρόνο
+                    μου αρέσει να γράφω ηλεκτρονική μουσική.
                   </p>
                 ) : (
                   <p>
-                    I am a full-stack web developer with strong preference to
-                    the back-end. I am quite humorous and I like people who
-                    smile and are open. Generally I love solving puzzles etc and
-                    I think programming is just that in a more elegant and
+                    I am a full-stack web developer with a preference for the
+                    back-end. I am quite humorous and I like people who smile
+                    and are open. Generally I love solving puzzles etc and I
+                    think programming is just that in a more elegant and
                     professional level. Ι like electronic music and I try to
                     produce when I have some spare time.
                   </p>
@@ -42,7 +41,7 @@ const About: React.FC = () => {
           />
         </div>
 
-        {/* <div className="row" style={{ marginTop: "5rem" }}>
+        <div className="row" style={{ marginTop: "5rem" }}>
           <h1 className="intro">
             {isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}
           </h1>
@@ -52,27 +51,32 @@ const About: React.FC = () => {
                 {isGreek() ? (
                   <p>
                     Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά
-                    έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Δεν έχω επίσημη
-                    προϋπηρεσία αλλά θέλω να δοκιμάζω καινούρια πράγματα,
-                    τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα
-                    projects και πάντα να μαθαίνω και να αναπτύσσω καινούριες
-                    δεξιότητες. Με ενδιαφέρει ο τομέας του AI και σκοπεύω να
-                    επεκταθώ και να ασχοληθώ με αυτό με την πρώτη ευκαιρία.
+                    έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του
+                    reddit, μία εφαρμογή παρόμοια με το whatsApp με
+                    αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, και ένα
+                    πλήρες λειτουργικό GraphQL API σε SQL και NoSQL εκδόσεις.
+                    Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα, τελευταίες
+                    τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα projects
+                    και πάντα να μαθαίνω και να αναπτύσσω καινούριες δεξιότητες.
+                    Με ενδιαφέρει ο τομέας του AI και έχω πρόσφατα ξεκινήσει να
+                    ασχολούμαι σε πειραματικό στάδιο.
                   </p>
                 ) : (
                   <p>
                     I 've given myself several tasks for the last two years and
-                    all of them have been successfully completed. I have no
-                    formal work experience but I am willing to try out new
+                    all of them have been successfully completed. A reddit
+                    clone, a whatsApp like app with disappearing messages and
+                    AES encryption, a fully functional GraphQL API in both
+                    SQL/NoSQL versions. I am always eager to be involved in new
                     things, contribute to team work and always to expand my
                     knowledge and skills for as much as I can. I am interested
-                    in the AI sector and I plan to engage as soon as possible.
+                    in the AI sector and I am currently in an entry level.
                   </p>
                 )}
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
           <h1 className="intro">
@@ -97,7 +101,6 @@ const About: React.FC = () => {
                 <li>Good understanding of C</li>
                 <li>Strong debugging skills</li>
                 <li>SEO & Performance optimization techniques</li>
-                <li>AWS</li>
                 <li>Tools:</li>
                 <ul>
                   <li>Node</li>
@@ -116,8 +119,8 @@ const About: React.FC = () => {
           <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
           <p>
             {isGreek()
-              ? "Έχω παρακολουθήσει πάνω απο 350 ωρες στο Udemy και εχω ολοκληρώσει επιτυχώς τα παρακάτω courses:"
-              : "Total time spend on lectures on Udemy is over 350 hours and I have succesfully obtained the certificates below:"}
+              ? "Έχω παρακολουθήσει πάνω από 350 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: "
+              : "Total time spend on lectures on Udemy is over 350 hours and I have successfully obtained the certificates below:"}
           </p>
           <div className="col-12">
             <ul>
