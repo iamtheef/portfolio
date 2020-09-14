@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
                 }`}
                 to="/projects"
               >
-                Projects
+                {isGreek() ? "Εμπειρία" : "Experience"}
               </Link>
               <Link
                 className={`col-lg navbar-button ${

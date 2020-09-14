@@ -33,7 +33,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
             </div>
             <div className="col-3">
               <a href={url} className="btn project-btn float-right">
-                View Project
+                View repository
               </a>
             </div>
           </div>
