@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.3bcd7a4f.chunk.css",
-    "main.js": "/portofolio/static/js/main.a639a4b6.chunk.js",
-    "main.js.map": "/portofolio/static/js/main.a639a4b6.chunk.js.map",
-    "runtime-main.js": "/portofolio/static/js/runtime-main.0b367a10.js",
-    "runtime-main.js.map": "/portofolio/static/js/runtime-main.0b367a10.js.map",
+    "main.js": "/portofolio/static/js/main.0e782b9a.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.0e782b9a.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.e534aa62.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.e534aa62.js.map",
     "static/js/2.c3f5e933.chunk.js": "/portofolio/static/js/2.c3f5e933.chunk.js",
     "static/js/2.c3f5e933.chunk.js.map": "/portofolio/static/js/2.c3f5e933.chunk.js.map",
     "static/js/3.eeac59b8.chunk.js": "/portofolio/static/js/3.eeac59b8.chunk.js",
@@ -25,10 +25,10 @@
     "static/js/10.6e84273f.chunk.js.map": "/portofolio/static/js/10.6e84273f.chunk.js.map",
     "static/js/11.0fa2d28e.chunk.js": "/portofolio/static/js/11.0fa2d28e.chunk.js",
     "static/js/11.0fa2d28e.chunk.js.map": "/portofolio/static/js/11.0fa2d28e.chunk.js.map",
-    "static/js/12.f4c86e4e.chunk.js": "/portofolio/static/js/12.f4c86e4e.chunk.js",
-    "static/js/12.f4c86e4e.chunk.js.map": "/portofolio/static/js/12.f4c86e4e.chunk.js.map",
+    "static/js/12.a6e7a8eb.chunk.js": "/portofolio/static/js/12.a6e7a8eb.chunk.js",
+    "static/js/12.a6e7a8eb.chunk.js.map": "/portofolio/static/js/12.a6e7a8eb.chunk.js.map",
     "index.html": "/portofolio/index.html",
-    "precache-manifest.ac4fa3f9f56bfd83c24d05c82fc78dbc.js": "/portofolio/precache-manifest.ac4fa3f9f56bfd83c24d05c82fc78dbc.js",
+    "precache-manifest.b74cd646156a4a4009d24e7957384220.js": "/portofolio/precache-manifest.b74cd646156a4a4009d24e7957384220.js",
     "service-worker.js": "/portofolio/service-worker.js",
     "static/css/main.3bcd7a4f.chunk.css.map": "/portofolio/static/css/main.3bcd7a4f.chunk.css.map",
     "static/js/3.eeac59b8.chunk.js.LICENSE.txt": "/portofolio/static/js/3.eeac59b8.chunk.js.LICENSE.txt",
@@ -43,9 +43,9 @@
     "static/media/wavy.gif": "/portofolio/static/media/wavy.05f3635a.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b367a10.js",
+    "static/js/runtime-main.e534aa62.js",
     "static/js/3.eeac59b8.chunk.js",
     "static/css/main.3bcd7a4f.chunk.css",
-    "static/js/main.a639a4b6.chunk.js"
+    "static/js/main.0e782b9a.chunk.js"
   ]
 }
