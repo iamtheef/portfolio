@@ -36,7 +36,7 @@ const About: React.FC = () => {
 
           <img
             src={CVpic}
-            className="col-2 d-lg-block d-none"
+            className="col-2 d-lg-block d-none pic"
             alt="the ugly guy"
           />
         </div>
