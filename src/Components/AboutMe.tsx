@@ -54,12 +54,12 @@ const About: React.FC = () => {
                     έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του
                     reddit, μία εφαρμογή παρόμοια με το whatsApp με
                     αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, και ένα
-                    πλήρες λειτουργικό GraphQL API σε SQL και NoSQL εκδόσεις.
-                    Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα, τελευταίες
-                    τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα projects
-                    και πάντα να μαθαίνω και να αναπτύσσω καινούριες δεξιότητες.
-                    Με ενδιαφέρει ο τομέας του AI και έχω πρόσφατα ξεκινήσει να
-                    ασχολούμαι σε πειραματικό στάδιο.
+                    πλήρες λειτουργικό GraphQL API σε SQL και NoSQL εκδόσεις
+                    είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια
+                    πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με
+                    μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω
+                    καινούριες δεξιότητες. Με ενδιαφέρει ο τομέας του AI και έχω
+                    πρόσφατα ξεκινήσει να ασχολούμαι σε πειραματικό στάδιο.
                   </p>
                 ) : (
                   <p>
@@ -67,10 +67,11 @@ const About: React.FC = () => {
                     all of them have been successfully completed. A reddit
                     clone, a whatsApp like app with disappearing messages and
                     AES encryption, a fully functional GraphQL API in both
-                    SQL/NoSQL versions. I am always eager to be involved in new
-                    things, contribute to team work and always to expand my
-                    knowledge and skills for as much as I can. I am interested
-                    in the AI sector and I am currently in an entry level.
+                    SQL/NoSQL versions to mention a few. I am always eager to be
+                    involved in new things, contribute to team work and always
+                    to expand my knowledge and skills for as much as I can. I am
+                    interested in the AI sector and I am currently in an entry
+                    level.
                   </p>
                 )}
               </li>
