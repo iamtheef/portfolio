@@ -85,29 +85,39 @@ const About: React.FC = () => {
           </h1>
           <div className="col-12">
             <ul>
-              <ul style={{ marginLeft: "-30px", fontSize: "23px" }}>
-                Primary
+              <ul
+                style={{
+                  marginLeft: "-30px",
+                  fontSize: "23px",
+                }}
+              >
+                <li className="mt-3">Primary</li>
                 <ul>
                   <li>TypeScript/JavaScript</li>
                   <li>React/Next.js</li>
                   <li>GraphQL</li>
                   <li>Rest API Design</li>
+                  <li>Node</li>
                   <li>
                     Relational/Document-oriented Databases (PostgreSQL/MongoDB)
                   </li>
                   <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
-                  <li>Analytical and problem solving abilities</li>
-                  <li>Testing</li>
-                  <li>Basic BASH scripting</li>
                   <li>Python</li>
-                  <li>Entry level Java</li>
-                  <li>Good understanding of C</li>
-                  <li>Strong debugging skills</li>
-                  <li>SEO & Performance optimization techniques</li>
                 </ul>
-                <li>Tools:</li>
+
+                <li className="mt-3">Secondary</li>
                 <ul>
-                  <li>Node</li>
+                  <li>SEO & Performance optimization techniques</li>
+                  <li>Analytical and problem solving abilities</li>
+                  <li>Strong debugging skills</li>
+                  <li>Testing</li>
+                  <li>BASH scripting</li>
+                  <li>Java</li>
+                  <li>C + C#</li>
+                </ul>
+
+                <li className="mt-3">Tools:</li>
+                <ul>
                   <li>Express</li>
                   <li>Redis</li>
                   <li>Docker</li>
