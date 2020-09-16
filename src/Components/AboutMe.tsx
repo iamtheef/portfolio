@@ -86,22 +86,25 @@ const About: React.FC = () => {
           <div className="col-12">
             <ul>
               <ul style={{ marginLeft: "-30px", fontSize: "23px" }}>
-                <li>TypeScript/JavaScript</li>
-                <li>React/Next.js</li>
-                <li>GraphQL</li>
-                <li>Rest API Design</li>
-                <li>
-                  Relational/Document-oriented Databases (PostgreSQL/MongoDB)
-                </li>
-                <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
-                <li>Analytical and problem solving abilities</li>
-                <li>Testing</li>
-                <li>Basic BASH scripting</li>
-                <li>Python</li>
-                <li>Entry level Java</li>
-                <li>Good understanding of C</li>
-                <li>Strong debugging skills</li>
-                <li>SEO & Performance optimization techniques</li>
+                Primary
+                <ul>
+                  <li>TypeScript/JavaScript</li>
+                  <li>React/Next.js</li>
+                  <li>GraphQL</li>
+                  <li>Rest API Design</li>
+                  <li>
+                    Relational/Document-oriented Databases (PostgreSQL/MongoDB)
+                  </li>
+                  <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
+                  <li>Analytical and problem solving abilities</li>
+                  <li>Testing</li>
+                  <li>Basic BASH scripting</li>
+                  <li>Python</li>
+                  <li>Entry level Java</li>
+                  <li>Good understanding of C</li>
+                  <li>Strong debugging skills</li>
+                  <li>SEO & Performance optimization techniques</li>
+                </ul>
                 <li>Tools:</li>
                 <ul>
                   <li>Node</li>
@@ -116,13 +119,16 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
-          <p>
+        <div className="row col-12" style={{ marginTop: "5rem" }}>
+          <div className="col-12">
+            <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
+          </div>
+          <div>
             {isGreek()
               ? "Έχω παρακολουθήσει πάνω από 350 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: "
               : "Total time spend on lectures on Udemy is over 350 hours and I have successfully obtained the certificates below:"}
-          </p>
+          </div>
+
           <div className="col-12">
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
