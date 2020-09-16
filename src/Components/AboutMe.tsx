@@ -63,7 +63,7 @@ const About: React.FC = () => {
                   </p>
                 ) : (
                   <p>
-                    I 've given myself several tasks for the last two years and
+                    I 've been assigned several tasks for the last two years and
                     all of them have been successfully completed. A reddit
                     clone, a whatsApp like app with disappearing messages and
                     AES encryption, a fully functional GraphQL API in both
