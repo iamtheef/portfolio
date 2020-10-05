@@ -9,16 +9,16 @@ const Contact: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
   return (
     <div>
-      <div className="container">
-        <div className="row paragraph marginTop">
+      <div className="container marginTop">
+        <div className="row paragraph">
           <div className="col">
             {isGreek() ? (
-              <p className="contact-line">
+              <p>
                 Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε
                 μαζί μου με τους εξής τρόπους:
               </p>
             ) : (
-              <p className="contact-line">
+              <p>
                 Not sure what else I should mention so if I left anything out or
                 you have further questions feel free to contact me.
               </p>

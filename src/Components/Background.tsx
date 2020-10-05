@@ -11,7 +11,10 @@ const Background: React.FC = (props) => {
   }, [setTable]);
 
   return (
-    <div className="container background nopadding">
+    <div
+      className="container background nopadding"
+      style={{ position: "absolute" }}
+    >
       <div className="row">
         <div className="col-sm">{table}</div>
       </div>

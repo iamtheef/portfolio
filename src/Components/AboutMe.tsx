@@ -6,7 +6,7 @@ const About: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
   return (
     <div>
-      <div className="container paragraph" style={{ marginTop: "-2050px" }}>
+      <div className="container paragraph marginTop">
         <div className="row">
           <div className="col-10">
             <h1 className="intro">{isGreek() ? "ΠΡΟΦΙΛ" : "PROFILE"}</h1>

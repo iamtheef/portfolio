@@ -7,11 +7,8 @@ const ContactList: React.FC = () => {
   return (
     <div className="contact-list">
       <div className="container">
-        <div
-          className="col-12 float-left"
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}
-        >
-          <ul className="nobull">
+        <div className="col-12 float-left">
+          <ul className="nobull" style={{ marginTop: "30px" }}>
             <li>
               {" "}
               <img src={mail} alt="mail icon" className="footer-icon" />

@@ -15,7 +15,7 @@ interface Project {
   language: string;
 }
 
-const Projects: React.FC = () => {
+const Experience: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState<any>();
   const { isGreek } = useContext(LanguageContext);
@@ -34,17 +34,12 @@ const Projects: React.FC = () => {
 
   if (!loaded) return <Loader />;
   return (
-    <div className="container" style={{ marginTop: "-1700px" }}>
+    <div className="container marginTop">
       <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>
       <div className="row">
         <div className="col-6">
           <div className="card">
-            <img
-              className="card-img-top"
-              src={graphql}
-              style={{ height: "auto", maxHeight: "246px" }}
-              alt="server img"
-            />
+            <img className="card-img" src={graphql} alt="server img" />
             <div className="card-body">
               <h5 className="card-title">GraphQL - TypeScript boilerplate</h5>
               <p className="card-text">
@@ -61,7 +56,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="col-6">
           <div className="card">
-            <img className="card-img-top" src={chatRoom} alt="chatRoom gif" />
+            <img className="card-img" src={chatRoom} alt="chatRoom gif" />
             <div className="card-body">
               <h5 className="card-title">Chat Room</h5>
               <p className="card-text">
@@ -102,4 +97,4 @@ const Projects: React.FC = () => {
   );
 };
 
-export default Projects;
+export default Experience;

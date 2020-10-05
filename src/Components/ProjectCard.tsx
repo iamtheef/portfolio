@@ -13,7 +13,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
   const { title, description, url, language, outline } = props;
 
   return (
-    <div className="card" style={{ width: "80%" }}>
+    <div className="card" style={{ width: "auto" }}>
       <div className={`card-body ${outline && "spotlight"}`}>
         <div className="container">
           <div className="row">
@@ -32,7 +32,11 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
               </p>
             </div>
             <div className="col-3">
-              <a href={url} className="btn project-btn float-right">
+              <a
+                href={url}
+                className="btn project-btn"
+                style={{ float: "right", marginRight: -20 }}
+              >
                 View repository
               </a>
             </div>
