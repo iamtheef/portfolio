@@ -21,9 +21,9 @@ export const Navbar: React.FC = () => {
               </Link>
               <Link
                 className={`col-lg navbar-button ${
-                  isActive("#/projects") && "active"
+                  isActive("#/experience") && "active"
                 }`}
-                to="/projects"
+                to="/experience"
               >
                 {isGreek() ? "Εμπειρία" : "Experience"}
               </Link>
