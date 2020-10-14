@@ -9,7 +9,6 @@ export const makeTable = () => {
   } else {
     lines = Math.floor(document.documentElement.clientHeight / 100) + 2;
   }
-  console.log(lines);
 
   const newTable: any = [];
 

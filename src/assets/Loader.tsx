@@ -6,10 +6,7 @@ export default function Loader() {
     <div>
       <div className="container text-center">
         <div className="row">
-          <div
-            className="col-6"
-            style={{ marginTop: "-1800px", marginLeft: "25%" }}
-          >
+          <div className="col-6" style={{ marginLeft: "25%" }}>
             <img src={loop} alt="loader icon" className="loaderIcon blink" />
           </div>
         </div>

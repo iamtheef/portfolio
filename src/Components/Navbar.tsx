@@ -12,7 +12,7 @@ export const Navbar: React.FC = () => {
       <div className="container">
         <div className="row navbar">
           <div className="col">
-            <div className="row">
+            <div className="row pt-2">
               <Link
                 to="/"
                 className={`col-lg navbar-button ${isActive("#/") && "active"}`}
@@ -56,6 +56,7 @@ export const Navbar: React.FC = () => {
               {language}
             </button>
             <div
+              // negative margin is to make the menu open to the left of the button's bottom
               style={{
                 marginLeft: "-170%",
               }}
