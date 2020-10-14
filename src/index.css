@@ -158,9 +158,8 @@ a {
 
 @media screen and (max-width: 601px) {
   .active {
-    border-bottom: none;
-    text-decoration: underline;
     padding-bottom: 3px;
+    color: rgb(166, 166, 172);
   }
 }
 
@@ -191,9 +190,6 @@ a {
   }
 }
 
-.navbar-button {
-  min-height: 48px;
-}
 .expanded {
   display: block !important;
 }
