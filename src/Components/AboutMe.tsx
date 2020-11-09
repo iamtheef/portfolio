@@ -144,6 +144,7 @@ const About: React.FC = () => {
               <ul style={{ marginLeft: "-30px" }}>
                 <li>The Web Developer Bootcamp</li>
                 <li>JavaScript Algorithms & Data Structures Masterclass</li>
+                <li>Machine Learning A-Z with Python</li>
                 <li>The Modern React Bootcamp</li>
                 <li>Advanced JavaScript Concepts</li>
                 <li>The modern Python bootcamp</li>
