@@ -36,6 +36,8 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                 href={url}
                 className="btn project-btn"
                 style={{ float: "right", marginRight: -20 }}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 View repository
               </a>

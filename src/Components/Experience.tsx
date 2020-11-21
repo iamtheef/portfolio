@@ -48,6 +48,8 @@ const Experience: React.FC = () => {
               <a
                 href="https://github.com/iamtheef/GraphQL_boilerplate"
                 className="btn project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 View repository
               </a>
@@ -65,12 +67,16 @@ const Experience: React.FC = () => {
               <a
                 href="https://github.com/iamtheef/chat-room"
                 className="btn project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 View repository
               </a>
               <a
                 href="https://iamtheef-chat-room.herokuapp.com/#/login"
                 className="btn project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Visit App
               </a>
