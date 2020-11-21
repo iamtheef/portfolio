@@ -73,7 +73,7 @@ const Experience: React.FC = () => {
                 View repository
               </a>
               <a
-                href="https://iamtheef-chat-room.herokuapp.com/#/login"
+                href="https://iamtheef-chat-room.herokuapp.com/"
                 className="btn project-btn"
                 target="_blank"
                 rel="noopener noreferrer"

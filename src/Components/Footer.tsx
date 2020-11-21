@@ -17,7 +17,11 @@ const Footer: React.FC = () => {
         </div>
         <div className="row mt-3">
           <div className="col">
-            <a href="https://github.com/iamtheef">
+            <a
+              href="https://github.com/iamtheef"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 title="iamtheef"
                 alt="github icon"
@@ -26,7 +30,11 @@ const Footer: React.FC = () => {
               />
             </a>
 
-            <a href="#/">
+            <a
+              href="https://discordapp.com/users/469766971437613057"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 title="Th#1833"
                 alt="discord icon"
@@ -35,14 +43,22 @@ const Footer: React.FC = () => {
               />
             </a>
 
-            <a href="https://soundcloud.com/dj_theef">
+            <a
+              href="https://soundcloud.com/dj_theef"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 alt="soundcloud icon"
                 src={soundcloud}
                 className="footer-icon mr-4"
               />
             </a>
-            <a href="mailto:iamtheef_th@gmail.com">
+            <a
+              href="mailto:iamtheef_th@protonmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 title="iamtheef_th@protonmail.com"
                 alt="mail icon"
