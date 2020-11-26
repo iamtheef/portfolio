@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import chatRoom from "../assets/chat-room.gif";
 import graphql from "../assets/graphql.png";
+import ai from "../assets/ai.jpeg";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
 
@@ -39,19 +40,35 @@ const Experience: React.FC = () => {
       <div className="row">
         <div className="col-6">
           <div className="card">
-            <img className="card-img" src={graphql} alt="server img" />
+            <img className="card-img" src={ai} alt="server img" />
             <div className="card-body">
-              <h5 className="card-title">GraphQL - TypeScript boilerplate</h5>
+              <h5 className="card-title">Cat or Dog</h5>
               <p className="card-text">
-                A fully equiped boilerplate with GraphQL & TypeScript
+                An AI model trained to recognize cats and dogs.
               </p>
               <a
-                href="https://github.com/iamtheef/GraphQL_boilerplate"
+                href="https://github.com/iamtheef/Flask-CNN-API"
                 className="btn project-btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View repository
+                View backend repo
+              </a>
+              <a
+                href="https://github.com/iamtheef/CNN-client"
+                className="btn project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View frontend repo
+              </a>
+              <a
+                href="http://18.158.52.156"
+                className="btn project-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View app
               </a>
             </div>
           </div>
