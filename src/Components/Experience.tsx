@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View backend repo
+                View Backend Repo
               </a>
               <a
                 href="https://github.com/iamtheef/CNN-client"
@@ -60,7 +60,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View frontend repo
+                View Frontend Repo
               </a>
               <a
                 href="http://18.158.52.156"
@@ -68,7 +68,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View app
+                Visit app
               </a>
             </div>
           </div>

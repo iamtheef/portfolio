@@ -67,7 +67,7 @@ const About: React.FC = () => {
                     all of them have been successfully completed. A reddit
                     clone, a WhatsApp like app with trial messages and AES
                     encryption, a fully functional GraphQL API in SQL/NoSQL
-                    versions and an AI model trained to recognize cats and dogs
+                    versions and an AI model trained to recognise cats and dogs
                     to mention a few. I am always eager to be involved in new
                     things, contribute to team work and always to expand my
                     knowledge and skills for as much as I can. I am interested
