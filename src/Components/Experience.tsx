@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
       });
   }, []);
 
-  if (true) return <Loader />;
+  if (!loaded) return <Loader />;
   return (
     <div className="container marginTop">
       <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>

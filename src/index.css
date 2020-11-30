@@ -5,6 +5,11 @@
 }
 
 .navbar {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
   margin-bottom: 50px;
   font-size: 20px;
 }
@@ -35,8 +40,11 @@
 
 .intro {
   font-size: 35px;
-  font-family: "Roboto Mono";
-  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 .paragraph {
@@ -105,9 +113,8 @@ a {
 .footer {
   background-color: black;
   width: 100%;
-
   position: absolute;
-  bottom: 0;
+  margin-top: -23px;
 }
 .footer-background {
   width: 100%;
