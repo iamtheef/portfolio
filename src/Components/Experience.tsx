@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
       });
   }, []);
 
-  if (!loaded) return <Loader />;
+  if (true) return <Loader />;
   return (
     <div className="container marginTop">
       <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>
@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Backend Repo
+                View backend repo
               </a>
               <a
                 href="https://github.com/iamtheef/CNN-client"
@@ -60,7 +60,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Frontend Repo
+                View frontend repo
               </a>
               <a
                 href="http://18.158.52.156"
@@ -95,7 +95,7 @@ const Experience: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visit App
+                Visit app
               </a>
             </div>
           </div>

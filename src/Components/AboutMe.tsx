@@ -135,8 +135,8 @@ const About: React.FC = () => {
           </div>
           <div>
             {isGreek()
-              ? "Έχω παρακολουθήσει πάνω από 350 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: "
-              : "Total time spend on lectures on Udemy is over 350 hours and I have successfully obtained the certificates below:"}
+              ? "Έχω παρακολουθήσει πάνω από 400 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: "
+              : "Total time spend on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below:"}
           </div>
 
           <div className="col-12">
