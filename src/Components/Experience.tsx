@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import chatRoom from "../assets/chat-room.gif";
-import graphql from "../assets/graphql.png";
 import ai from "../assets/ai.jpeg";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
