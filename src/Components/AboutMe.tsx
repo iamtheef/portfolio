@@ -14,20 +14,23 @@ const About: React.FC = () => {
               <li>
                 {isGreek() ? (
                   <p>
-                    Full-stack developer με προτίμηση στο back-end. Μου αρέσουν
-                    οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και
-                    οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό
-                    κομψός τρόπος να λύνεις προβλήματα. Στον ελεύθερο μου χρόνο
-                    μου αρέσει να γράφω ηλεκτρονική μουσική.
+                    Fullstack developer με προτίμηση στο backend. Μου αρέσουν οι
+                    άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι
+                    γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό
+                    κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια
+                    γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου.
+                    Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική
+                    μουσική.
                   </p>
                 ) : (
                   <p>
-                    I am a full-stack web developer with a preference for the
-                    back-end. I am quite humorous and I like people who smile
-                    and are open. Generally I love solving puzzles etc and I
-                    think programming is just that in a more elegant and
-                    professional level. Ι like electronic music and I try to
-                    produce when I have some spare time.
+                    I am a fullstack web developer with a preference for the
+                    backend. I am quite humorous and I like people who smile and
+                    are open. Generally I love solving puzzles etc and I think
+                    programming is just that in a more elegant and professional
+                    level. Often get charmed by how a single line of code can
+                    affect someone's reality. Ι also like electronic music and I
+                    try to produce on my spare time.
                   </p>
                 )}
               </li>
@@ -98,9 +101,8 @@ const About: React.FC = () => {
                   <li>GraphQL</li>
                   <li>Rest API Design</li>
                   <li>Node</li>
-                  <li>
-                    Relational/Document-oriented Databases (PostgreSQL/MongoDB)
-                  </li>
+                  <li>Flask</li>
+                  <li>SQL/NoSQL Databases (PostgreSQL/MongoDB)</li>
                   <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
                   <li>Python</li>
                 </ul>
