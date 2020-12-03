@@ -1,12 +1,13 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import chatRoom from "../assets/chat-room.gif";
-import ai from "../assets/ai.jpeg";
+import chatRoom from "../assets/chat-room.optimised.gif";
+import ai from "../assets/ai-optimised.jpeg";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
 
 const Loader = loadable(() => import("../assets/Loader"));
 const ProjectCard = loadable(() => import("./ProjectCard"));
+const Highlight = loadable(() => import("./Highlight"));
 
 interface Project {
   name: string;
@@ -37,68 +38,26 @@ const Experience: React.FC = () => {
     <div className="container marginTop">
       <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>
       <div className="row">
-        <div className="col-6">
-          <div className="card">
-            <img className="card-img" src={ai} alt="server img" />
-            <div className="card-body">
-              <h5 className="card-title">Cat or Dog</h5>
-              <p className="card-text">
-                An AI model trained to recognize cats and dogs.
-              </p>
-              <a
-                href="https://github.com/iamtheef/Flask-CNN-API"
-                className="btn project-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View backend repo
-              </a>
-              <a
-                href="https://github.com/iamtheef/CNN-client"
-                className="btn project-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View frontend repo
-              </a>
-              <a
-                href="http://18.158.52.156"
-                className="btn project-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit app
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div className="card">
-            <img className="card-img" src={chatRoom} alt="chatRoom gif" />
-            <div className="card-body">
-              <h5 className="card-title">Chat Room</h5>
-              <p className="card-text">
-                One-time messaging app with encrypted messages.
-              </p>
-              <a
-                href="https://github.com/iamtheef/chat-room"
-                className="btn project-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View repository
-              </a>
-              <a
-                href="https://iamtheef-chat-room.herokuapp.com/"
-                className="btn project-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visit app
-              </a>
-            </div>
-          </div>
-        </div>
+        <Highlight
+          title="Cat or Dog"
+          description="An AI model trained to recognize cats and dogs."
+          image={ai}
+          links={{
+            frontEnd: "https://github.com/iamtheef/CNN-client",
+            backEnd: "https://github.com/iamtheef/Flask-CNN-API",
+            deployedAt: "http://18.158.52.156",
+          }}
+        />
+
+        <Highlight
+          title="Chat Room"
+          description="One-time messaging app with encrypted messages."
+          image={chatRoom}
+          links={{
+            repo: "https://github.com/iamtheef/chat-room",
+            deployedAt: "https://iamtheef-chat-room.herokuapp.com/",
+          }}
+        />
       </div>
 
       <h3 className="intro mt-5">{isGreek() ? "Τρέχων" : "Current"}:</h3>

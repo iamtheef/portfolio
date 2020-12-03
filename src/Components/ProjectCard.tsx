@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { getColor } from "../utils/getColor";
-
+import { LanguageContext } from "../Context/LanguageContext";
 interface Props {
   title: string;
   description: string;
@@ -11,7 +11,7 @@ interface Props {
 
 const ProjectCard: React.FC<Props> = (props: Props) => {
   const { title, description, url, language, outline } = props;
-
+  const { isGreek } = useContext(LanguageContext);
   return (
     <div className="card" style={{ width: "auto" }}>
       <div className={`card-body ${outline && "spotlight"}`}>
@@ -39,7 +39,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View repository
+                {isGreek() ? "Δείτε τον κώδικα" : "View repository"}
               </a>
             </div>
           </div>
