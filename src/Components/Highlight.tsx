@@ -40,7 +40,7 @@ const Highlight: React.FC<Props> = ({
           )}
           {links.repo && (
             <a
-              href={links.backEnd}
+              href={links.repo}
               className="btn project-btn"
               target="_blank"
               rel="noopener noreferrer"
