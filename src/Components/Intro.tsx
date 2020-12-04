@@ -8,7 +8,9 @@ const Intro: React.FC = () => {
   return (
     <div className="container">
       <h1 className="hello marginTop">
-        Hello, friend<span className="blink">_</span>
+        <span className="hello">Hello, friend</span>
+        <span className="blink">_</span>
+        <div id="hover-content">Maybe I should give you a name</div>
       </h1>
 
       {!isGreek() ? (
