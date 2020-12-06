@@ -19,7 +19,7 @@ const ContactList: React.FC = () => {
         setIsMailCopied(false);
       }, 1000);
       copyToClipboard("iamtheef_th@protonmail.com");
-    } else {
+    } else if (e.target.id === "discord") {
       setIsDCopied(true);
       setTimeout(() => {
         setIsDCopied(false);
