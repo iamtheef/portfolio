@@ -22,7 +22,7 @@ const Highlight: React.FC<Props> = ({
   const { isGreek } = useContext(LanguageContext);
 
   return (
-    <div className="col-6">
+    <div className="col-6 mt-4">
       <div className="card">
         <img className="card-img" src={image} alt="server img" />
         <div className="card-body">
