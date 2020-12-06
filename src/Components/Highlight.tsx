@@ -35,7 +35,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε τον backend κώδικα" : "View backend repo"}
+              {isGreek() ? "Δείτε το API" : "View API"}
             </a>
           )}
           {links.repo && (
@@ -55,7 +55,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε τον frontend κώδικα" : "View frontend repo"}
+              {isGreek() ? "Δείτε τον client" : "View client"}
             </a>
           )}
           {links.deployedAt && (

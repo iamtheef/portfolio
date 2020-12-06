@@ -14,11 +14,15 @@ const Highlights: FC = () => {
 
   return (
     <div>
-      <h3 className="intro">{isGreek() ? "Επιφανή" : "Spotlight"}:</h3>
+      <h3 className="intro">{isGreek() ? "Επιφανή" : "Pinned"}:</h3>
       <div className="row" style={{ marginTop: "-2%" }}>
         <Highlight
           title="Cat or Dog"
-          description="An AI model trained to recognize cats and dogs."
+          description={
+            isGreek()
+              ? "ΑΙ μοντέλο που μπορεί να αναγνωρίσει γάτες και σκύλους."
+              : "An AI model trained to recognize cats and dogs."
+          }
           image={ai}
           links={{
             frontEnd: "https://github.com/iamtheef/CNN-client",
@@ -29,7 +33,11 @@ const Highlights: FC = () => {
 
         <Highlight
           title="Chat Room"
-          description="Real-time messaging app with encrypted trail messages."
+          description={
+            isGreek()
+              ? "Εφαρμογή συνομιλιών με προσωρινά μηνύματα και κρυπτογράφηση."
+              : "Real-time messaging app with encrypted trial messages."
+          }
           image={chatRoom}
           links={{
             repo: "https://github.com/iamtheef/chat-room",
@@ -37,8 +45,12 @@ const Highlights: FC = () => {
           }}
         />
         <Highlight
-          title="Chat Room"
-          description="A fully functional and tested GraphQL server boilerplate container."
+          title="GraphQL server boilerplate"
+          description={
+            isGreek()
+              ? "Ένα πλήρως λειτουργικό/δοκιμασμένο GraphQL API σε docker container."
+              : "A fully functional and tested GraphQL server boilerplate container."
+          }
           image={graphql}
           links={{
             repo: "https://github.com/iamtheef/GraphQL_boilerplate",
@@ -46,8 +58,12 @@ const Highlights: FC = () => {
           }}
         />
         <Highlight
-          title="Chat Room"
-          description="A smaller scale reddit, client and API"
+          title="Postit"
+          description={
+            isGreek()
+              ? "Ένας κλώνος του reddit σε μικρότερη κλίμακα, API και εφαρμογή client."
+              : "A smaller scale reddit, client and API."
+          }
           image={postit}
           links={{
             deployedAt: "",
