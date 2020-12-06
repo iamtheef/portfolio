@@ -11,6 +11,7 @@ const Intro: React.FC = () => {
     let txt = "Hello, friend";
     for (let i = 0; i < txt.length; i++) {
       setText((prevText) => (prevText += txt.charAt(i)));
+      if (txt.charAt(i) === ",") await sleep(150);
       await sleep(120);
     }
   };
@@ -26,7 +27,6 @@ const Intro: React.FC = () => {
         <h1 className="hello">
           {text}
           <span className="blink">_</span>
-          <span id="hover-content">Maybe I should give you a name</span>
         </h1>
       </div>
 
