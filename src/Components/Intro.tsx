@@ -1,17 +1,34 @@
-import React, { useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { Link } from "react-router-dom";
+import { sleep } from "../utils/sleep";
 
 const Intro: React.FC = () => {
   const { isGreek } = useContext(LanguageContext);
+  const [text, setText] = useState<string>("");
+
+  const helloFriend = async () => {
+    let txt = "Hello, friend";
+    for (let i = 0; i < txt.length; i++) {
+      setText((prevText) => (prevText += txt.charAt(i)));
+      await sleep(120);
+    }
+  };
+
+  useEffect(() => {
+    helloFriend();
+    // eslint-disable-next-line
+  }, []);
 
   return (
     <div className="container">
-      <h1 className="hello marginTop">
-        <span className="hello">Hello, friend</span>
-        <span className="blink">_</span>
-        <div id="hover-content">Maybe I should give you a name</div>
-      </h1>
+      <div className="marginTop">
+        <h1 className="hello">
+          {text}
+          <span className="blink">_</span>
+          <span id="hover-content">Maybe I should give you a name</span>
+        </h1>
+      </div>
 
       {!isGreek() ? (
         <div>
