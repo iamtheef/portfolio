@@ -55,26 +55,27 @@ const About: React.FC = () => {
                   <p>
                     Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά
                     έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του
-                    reddit, μία εφαρμογή παρόμοια με το WhatsApp με
+                    reddit (fullstack), μία real-time messaging εφαρμογή με
                     αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, ένα
-                    πλήρης λειτουργικό GraphQL API σε SQL/NoSQL εκδόσεις, και
-                    ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα είναι μερικά
-                    από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα,
-                    τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα
-                    projects και πάντα να μαθαίνω και να αναπτύσσω καινούριες
-                    δεξιότητες.
+                    πλήρης λειτουργικό GraphQL και tested API σε SQL/NoSQL
+                    εκδόσεις, και ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα
+                    είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια
+                    πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με
+                    μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω
+                    καινούριες δεξιότητες.
                   </p>
                 ) : (
                   <p>
                     I 've been assigned several tasks for the last two years and
-                    all of them have been successfully completed. A reddit
-                    clone, a WhatsApp like app with trial messages and AES
-                    encryption, a fully functional GraphQL API in SQL/NoSQL
-                    versions and an AI model trained to recognise cats and dogs
-                    to mention a few. I am always eager to be involved in new
-                    things, contribute to team work and always to expand my
-                    knowledge and skills for as much as I can. I am interested
-                    in the AI sector and I am currently in an entry level.
+                    all of them have been successfully completed. A reddit clone
+                    (fullstack), a real-time messaging app with trial messages
+                    and AES encryption, a fully functional and tested GraphQL
+                    API in SQL/NoSQL versions and an AI model trained to
+                    recognise cats and dogs to mention a few. I am always eager
+                    to be involved in new things, contribute to team work and
+                    always to expand my knowledge and skills for as much as I
+                    can. I am interested in the AI sector and I am currently in
+                    an entry level.
                   </p>
                 )}
               </li>
@@ -97,6 +98,7 @@ const About: React.FC = () => {
                 <li className="mt-3">Primary</li>
                 <ul>
                   <li>TypeScript/JavaScript</li>
+                  <li>Python</li>
                   <li>React/Next.js</li>
                   <li>GraphQL</li>
                   <li>Rest API Design</li>
@@ -104,7 +106,6 @@ const About: React.FC = () => {
                   <li>Flask</li>
                   <li>SQL/NoSQL Databases (PostgreSQL/MongoDB)</li>
                   <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
-                  <li>Python</li>
                 </ul>
 
                 <li className="mt-3">Secondary</li>
