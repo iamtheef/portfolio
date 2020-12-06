@@ -110,6 +110,7 @@ const About: React.FC = () => {
                 <li className="mt-3">Secondary</li>
                 <ul>
                   <li>SEO & Performance optimization techniques</li>
+                  <li>Web scraping</li>
                   <li>Analytical and problem solving abilities</li>
                   <li>Strong debugging skills</li>
                   <li>Testing</li>
@@ -121,6 +122,7 @@ const About: React.FC = () => {
                 <li className="mt-3">Tools:</li>
                 <ul>
                   <li>Express</li>
+                  <li>Web sockets</li>
                   <li>Redis</li>
                   <li>Docker</li>
                   <li>Jest</li>
