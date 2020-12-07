@@ -8,7 +8,7 @@ import mail from "../assets/mail.png";
 import discord from "../assets/discord.png";
 
 const ContactList: React.FC = () => {
-  const { isGreek } = useContext(LanguageContext);
+  const { getContent } = useContext(LanguageContext);
   const [isMailCopied, setIsMailCopied] = useState(false);
   const [isDCopied, setIsDCopied] = useState(false);
 
@@ -30,17 +30,7 @@ const ContactList: React.FC = () => {
 
   return (
     <>
-      {isGreek() ? (
-        <p>
-          Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε μαζί
-          μου με τους εξής τρόπους:
-        </p>
-      ) : (
-        <p>
-          Not sure what else I should mention so if I left anything out or you
-          have further questions feel free to contact me.
-        </p>
-      )}
+      {getContent().CONTACT_PROMPT}
       <div className="contact-list">
         <div className="container">
           <div className="col-12 float-left">

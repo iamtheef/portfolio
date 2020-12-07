@@ -19,7 +19,8 @@ const Highlight: React.FC<Props> = ({
   image,
   links,
 }: Props) => {
-  const { isGreek } = useContext(LanguageContext);
+  const { getTags } = useContext(LanguageContext);
+  const { experience } = getTags();
 
   return (
     <div className="col-6 mt-4">
@@ -35,7 +36,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε το API" : "View API"}
+              {experience.buttons.viewAPI}
             </a>
           )}
           {links.repo && (
@@ -45,7 +46,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε τον κώδικα" : "View repository"}
+              {experience.buttons.viewRepo}
             </a>
           )}
           {links.frontEnd && (
@@ -55,7 +56,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε τον client" : "View client"}
+              {experience.buttons.viewClient}
             </a>
           )}
           {links.deployedAt && (
@@ -65,7 +66,7 @@ const Highlight: React.FC<Props> = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {isGreek() ? "Δείτε την εφαρμογή" : "Visit app"}
+              {experience.buttons.visitApp}
             </a>
           )}
         </div>

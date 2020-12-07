@@ -3,37 +3,18 @@ import { LanguageContext } from "../Context/LanguageContext";
 import CVpic from "../assets/me.jpg";
 
 const About: React.FC = () => {
-  const { isGreek } = useContext(LanguageContext);
+  const { getContent, getTags } = useContext(LanguageContext);
+  const { PROFILE, WORK_EXP, EDUCATION, LANG_ARRAY } = getContent();
+  const { aboutMe } = getTags();
+
   return (
     <div>
       <div className="container paragraph marginTop">
         <div className="row">
           <div className="col-10">
-            <h1 className="intro">{isGreek() ? "ΠΡΟΦΙΛ" : "PROFILE"}</h1>
+            <h1 className="intro">{getTags().aboutMe.profile}</h1>
             <ul>
-              <li>
-                {isGreek() ? (
-                  <p>
-                    Fullstack developer με προτίμηση στο backend. Μου αρέσουν οι
-                    άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι
-                    γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό
-                    κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια
-                    γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου.
-                    Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική
-                    μουσική.
-                  </p>
-                ) : (
-                  <p>
-                    I am a fullstack web developer with a preference for the
-                    backend. I am quite humorous and I like people who smile and
-                    are open. Generally I love solving puzzles etc and I think
-                    programming is just that in a more elegant and professional
-                    level. Often get charmed by how a single line of code can
-                    affect someone's reality. Ι also like electronic music and I
-                    try to produce on my spare time.
-                  </p>
-                )}
-              </li>
+              <li>{<p>{PROFILE}</p>}</li>
             </ul>
           </div>
 
@@ -45,48 +26,16 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">
-            {isGreek() ? "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ" : "WORK EXPERIENCE"}
-          </h1>
+          <h1 className="intro">{aboutMe.experience}</h1>
           <div className="col-12">
             <ul>
-              <li>
-                {isGreek() ? (
-                  <p>
-                    Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά
-                    έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του
-                    reddit (fullstack), μία real-time messaging εφαρμογή με
-                    αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, ένα
-                    πλήρης λειτουργικό GraphQL και tested API σε SQL/NoSQL
-                    εκδόσεις, και ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα
-                    είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια
-                    πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με
-                    μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω
-                    καινούριες δεξιότητες.
-                  </p>
-                ) : (
-                  <p>
-                    I 've been assigned several tasks for the last two years and
-                    all of them have been successfully completed. A reddit clone
-                    (fullstack), a real-time messaging app with trial messages
-                    and AES encryption, a fully functional and tested GraphQL
-                    API in SQL/NoSQL versions and an AI model trained to
-                    recognise cats and dogs to mention a few. I am always eager
-                    to be involved in new things, contribute to team work and
-                    always to expand my knowledge and skills for as much as I
-                    can. I am interested in the AI sector and I am currently in
-                    an entry level.
-                  </p>
-                )}
-              </li>
+              <li>{WORK_EXP}</li>
             </ul>
           </div>
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">
-            {isGreek() ? "ΔΕΞΙΟΤΗΤΕΣ ΚΑΙ ΤΕΧΝΟΓΝΩΣΙΑ" : "SKILLS & KNOWLEDGE"}
-          </h1>
+          <h1 className="intro">{aboutMe.skills}</h1>
           <div className="col-12">
             <ul>
               <ul
@@ -136,13 +85,9 @@ const About: React.FC = () => {
 
         <div className="row col-12" style={{ marginTop: "5rem" }}>
           <div className="col-12">
-            <h1 className="intro">{isGreek() ? "ΕΚΠΑΙΔΕΥΣΗ" : "EDUCATION"}</h1>
+            <h1 className="intro">{aboutMe.education}</h1>
           </div>
-          <div>
-            {isGreek()
-              ? "Έχω παρακολουθήσει πάνω από 400 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: "
-              : "Total time spend on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below:"}
-          </div>
+          <div>{EDUCATION}</div>
 
           <div className="col-12">
             <ul>
@@ -163,7 +108,7 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{isGreek() ? "BIBΛΙΑ" : "ΒΟΟΚS"}</h1>
+          <h1 className="intro">{aboutMe.books}</h1>
           <div className="col-12">
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
@@ -182,17 +127,13 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{isGreek() ? "ΓΛΩΣΣΕΣ" : "LANGUAGES"}</h1>
+          <h1 className="intro">{aboutMe.languages}</h1>
           <div className="col-12">
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
-                <li>{isGreek() ? "Ελληνικά" : "Greek"}</li>
-                <li>{isGreek() ? "Αγγλικά" : "English"}</li>
-                <li>
-                  {isGreek()
-                    ? "Λίγα Γαλλικά και Ιταλικά"
-                    : "Basic French and Italian"}
-                </li>
+                {LANG_ARRAY.map((l: string, i: number) => (
+                  <li key={i}>{l}</li>
+                ))}
               </ul>
             </ul>
           </div>
