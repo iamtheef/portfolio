@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
+import * as l from "../assets/Languages";
 
 type Props = {
   children: React.ReactNode;
@@ -8,13 +9,16 @@ enum Language {
   greek = "GR",
 }
 interface LanguageContext {
-  language?: Language;
+  language: Language;
   setLanguage?: any;
   isGreek?: any;
+  getContent?: any;
+  getTags?: any;
 }
 
 export const LanguageContext = createContext<LanguageContext>({
   language: Language.english,
+  isGreek: false,
 });
 
 export function LanguageProvider({ children }: Props) {
@@ -23,15 +27,21 @@ export function LanguageProvider({ children }: Props) {
       Language.english
   );
 
-  function isGreek() {
-    return language === "GR";
+  function getContent() {
+    return l.content[language];
+  }
+
+  function getTags() {
+    return l.tags[language];
   }
   useEffect(() => {
     window.localStorage.setItem("lang", JSON.stringify(language));
   });
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, isGreek }}>
+    <LanguageContext.Provider
+      value={{ language, setLanguage, getContent, getTags }}
+    >
       {children}
     </LanguageContext.Provider>
   );

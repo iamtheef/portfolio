@@ -1,4 +1,6 @@
 import React from "react";
+
+// assets
 import github from "../assets/github.png";
 import background from "../assets/wavy.gif";
 import mail from "../assets/mail.png";
@@ -64,7 +66,6 @@ const Footer: React.FC = () => {
                 alt="mail icon"
                 src={mail}
                 className="footer-icon mr-4"
-                style={{ color: "blue" }}
               />
             </a>
           </div>

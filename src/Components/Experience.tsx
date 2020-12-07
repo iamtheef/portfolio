@@ -17,7 +17,7 @@ interface Project {
 const Experience: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState<any>();
-  const { isGreek } = useContext(LanguageContext);
+  const { getTags } = useContext(LanguageContext);
 
   useEffect(() => {
     axios
@@ -35,7 +35,7 @@ const Experience: React.FC = () => {
   return (
     <div className="container marginTop">
       <Highlights />
-      <h3 className="intro mt-5">{isGreek() ? "Τρέχων" : "Current"}:</h3>
+      <h3 className="intro mt-5">{getTags().experience.current}:</h3>
       {projects.map((project: Project, i: number) => (
         <div className="row mb-4" key={project.html_url}>
           <div className="col-md">

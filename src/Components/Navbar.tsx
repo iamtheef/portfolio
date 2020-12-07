@@ -4,7 +4,8 @@ import { LanguageContext } from "../Context/LanguageContext";
 import isActive from "../utils/isActive";
 
 export const Navbar: React.FC = () => {
-  const { language, setLanguage, isGreek } = useContext(LanguageContext);
+  const { language, setLanguage, getTags } = useContext(LanguageContext);
+  const { home, experience, aboutMe, contact } = getTags().navbar;
   const [dropdown, setDropdown] = useState(false);
 
   return (
@@ -17,15 +18,15 @@ export const Navbar: React.FC = () => {
                 to="/"
                 className={`col-lg navbar-button ${isActive("#/") && "active"}`}
               >
-                {isGreek() ? "Αρχική" : "Home"}
+                {home}
               </Link>
               <Link
+                to="/experience"
                 className={`col-lg navbar-button ${
                   isActive("#/experience") && "active"
                 }`}
-                to="/experience"
               >
-                {isGreek() ? "Εμπειρία" : "Experience"}
+                {experience}
               </Link>
               <Link
                 className={`col-lg navbar-button ${
@@ -33,7 +34,7 @@ export const Navbar: React.FC = () => {
                 }`}
                 to="/about"
               >
-                {isGreek() ? "Σχετικά με εμένα" : "About Me"}
+                {aboutMe}
               </Link>
               <Link
                 className={`col-lg navbar-button ${
@@ -41,7 +42,7 @@ export const Navbar: React.FC = () => {
                 }`}
                 to="/contact"
               >
-                {isGreek() ? "Επικοινωνήστε" : "Contact"}
+                {contact}
               </Link>
             </div>
           </div>
