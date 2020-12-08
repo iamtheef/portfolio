@@ -11,14 +11,12 @@ enum Language {
 interface LanguageContext {
   language: Language;
   setLanguage?: any;
-  isGreek?: any;
   getContent?: any;
   getTags?: any;
 }
 
 export const LanguageContext = createContext<LanguageContext>({
   language: Language.english,
-  isGreek: false,
 });
 
 export function LanguageProvider({ children }: Props) {
@@ -27,11 +25,11 @@ export function LanguageProvider({ children }: Props) {
       Language.english
   );
 
-  function getContent() {
+  function getContent(): object {
     return l.content[language];
   }
 
-  function getTags() {
+  function getTags(): object {
     return l.tags[language];
   }
   useEffect(() => {
