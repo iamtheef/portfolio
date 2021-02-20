@@ -3,8 +3,9 @@ import { LanguageContext } from "../Context/LanguageContext";
 import iamAIPic from "../assets/iamAI-highlight.gif";
 
 const IamAI: React.FC = () => {
-  const { getTags } = useContext(LanguageContext);
-  const { experience, iamAI } = getTags();
+  const { getTags, getContent } = useContext(LanguageContext);
+  const { experience } = getTags();
+  const { iamAI } = getContent().PINNED;
 
   const links = {
     frontEnd: "",
@@ -18,8 +19,8 @@ const IamAI: React.FC = () => {
       <div className="card iamAI-card">
         <img className="card-img iamAIPic" src={iamAIPic} alt="server img" />
         <div className="card-body">
-          <h5 className="card-title">{iamAI.title}</h5>
-          <p className="card-text">{iamAI.description}</p>
+          <h5 className="card-title">{iamAI.TITLE}</h5>
+          <p className="card-text">{iamAI.DESCRIPTION}</p>
           {links.backEnd && (
             <a
               href={links.backEnd}
