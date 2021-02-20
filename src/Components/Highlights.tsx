@@ -27,7 +27,7 @@ const Highlights: FC = () => {
           links={{
             frontEnd: "https://github.com/iamtheef/CNN-client",
             backEnd: "https://github.com/iamtheef/Flask-CNN-API",
-            deployedAt: "http://18.158.52.156",
+            deployedAt: "http://iscatordog.co",
           }}
         />
 

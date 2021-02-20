@@ -11,7 +11,7 @@ export const content = {
       "Fullstack developer με προτίμηση στο backend. Μου αρέσουν οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική μουσική.",
 
     WORK_EXP:
-      "Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του reddit (fullstack), μία real-time messaging εφαρμογή με αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, ένα πλήρης λειτουργικό GraphQL και tested API σε SQL/NoSQL εκδόσεις, και ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω καινούριες δεξιότητες.",
+      "Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του reddit (fullstack), μία real-time messaging εφαρμογή με αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, ένα πλήρης λειτουργικό GraphQL και tested API σε SQL/NoSQL εκδόσεις, ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα και ένα έξυπνο chatbot που μπορεί να απαντήσει παντώς φύσεως ερωτήσεις είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω καινούριες δεξιότητες.",
 
     EDUCATION:
       "Έχω παρακολουθήσει πάνω από 400 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: ",
@@ -39,6 +39,11 @@ export const content = {
         DESCRIPTION:
           "Ένας κλώνος του reddit σε μικρότερη κλίμακα, API και εφαρμογή client.",
       },
+      iamAI: {
+        TITLE: "iamAI",
+        DESCRIPTION:
+          "Ένα έξυπνο chatbot που απαντάει παντώς τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
+      },
     },
   },
 
@@ -54,7 +59,7 @@ export const content = {
       " I am a fullstack web developer with a preference for the backend. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
 
     WORK_EXP:
-      " I 've been assigned several tasks for the last two years and all of them have been successfully completed. A reddit clone (fullstack), a real-time messaging app with trial messages and AES encryption, a fully functional and tested GraphQL API in SQL/NoSQL versions and an AI model trained to recognise cats and dogs to mention a few. I am always eager to be involved in new things, contribute to team work and always to expand my knowledge and skills for as much as I can. I am interested in the AI sector and I am currently in an entry level.",
+      " I 've been assigned several tasks for the last two years and all of them have been successfully completed. A reddit clone (fullstack), a real-time messaging app with trial messages and AES encryption, a fully functional and tested GraphQL API in SQL/NoSQL versions, an AI model trained to recognise cats and dogs and an intelligent chatbot that can answer all sorts of questions to mention a few. I am always eager to be involved in new things, contribute to team work and always to expand my knowledge and skills for as much as I can. I am interested in the AI sector and I am currently in an entry level.",
 
     EDUCATION:
       "Total time spend on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below: ",
@@ -79,6 +84,12 @@ export const content = {
       },
       POSTIT: {
         DESCRIPTION: "A smaller scale reddit, client and API.",
+      },
+
+      iamAI: {
+        TITLE: "iamAI",
+        DESCRIPTION:
+          "A smart chatbot that can answer all sorts of questions, also available through an API.",
       },
     },
   },
@@ -110,11 +121,6 @@ export const tags = {
       aboutMe: "Σχετικά με εμένα",
       contact: "Επικοινωνήστε",
     },
-    iamAI: {
-      title: "iamAI",
-      description:
-        "Ένα έξυπνο chatbot που απαντάει παντώς τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
-    },
   },
 
   EN: {
@@ -141,11 +147,6 @@ export const tags = {
       experience: "Experience",
       aboutMe: "About Me",
       contact: "Contact",
-    },
-    iamAI: {
-      title: "iamAI",
-      description:
-        "A smart chatbot that can answer all sorts of questions, also available through an API.",
     },
   },
 };
