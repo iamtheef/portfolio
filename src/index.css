@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   margin-bottom: 50px;
   font-size: 20px;
+  user-select: none;
 }
 
 .navbar-button {
@@ -24,6 +25,7 @@
 }
 
 .background {
+  user-select: none;
   line-height: 70px;
   opacity: 0.1;
 }
@@ -48,6 +50,7 @@
 }
 
 .paragraph {
+  user-select: none;
   opacity: 1;
   font-size: 20px;
   font-family: "Lora", serif;
@@ -87,12 +90,21 @@
   margin-top: 2rem;
 }
 
+.card {
+  user-select: none;
+}
+
 .project-btn {
   color: rgb(32, 32, 32) !important;
   background-color: rgb(226, 219, 219) !important;
   padding: auto;
   margin-right: 20px;
   margin-bottom: 10px;
+}
+
+.project-btn:hover {
+  color: rgb(87, 87, 87) !important;
+  background-color: rgb(233, 233, 233) !important;
 }
 
 .card-description {
@@ -114,7 +126,8 @@ a {
   background-color: black;
   width: 100%;
   position: absolute;
-  margin-top: -23px;
+  margin-top: -11px;
+  user-select: none;
 }
 .footer-background {
   width: 100%;
@@ -139,6 +152,7 @@ a {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 25px;
+  user-select: text;
 }
 
 @media screen and (max-width: 1200px) {
@@ -212,4 +226,14 @@ a {
   height: 20%;
   max-height: 246px;
   min-height: 120px;
+}
+
+.iamAIPic {
+  align-self: center;
+  max-width: 500px;
+}
+.iamAI-card {
+  background-color: black !important;
+  color: #ffffff;
+  text-shadow: 0 0 10px #818181;
 }

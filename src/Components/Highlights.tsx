@@ -10,6 +10,8 @@ import postit from "../assets/postit.gif";
 
 const Highlights: FC = () => {
   const Highlight = loadable(() => import("./Highlight"));
+  const IamAI = loadable(() => import("./iamAI"));
+
   const { getTags, getContent } = useContext(LanguageContext);
   const { CAT_OR_DOG, CHAT_ROOM, GRAPHQL, POSTIT } = getContent().PINNED;
 
@@ -17,6 +19,7 @@ const Highlights: FC = () => {
     <div>
       <h3 className="intro">{getTags().experience.pinned}:</h3>
       <div className="row" style={{ marginTop: "-2%" }}>
+        <IamAI />
         <Highlight
           title="Cat or Dog"
           description={CAT_OR_DOG.DESCRIPTION}

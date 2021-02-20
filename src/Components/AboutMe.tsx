@@ -20,7 +20,7 @@ const About: React.FC = () => {
 
           <img
             src={CVpic}
-            className="col-2 d-lg-block d-none pic"
+            className="col-2 d-lg-block d-none"
             alt="the ugly guy"
           />
         </div>

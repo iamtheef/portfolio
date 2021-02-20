@@ -1,6 +1,12 @@
-export const copyToClipboard = (text: string) => {
-  let dummy = document.createElement("textarea");
-  dummy.value = text;
-  dummy.select();
-  document.execCommand("copy");
+export const copyToClipboard = (e: any) => {
+  if (!navigator.clipboard) {
+    return;
+  }
+
+  try {
+    const text = e.target.innerText;
+    navigator.clipboard.writeText(text);
+  } catch {
+    return;
+  }
 };

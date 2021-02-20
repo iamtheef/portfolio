@@ -95,7 +95,7 @@ export const tags = {
       languages: "ΓΛΩΣΣΕΣ",
     },
     experience: {
-      current: "Τρέχων",
+      recent: "Πρόσφατα",
       buttons: {
         viewAPI: "Δείτε το API",
         viewRepo: "Δείτε τον κώδικα",
@@ -110,6 +110,11 @@ export const tags = {
       aboutMe: "Σχετικά με εμένα",
       contact: "Επικοινωνήστε",
     },
+    iamAI: {
+      title: "iamAI",
+      description:
+        "Ένα έξυπνο chatbot που απαντάει παντώς τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
+    },
   },
 
   EN: {
@@ -122,7 +127,7 @@ export const tags = {
       languages: "LANGUAGES",
     },
     experience: {
-      current: "Current",
+      recent: "Recent",
       buttons: {
         viewAPI: "View API",
         viewRepo: "View repository",
@@ -136,6 +141,11 @@ export const tags = {
       experience: "Experience",
       aboutMe: "About Me",
       contact: "Contact",
+    },
+    iamAI: {
+      title: "iamAI",
+      description:
+        "A smart chatbot that can answer all sorts of questions, also available through an API.",
     },
   },
 };
