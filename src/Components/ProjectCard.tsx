@@ -6,15 +6,14 @@ interface Props {
   description: string;
   url: string;
   language: string;
-  outline: boolean;
 }
 
 const ProjectCard: React.FC<Props> = (props: Props) => {
-  const { title, description, url, language, outline } = props;
+  const { title, description, url, language } = props;
   const { getTags } = useContext(LanguageContext);
   return (
     <div className="card" style={{ width: "auto" }}>
-      <div className={`card-body ${outline && "spotlight"}`}>
+      <div className="card-body">
         <div className="container">
           <div className="row">
             <div className="col-9">

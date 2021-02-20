@@ -35,7 +35,7 @@ const Experience: React.FC = () => {
   return (
     <div className="container marginTop">
       <Highlights />
-      <h3 className="intro mt-5">{getTags().experience.current}:</h3>
+      <h3 className="intro mt-5">{getTags().experience.recent}:</h3>
       {projects.map((project: Project, i: number) => (
         <div className="row mb-4" key={project.html_url}>
           <div className="col-md">
@@ -44,7 +44,6 @@ const Experience: React.FC = () => {
               description={project.description}
               url={project.html_url}
               language={project.language}
-              outline={i === 0}
             />
           </div>
         </div>

@@ -18,14 +18,13 @@ const ContactList: React.FC = () => {
       setTimeout(() => {
         setIsMailCopied(false);
       }, 1000);
-      copyToClipboard("iamtheef_th@protonmail.com");
     } else if (e.target.id === "discord") {
       setIsDCopied(true);
       setTimeout(() => {
         setIsDCopied(false);
       }, 1000);
-      copyToClipboard("Th#1833");
     }
+    copyToClipboard(e);
   };
 
   return (
@@ -44,7 +43,7 @@ const ContactList: React.FC = () => {
               <li>
                 {" "}
                 <img src={tel} alt="tel" className="footer-icon" />
-                +30 6980970012 (WhatsApp, Viber)
+                +30 6980970012 (Telegram, Viber)
               </li>
 
               <li onClick={handleCopy}>

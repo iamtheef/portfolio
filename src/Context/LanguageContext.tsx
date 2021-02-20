@@ -32,6 +32,7 @@ export function LanguageProvider({ children }: Props) {
   function getTags(): object {
     return l.tags[language];
   }
+
   useEffect(() => {
     window.localStorage.setItem("lang", JSON.stringify(language));
   });
