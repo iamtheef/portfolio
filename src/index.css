@@ -142,8 +142,14 @@ a {
 }
 
 .footer-icon {
-  width: 70px;
-  height: 70px;
+  width: 5vw;
+  height: 10vh;
+  transition: all 500ms ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  transition: all 500ms ease;
 }
 
 .contact-list {
@@ -153,6 +159,13 @@ a {
   font-weight: bold;
   font-size: 25px;
   user-select: text;
+  transition: all 500ms ease;
+}
+
+.contact > li:hover {
+  transition: all 500ms ease;
+  color: rgba(133, 133, 133, 0.938);
+  transition: all 500ms ease;
 }
 
 @media screen and (max-width: 1200px) {
@@ -180,6 +193,11 @@ a {
   .active {
     padding-bottom: 3px;
     color: rgb(166, 166, 172);
+  }
+
+  .footer-icon {
+    width: 8vw;
+    height: 6vh;
   }
 }
 

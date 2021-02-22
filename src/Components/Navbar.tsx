@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
   return (
     <div className="mt-4">
       <div className="container">
-        <div className="row navbar">
+        <div className="row navbar" style={{ transition: "all 900ms ease" }}>
           <div className="col">
             <div className="row pt-2">
               <Link
