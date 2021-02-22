@@ -33,7 +33,7 @@ const ContactList: React.FC = () => {
       <div className="contact-list">
         <div className="container">
           <div className="col-12 float-left">
-            <ul className="nobull" style={{ marginTop: "30px" }}>
+            <ul className="nobull contact" style={{ marginTop: "30px" }}>
               <li onClick={handleCopy}>
                 <img src={mail} alt="mail icon" className="footer-icon" />
                 <span className={`${isMailCopied && "blink"}`} id="mail">
