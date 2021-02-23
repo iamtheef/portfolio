@@ -25,10 +25,10 @@ const Intro: React.FC = () => {
   return (
     <div className="container">
       <div className="marginTop">
-        <h1 className="hello">
+        <p className="hello">
           {text}
           <span className="blink">_</span>
-        </h1>
+        </p>
       </div>
 
       <div>

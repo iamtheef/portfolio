@@ -199,6 +199,14 @@ a {
     width: 8vw;
     height: 6vh;
   }
+
+  .hello {
+    font-size: 57px;
+  }
+
+  .intro {
+    font-size: 25px;
+  }
 }
 
 .nobull {
