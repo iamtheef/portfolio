@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
             >
               <img
-                title="Thergiakis Eftihchios on LinkedIn"
+                title="Thergiakis Eftichios on LinkedIn"
                 alt="mail icon"
                 src={linkedin}
                 className="footer-icon mr-4"
