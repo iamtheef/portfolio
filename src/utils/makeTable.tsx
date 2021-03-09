@@ -2,15 +2,15 @@ import { generateDigits } from "./generateDigits";
 import React from "react";
 
 let linesPerHash: any = {
-  experience: Math.floor(document.documentElement.clientHeight / 17) + 2,
-  about: Math.floor(document.documentElement.clientHeight / 23),
-  contact: Math.floor(document.documentElement.clientHeight / 100),
-  default: Math.floor(document.documentElement.clientHeight / 100),
+  experience: 105,
+  about: 65,
+  contact: 10,
 };
 
 export const makeTable = () => {
   const hash = window.location.hash.slice(2);
-  let lines: number = linesPerHash[hash] | linesPerHash["default"];
+  let lines: number = linesPerHash[hash] || 15; // 7 is the default number
+
   const newTable: any = [];
 
   for (let i = 0; i < lines; i++) {
