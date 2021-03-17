@@ -6,7 +6,7 @@ import loadable from "@loadable/component";
 
 const Background = loadable(() => import("./Components/Background"));
 const Intro = loadable(() => import("./Components/Intro"));
-const About = loadable(() => import("./Components/AboutMe"));
+const About = loadable(() => import("./Components/About"));
 const Experience = loadable(() => import("./Components/Experience"));
 const Contact = loadable(() => import("./Components/Contact"));
 
