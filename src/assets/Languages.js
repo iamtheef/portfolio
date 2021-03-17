@@ -59,15 +59,15 @@ export const content = {
       " I am a fullstack web developer with a preference for the backend. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
 
     WORK_EXP:
-      " I 've been assigned several tasks for the last two years and all of them have been successfully completed. A reddit clone (fullstack), a real-time messaging app with trial messages and AES encryption, a fully functional and tested GraphQL API in SQL/NoSQL versions, an AI model trained to recognise cats and dogs and an intelligent chatbot that can answer all sorts of questions to mention a few. I am always eager to be involved in new things, contribute to team work and always to expand my knowledge and skills for as much as I can. I am interested in the AI sector and I am currently in an entry level.",
+      " I 've been assigned several tasks for the last two years and all of them have been successfully completed. A reddit clone (fullstack), a real-time messaging app with trial messages and AES encryption, a fully functional and tested GraphQL API in SQL/NoSQL versions, an AI model trained to recognise cats and dogs and an intelligent chatbot that can answer all sorts of questions to mention a few. I am always eager to be involved in new things, contribute to team work and always to expand my knowledge and skills as much as I can. I am interested in the AI sector and I am currently in an entry level.",
 
     EDUCATION:
-      "Total time spend on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below: ",
+      "Total time spent on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below: ",
 
     LANG_ARRAY: ["Greek", "English", "Basic French and Italian"],
 
     CONTACT_PROMPT:
-      "Not sure what else I should mention so if I left anything out or you have further questions feel free to contact me.",
+      "If I left anything out or you have further questions feel free to contact me.",
 
     DOWNLOAD_CV: "Download a printable document of my CV",
 

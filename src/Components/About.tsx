@@ -65,8 +65,6 @@ const About: React.FC = () => {
                   <li>Strong debugging skills</li>
                   <li>Testing</li>
                   <li>BASH scripting</li>
-                  <li>Java</li>
-                  <li>C + C#</li>
                 </ul>
 
                 <li className="mt-3">Tools:</li>
