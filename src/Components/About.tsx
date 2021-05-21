@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import CVpic from "../assets/me.jpg";
+// import CVpic from "../assets/me2.jpeg";
 
 const About: React.FC = () => {
   const { getContent, getTags } = useContext(LanguageContext);
@@ -20,6 +21,7 @@ const About: React.FC = () => {
 
           <img
             src={CVpic}
+            style={{ marginTop: "50px" }}
             className="col-2 d-lg-block d-none"
             alt="the ugly guy"
           />
