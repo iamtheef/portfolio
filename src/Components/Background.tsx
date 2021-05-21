@@ -5,9 +5,10 @@ const Background: React.FC = (props) => {
   const [table, setTable] = useState(<div></div>);
 
   useEffect(() => {
-    setInterval(() => {
+    let timer = setInterval(() => {
       setTable(makeTable());
     }, 100);
+    return () => clearInterval(timer);
   }, [setTable]);
 
   return (
