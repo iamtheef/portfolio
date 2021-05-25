@@ -50,7 +50,7 @@ const ContactList: React.FC = () => {
                 {" "}
                 <img src={discord} alt="dscr" className="footer-icon" />
                 <span className={`${isDCopied && "blink"}`} id="discord">
-                  {isDCopied ? "discord copied" : "Discord Th#1833"}
+                  {isDCopied ? "discord copied" : "Th#1833"}
                 </span>
               </li>
             </ul>
