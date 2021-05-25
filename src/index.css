@@ -7,6 +7,7 @@
   margin-bottom: 50px;
   font-size: 20px;
   user-select: none;
+  transition: all 500ms ease;
 }
 
 .navbar-button {
@@ -138,14 +139,17 @@ a {
 }
 
 .footer-icon {
-  width: 5vw;
-  height: 10vh;
+  width: 4.3vw;
   transition: all 500ms ease;
 }
 
 .footer-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 500ms ease;
+}
+
+.extra-width {
+  width: 5.2vw !important;
 }
 
 .contact-list {

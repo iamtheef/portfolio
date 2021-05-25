@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
                 title="Th#1833"
                 alt="discord icon"
                 src={discord}
-                className="footer-icon mr-4"
+                className="footer-icon mr-4 extra-width"
               />
             </a>
 
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                 title="iamtheef_th@protonmail.com"
                 alt="mail icon"
                 src={mail}
-                className="footer-icon mr-4"
+                className="footer-icon mr-4 extra-width"
               />
             </a>
           </div>
