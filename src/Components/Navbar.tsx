@@ -11,12 +11,14 @@ export const Navbar: React.FC = () => {
   return (
     <div className="mt-4">
       <div className="container">
-        <div className="row navbar" style={{ transition: "all 900ms ease" }}>
+        <div className="row navbar">
           <div className="col">
             <div className="row pt-2">
               <Link
                 to="/"
-                className={`col-lg navbar-button ${isActive("#/") && "active"}`}
+                className={`col-lg navbar-button ${
+                  isActive("#/") ? "active" : ""
+                }`}
               >
                 {home}
               </Link>
