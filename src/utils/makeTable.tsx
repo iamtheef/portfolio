@@ -1,16 +1,23 @@
 import { generateDigits } from "./generateDigits";
 import React from "react";
 
-let linesPerHash: any = {
-  experience: 105,
-  about: 65,
-  contact: 10,
+const defaultLines = () => {
+  return Math.ceil(document.getElementById("root")?.scrollHeight! / 46);
+};
+
+const linesPerHash: any = {
+  contact: 13,
+};
+
+const cuclulateLines = () => {
+  const hash = window.location.hash.slice(2);
+  return !!linesPerHash[hash] ? linesPerHash[hash] : defaultLines();
 };
 
 export const makeTable = () => {
-  const hash = window.location.hash.slice(2);
-  let lines: number = linesPerHash[hash] || 15; // 7 is the default number
+  let lines: number = cuclulateLines();
 
+  console.log(lines);
   const newTable: any = [];
 
   for (let i = 0; i < lines; i++) {
