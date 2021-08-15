@@ -16,8 +16,6 @@ const cuclulateLines = () => {
 
 export const makeTable = () => {
   let lines: number = cuclulateLines();
-
-  console.log(lines);
   const newTable: any = [];
 
   for (let i = 0; i < lines; i++) {
