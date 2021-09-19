@@ -78,6 +78,17 @@
     -moz-transform: skewX(-10deg);
     transform: skewX(-10deg);
   }
+
+  51% {
+    text-shadow: 0px 0px 3px #eee, 5px 5px 2px teal, -5px -2px 2px maroon;
+    -moz-transform: skewX(10deg);
+    transform: skewX(10deg);
+  }
+  52% {
+    text-shadow: none;
+    -moz-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+  }
 }
 @-webkit-keyframes shift {
   0%,
@@ -100,7 +111,7 @@
     -webkit-transform: skewX(10deg);
     transform: skewX(10deg);
   }
-  42% {
+  58% {
     text-shadow: none;
     -webkit-transform: skewX(-10deg);
     transform: skewX(-10deg);
@@ -132,6 +143,33 @@
     transform: skewX(10deg);
   }
   42% {
+    text-shadow: none;
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+  }
+
+  44% {
+    text-shadow: none;
+  }
+
+  80% {
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    text-shadow: none;
+  }
+
+  81% {
+    text-shadow: 0px 0px 3px #eee, 5px 5px 2px teal, -5px -2px 2px maroon;
+    -moz-transform: skewX(10deg);
+    -ms-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    transform: skewX(10deg);
+  }
+  82% {
     text-shadow: none;
     -moz-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
