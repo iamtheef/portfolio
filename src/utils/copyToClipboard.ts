@@ -1,11 +1,8 @@
-export const copyToClipboard = (e: any) => {
-  if (!navigator.clipboard) {
-    return;
-  }
+import copy from "copy-to-clipboard";
 
+export const copyToClipboard = (e: any) => {
   try {
-    const text = e.target.innerText;
-    navigator.clipboard.writeText(text);
+    copy(e.target.innerText);
   } catch {
     return;
   }
