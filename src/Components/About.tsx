@@ -5,7 +5,7 @@ import CVpic from "../assets/me.jpg";
 
 const About: React.FC = () => {
   const { getContent, getTags } = useContext(LanguageContext);
-  const { PROFILE, WORK_EXP, EDUCATION, LANG_ARRAY } = getContent();
+  const { PROFILE, EDUCATION, LANG_ARRAY } = getContent();
   const { aboutMe } = getTags();
 
   return (
@@ -28,17 +28,8 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{aboutMe.experience}</h1>
           <div className="col-12">
-            <ul>
-              <li>{WORK_EXP}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{aboutMe.skills}</h1>
-          <div className="col-12">
+            <h1 className="intro">{aboutMe.skills}</h1>
             <ul>
               <ul
                 style={{
@@ -83,11 +74,11 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="row col-12" style={{ marginTop: "5rem" }}>
+        <div className="row" style={{ marginTop: "5rem" }}>
           <div className="col-12">
             <h1 className="intro">{aboutMe.education}</h1>
           </div>
-          <div>{EDUCATION}</div>
+          <div style={{ marginLeft: "2rem" }}>{EDUCATION}</div>
 
           <div className="col-12">
             <ul>
@@ -108,8 +99,8 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{aboutMe.books}</h1>
           <div className="col-12">
+            <h1 className="intro">{aboutMe.books}</h1>
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
                 <li>
@@ -127,8 +118,8 @@ const About: React.FC = () => {
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
-          <h1 className="intro">{aboutMe.languages}</h1>
           <div className="col-12">
+            <h1 className="intro">{aboutMe.languages}</h1>
             <ul>
               <ul style={{ marginLeft: "-30px" }}>
                 {LANG_ARRAY.map((l: string, i: number) => (

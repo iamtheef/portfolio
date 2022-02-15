@@ -12,7 +12,7 @@ const Intro: React.FC = () => {
     let txt = "Hello, friend";
     for (let i = 0; i < txt.length; i++) {
       setText((prevText) => (prevText += txt.charAt(i)));
-      if (txt.charAt(i) === ",") await sleep(150);
+      if (txt.charAt(i) === ",") await sleep(350);
       await sleep(120);
     }
   };
