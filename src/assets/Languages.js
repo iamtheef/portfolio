@@ -3,15 +3,20 @@ export const content = {
     HEADER: "Καλώς ήρθατε. Χαίρομαι που θέλετε να με γνωρίσετε.",
 
     INTRO:
-      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer έχω γενηθεί και μεγαλώσει στο νησί της Κρήτης στην Ελλάδα. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software. Με ενδιαφέρει αρκετά και ο τομέας του AI. Περισσότερα στην σελίδα",
+      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer έχω γενηθεί και μεγαλώσει στο νησί της Κρήτης αλλά ζω στην Αθήνα τον τελευταίο χρόνο. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software. Με ενδιαφέρει αρκετά και ο τομέας του AI. Περισσότερα στην σελίδα",
 
     ABOUT_ME_TAG: "Σχετικά με εμένα.",
 
     PROFILE:
       "Fullstack developer με προτίμηση στο backend. Μου αρέσουν οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική μουσική.",
 
-    WORK_EXP:
-      "Έχω αναλάβει διάφορα αυτοσχέδια projects και όλα από αυτά έχουν ολοκληρωθεί επιτυχώς μέχρι στιγμής. Ένας κλώνος του reddit (fullstack), μία real-time messaging εφαρμογή με αυτοκαταστρεφόμενα μηνύματα και AES κρυπτογράφηση, ένα πλήρης λειτουργικό GraphQL και tested API σε SQL/NoSQL εκδόσεις, ένα μοντέλο AI που μπορεί να αναγνωρίσει ζώα και ένα έξυπνο chatbot που μπορεί να απαντήσει παντός τύπου ερωτήσεις είναι μερικά από αυτά. Θέλω να δοκιμάζω διαρκώς καινούρια πράγματα, τελευταίες τεχνολογίες, να συμμετέχω σε ομάδες με μεγαλύτερα projects και πάντα να μαθαίνω και να αναπτύσσω καινούριες δεξιότητες.",
+    WORK_EXP: [
+      {
+        period: "Απρίλιος 2021 - Σήμερα (1 χρόνο)",
+        description:
+          "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
+      },
+    ],
 
     EDUCATION:
       "Έχω παρακολουθήσει πάνω από 400 ωρες στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: ",
@@ -51,15 +56,20 @@ export const content = {
     HEADER: "Welcome. I am glad you want to know me.",
 
     INTRO:
-      "My name is Thergiakis Eftichios, I am a full-stack developer born and raised in the island of Crete in Greece. A resourceful, self-motivated web developer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a web developer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the sector. I am eager to expand on AI sector. More on",
+      "My name is Thergiakis Eftichios, I am a full-stack developer born and raised in the island of Crete but I live in Athens for the last year. I consider myself a resourceful, self-motivated web developer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a web developer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the sector. I am eager to expand on AI sector. More on",
 
     ABOUT_ME_TAG: "About Me.",
 
     PROFILE:
       " I am a fullstack web developer with a preference for the backend. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
 
-    WORK_EXP:
-      " I 've been assigned several tasks for the last two years and all of them have been successfully completed. A reddit clone (fullstack), a real-time messaging app with trial messages and AES encryption, a fully functional and tested GraphQL API in SQL/NoSQL versions, an AI model trained to recognise cats and dogs and an intelligent chatbot that can answer all sorts of questions to mention a few. I am always eager to be involved in new things, contribute to team work and always to expand my knowledge and skills as much as I can. I am interested in the AI sector and I am currently in an entry level.",
+    WORK_EXP: [
+      {
+        period: "Arpil 2021 - Today (1 year)",
+        description:
+          "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
+      },
+    ],
 
     EDUCATION:
       "Total time spent on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below: ",
@@ -106,7 +116,7 @@ export const tags = {
       languages: "ΓΛΩΣΣΕΣ",
     },
     experience: {
-      recent: "Πρόσφατα",
+      recent: "Πρόσφατα πρότζεκτ",
       buttons: {
         viewAPI: "Δείτε το API",
         viewRepo: "Δείτε τον κώδικα",
@@ -133,7 +143,7 @@ export const tags = {
       languages: "LANGUAGES",
     },
     experience: {
-      recent: "Recent",
+      recent: "Recent projects",
       buttons: {
         viewAPI: "View API",
         viewRepo: "View repository",
