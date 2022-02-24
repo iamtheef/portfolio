@@ -27,7 +27,7 @@ const Experience: React.FC = () => {
       .get("https://api.github.com/users/iamtheef/repos?sort=created")
       .then((projects) => {
         setProjects(projects.data);
-        setLoaded(false);
+        setLoaded(true);
       })
       .catch((e) => {
         console.error(e.message);
