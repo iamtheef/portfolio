@@ -26,7 +26,7 @@ export const content = {
     CONTACT_PROMPT:
       "Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε μαζί μου με τους εξής τρόπους:",
 
-    DOWNLOAD_CV: "Kατεβάστε το παρόν βιογραφικό",
+    DOWNLOAD_CV: "Kατεβάστε το βιογραφικό μου",
 
     PINNED: {
       iamAI: {
@@ -64,7 +64,7 @@ export const content = {
     CONTACT_PROMPT:
       "If I left anything out or you have further questions feel free to contact me.",
 
-    DOWNLOAD_CV: "Download a printable document of my CV",
+    DOWNLOAD_CV: "Download my CV",
 
     PINNED: {
       iamAI: {
