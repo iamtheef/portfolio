@@ -280,6 +280,7 @@ a {
 }
 
 .footer-icon {
+  margin-bottom: 15px;
   width: 4.3vw;
   transition: all 500ms ease;
 }
@@ -287,10 +288,6 @@ a {
 .footer-icon:hover {
   transform: scale(1.1);
   transition: all 500ms ease;
-}
-
-.extra-width {
-  width: 5.2vw !important;
 }
 
 .contact-list {
@@ -316,7 +313,6 @@ a {
   }
 
   .loaderIcon {
-    margin: -50%;
     padding: auto;
     width: 20rem;
   }
@@ -338,7 +334,7 @@ a {
 
   .footer-icon {
     width: 8vw;
-    height: 6vh;
+    height: 5vh;
   }
 
   .hello {
