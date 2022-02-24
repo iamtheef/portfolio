@@ -1,18 +1,18 @@
 export const content = {
   GR: {
-    HEADER: "Καλώς ήρθατε. Χαίρομαι που θέλετε να με γνωρίσετε.",
+    HEADER: "Καλώς ήρθατε! Χαίρομαι που θέλετε να με γνωρίσετε.",
 
     INTRO:
-      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer έχω γενηθεί και μεγαλώσει στο νησί της Κρήτης αλλά ζω στην Αθήνα τον τελευταίο χρόνο. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software. Με ενδιαφέρει αρκετά και ο τομέας του AI. Περισσότερα στην σελίδα",
+      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer, έχω γενηθεί και μεγαλώσει στο νησί της Κρήτης αλλά ζω στην Αθήνα τον τελευταίο χρόνο. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software. Θα ήθελα να ασχοληθώ με τον τομέα του AI στο μέλλον. Περισσότερα στην σελίδα",
 
     ABOUT_ME_TAG: "Σχετικά με εμένα.",
 
     PROFILE:
-      "Fullstack developer με προτίμηση στο backend. Μου αρέσουν οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική μουσική.",
+      "Fullstack developer με προτίμηση στο backend, AI enthusiast, μερικές φορές geek. Μου αρέσουν οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική μουσική.",
 
     WORK_EXP: [
       {
-        period: "Απρίλιος 2021 - Σήμερα (1 χρόνο)",
+        period: "Απρίλιος 2021 - Φεβρουάριος 2022 (10 μήνες)",
         description:
           "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
       },
@@ -29,21 +29,6 @@ export const content = {
     DOWNLOAD_CV: "Kατεβάστε το παρόν βιογραφικό",
 
     PINNED: {
-      CAT_OR_DOG: {
-        DESCRIPTION: "ΑΙ μοντέλο που μπορεί να αναγνωρίσει γάτες και σκύλους.",
-      },
-      CHAT_ROOM: {
-        DESCRIPTION:
-          "Εφαρμογή συνομιλιών με προσωρινά μηνύματα και κρυπτογράφηση.",
-      },
-      GRAPHQL: {
-        DESCRIPTION:
-          "Ένα πλήρως λειτουργικό/δοκιμασμένο GraphQL API σε docker container.",
-      },
-      POSTIT: {
-        DESCRIPTION:
-          "Ένας κλώνος του reddit σε μικρότερη κλίμακα, API και εφαρμογή client.",
-      },
       iamAI: {
         TITLE: "iamAI",
         DESCRIPTION:
@@ -53,19 +38,19 @@ export const content = {
   },
 
   EN: {
-    HEADER: "Welcome. I am glad you want to know me.",
+    HEADER: "Welcome! I am glad you want to know me.",
 
     INTRO:
-      "My name is Thergiakis Eftichios, I am a full-stack developer born and raised in the island of Crete but I live in Athens for the last year. I consider myself a resourceful, self-motivated web developer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a web developer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the sector. I am eager to expand on AI sector. More on",
+      "My name is Thergiakis Eftichios, I am a full-stack developer born and raised in the island of Crete but I live in Athens for the last year. I consider myself a resourceful, self-motivated web developer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a web developer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the field. I am eager to expand on the AI sector in the future. More on",
 
     ABOUT_ME_TAG: "About Me.",
 
     PROFILE:
-      " I am a fullstack web developer with a preference for the backend. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
+      " I am a fullstack web developer with a preference for the backend, ΑΙ enthusiast, sometimes a geek. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
 
     WORK_EXP: [
       {
-        period: "Arpil 2021 - Today (1 year)",
+        period: "Arpil 2021 - February (10 months)",
         description:
           "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
       },
@@ -82,20 +67,6 @@ export const content = {
     DOWNLOAD_CV: "Download a printable document of my CV",
 
     PINNED: {
-      CAT_OR_DOG: {
-        DESCRIPTION: "An AI model trained to recognize cats and dogs.",
-      },
-      CHAT_ROOM: {
-        DESCRIPTION: "Real-time messaging app with encrypted trial messages.",
-      },
-      GRAPHQL: {
-        DESCRIPTION:
-          "A fully functional and tested GraphQL server boilerplate container.",
-      },
-      POSTIT: {
-        DESCRIPTION: "A smaller scale reddit, client and API.",
-      },
-
       iamAI: {
         TITLE: "iamAI",
         DESCRIPTION:

@@ -27,7 +27,7 @@ const Experience: React.FC = () => {
       .get("https://api.github.com/users/iamtheef/repos?sort=created")
       .then((projects) => {
         setProjects(projects.data);
-        setLoaded(true);
+        setLoaded(false);
       })
       .catch((e) => {
         console.error(e.message);
@@ -38,7 +38,7 @@ const Experience: React.FC = () => {
   return (
     <div className="container marginTop">
       <div>
-        <h3 className="intro">{getTags().experience.pinned}:</h3>
+        <h3 className="intro">{getTags().experience.pinned}</h3>
         <div className="row" style={{ marginTop: "-2%" }}>
           <IamAI />
         </div>
@@ -59,7 +59,7 @@ const Experience: React.FC = () => {
         </div>
       </div>
 
-      <h3 className="intro mt-5">{getTags().experience.recent}:</h3>
+      <h3 className="intro mt-5">{getTags().experience.recent}</h3>
       {projects.map((project: Project, i: number) => (
         <div className="row mb-4" key={project.html_url}>
           <div className="col-md">
