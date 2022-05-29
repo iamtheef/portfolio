@@ -49,10 +49,11 @@ const Experience: React.FC = () => {
           <ul>
             {WORK_EXP.map((exp: any) => (
               <li>
-                <i>
-                  <b>{exp.period}</b>
-                </i>
-                <p>{exp.description}</p>
+                <b>{exp.title}</b>
+                <p>
+                  <i style={{ color: "#6d6d6d" }}>{exp.period}</i>
+                  <p>{exp.description}</p>
+                </p>
               </li>
             ))}
           </ul>
