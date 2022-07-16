@@ -4,25 +4,25 @@ import * as l from "../assets/Languages";
 type Props = {
   children: React.ReactNode;
 };
-enum Language {
+export enum ILanguage {
   english = "EN",
   greek = "GR",
 }
 interface LanguageContext {
-  language: Language;
+  language: ILanguage;
   setLanguage?: any;
   getContent?: any;
   getTags?: any;
 }
 
 export const LanguageContext = createContext<LanguageContext>({
-  language: Language.english,
+  language: ILanguage.english,
 });
 
 export function LanguageProvider({ children }: Props) {
-  const [language, setLanguage] = useState<Language>(
+  const [language, setLanguage] = useState<ILanguage>(
     JSON.parse(window.localStorage.getItem("lang") as string) ||
-      Language.english
+      ILanguage.english
   );
 
   function getContent(): object {
