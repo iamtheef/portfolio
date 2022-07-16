@@ -13,13 +13,25 @@ export const content = {
     WORK_EXP: [
       {
         title: "Resitech LTD",
-        period: "Απρίλιος 2021 - Φεβρουάριος 2022",
+        period: {
+          text: "Απρίλιος 2021 - Φεβρουάριος 2022",
+          date: { start: "04/21", end: "02/22" },
+        },
         description:
           "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
       },
       {
         title: "Squaredev",
-        period: "Mάρτιος 2022 - Σήμερα",
+        period: {
+          text: "Mάρτιος 2022 - Σήμερα",
+          date: {
+            start: "03/22",
+            end:
+              new Date().getMonth() +
+              "/" +
+              new Date().getYear().toString().slice(-2),
+          },
+        },
         description:
           "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι.",
       },

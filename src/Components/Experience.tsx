@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
+import { calculateMonths } from "../utils/calculatePeriod";
 
 const Loader = loadable(() => import("../assets/Loader"));
 const ProjectCard = loadable(() => import("./ProjectCard"));
@@ -18,7 +19,7 @@ const Experience: React.FC = () => {
   const { getContent } = useContext(LanguageContext);
   const [loaded, setLoaded] = useState(false);
   const [projects, setProjects] = useState<any>();
-  const { getTags } = useContext(LanguageContext);
+  const { getTags, language } = useContext(LanguageContext);
   const { WORK_EXP } = getContent();
   const { aboutMe } = getTags();
 
@@ -47,13 +48,16 @@ const Experience: React.FC = () => {
         <h1 className="intro">{aboutMe.experience}</h1>
         <div className="col-12">
           <ul>
-            {WORK_EXP.map((exp: any) => (
-              <li>
-                <b>{exp.title}</b>
-                <p>
-                  <i style={{ color: "#6d6d6d" }}>{exp.period}</i>
+            {WORK_EXP.map((exp: any, index: number) => (
+              <li key={index}>
+                <b>{exp.title} </b>
+                <span>
+                  <i style={{ color: "#6d6d6d" }}>
+                    {exp.period.text}{" "}
+                    {calculateMonths(exp.period.date, language)}
+                  </i>
                   <p>{exp.description}</p>
-                </p>
+                </span>
               </li>
             ))}
           </ul>
