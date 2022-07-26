@@ -70,13 +70,19 @@ export const content = {
     WORK_EXP: [
       {
         title: "Resitech LTD",
-        period: "Arpil 2021 - February",
+        period: {text:"Arpil 2021 - February", date: { start: "04/21", end: "02/22" }},
         description:
           "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
       },
       {
         title: "Sqauredev",
-        period: "March 2022 - Today",
+        period: {text:"March 2022 - Today", date: {
+          start: "03/22",
+          end:
+            new Date().getMonth() +
+            "/" +
+            new Date().getYear().toString().slice(-2),
+        }},
         description:
           "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project.",
       },
