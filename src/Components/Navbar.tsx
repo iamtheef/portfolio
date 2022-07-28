@@ -1,10 +1,14 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
+import { ThemeContext } from "../Context/ThemeContext";
 import isActive from "../utils/isActive";
+import moonDark from "../assets/moonDark.png";
+import moonLight from "../assets/moonLight.png";
 
 export const Navbar: React.FC = () => {
   const { language, setLanguage, getTags } = useContext(LanguageContext);
+  const { isDark, setIsDark } = useContext(ThemeContext);
   const { home, experience, aboutMe, contact } = getTags().navbar;
   const [dropdown, setDropdown] = useState(false);
 
@@ -16,7 +20,7 @@ export const Navbar: React.FC = () => {
             <div className="row pt-2">
               <Link
                 to="/"
-                className={`col-lg navbar-button ${
+                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
                   isActive("#/") ? "active" : ""
                 }`}
               >
@@ -24,29 +28,38 @@ export const Navbar: React.FC = () => {
               </Link>
               <Link
                 to="/experience"
-                className={`col-lg navbar-button ${
+                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
                   isActive("#/experience") && "active"
                 }`}
               >
                 {experience}
               </Link>
               <Link
-                className={`col-lg navbar-button ${
+                to="/about"
+                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
                   isActive("#/about") && "active"
                 }`}
-                to="/about"
               >
                 {aboutMe}
               </Link>
               <Link
-                className={`col-lg navbar-button ${
+                to="/contact"
+                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
                   isActive("#/contact") && "active"
                 }`}
-                to="/contact"
               >
                 {contact}
               </Link>
             </div>
+          </div>
+
+          <div className="">
+            <img
+              className="night-mode-toggle-icon"
+              src={isDark ? moonLight : moonDark}
+              alt="toggle night mode"
+              onClick={() => setIsDark!(!isDark)}
+            />
           </div>
 
           <div className="dropdown" onClick={() => setDropdown(!dropdown)}>

@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
               <li key={index}>
                 <b>{exp.title} </b>
                 <span>
-                  <i style={{ color: "#6d6d6d" }}>
+                  <i style={{ color: "#c5d392", marginLeft: "5px" }}>
                     {exp.period.text}{" "}
                     {calculateMonths(exp.period.date, language)}
                   </i>
