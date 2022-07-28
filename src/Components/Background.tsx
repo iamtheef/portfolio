@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { makeTable } from "../utils/makeTable";
+import { ThemeContext } from "../Context/ThemeContext";
 
 const Background: React.FC = (props) => {
+  const { getTheme } = useContext(ThemeContext);
   const [table, setTable] = useState(<div></div>);
 
   useEffect(() => {
@@ -13,8 +15,11 @@ const Background: React.FC = (props) => {
 
   return (
     <div
-      className="container background nopadding"
-      style={{ position: "absolute" }}
+      className={`container background nopadding`}
+      style={{
+        position: "absolute",
+        opacity: getTheme!().bgNumsOpacity,
+      }}
     >
       <div className="row">
         <div className="col-sm">{table}</div>

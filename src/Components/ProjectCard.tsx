@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { getColor } from "../utils/getColor";
 import { LanguageContext } from "../Context/LanguageContext";
+import { ThemeContext } from "../Context/ThemeContext";
+
 interface Props {
   title: string;
   description: string;
@@ -11,9 +13,11 @@ interface Props {
 const ProjectCard: React.FC<Props> = (props: Props) => {
   const { title, description, url, language } = props;
   const { getTags } = useContext(LanguageContext);
+  const { isDark } = useContext(ThemeContext);
+
   return (
     <div className="card" style={{ width: "auto" }}>
-      <div className="card-body">
+      <div className={`${isDark ? "dark-" : ""}card-body`}>
         <div className="container">
           <div className="row">
             <div className="col-9">

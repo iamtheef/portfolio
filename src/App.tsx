@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import { LanguageProvider } from "./Context/LanguageContext";
+import { ThemeProvider } from "./Context/ThemeContext";
 import { Navbar } from "./Components/Navbar";
 import loadable from "@loadable/component";
 
@@ -15,12 +16,14 @@ function App() {
     <HashRouter>
       <Switch>
         <LanguageProvider>
-          <Navbar />
-          <Background />
-          <Route exact path="/" component={Intro} />
-          <Route exact path="/experience" component={Experience} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
+          <ThemeProvider>
+            <Navbar />
+            <Background />
+            <Route exact path="/" component={Intro} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+          </ThemeProvider>
         </LanguageProvider>
       </Switch>
     </HashRouter>

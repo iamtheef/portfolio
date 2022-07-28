@@ -1,10 +1,12 @@
 import React, { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { ThemeContext } from "../Context/ThemeContext";
 import { Link } from "react-router-dom";
 import { sleep } from "../utils/sleep";
 
 const Intro: React.FC = () => {
   const { getContent } = useContext(LanguageContext);
+  const { isDark } = useContext(ThemeContext);
   const { HEADER, INTRO, ABOUT_ME_TAG } = getContent();
   const [text, setText] = useState<string>("");
 
@@ -37,7 +39,7 @@ const Intro: React.FC = () => {
           {INTRO}
           <Link
             to="/about"
-            className="col-sm navbar-button"
+            className={`col-sm ${isDark ? "dark-" : ""}navbar-button`}
             style={{
               fontWeight: "bolder",
               fontSize: "25px",
