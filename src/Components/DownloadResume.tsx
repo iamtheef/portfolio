@@ -1,8 +1,11 @@
 import React, { FC, useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { ThemeContext } from "../Context/ThemeContext";
 
 const DownloadResume: FC = () => {
   const { language, getContent } = useContext(LanguageContext);
+  const { getTheme } = useContext(ThemeContext);
+
   return (
     <>
       <div>
@@ -10,22 +13,17 @@ const DownloadResume: FC = () => {
         <ul>
           <li>
             <a
-              href={
-                process.env.PUBLIC_URL +
-                `/thergiakis-eftichios_cv_${language}.pdf`
-              }
+              style={{ color: getTheme!().linksColor }}
+              href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.pdf`}
               download
             >
               PDF
             </a>
           </li>
-          <li style={{ marginBottom: "120px" }}>
-            {" "}
+          <li>
             <a
-              href={
-                process.env.PUBLIC_URL +
-                `/thergiakis-eftichios_cv_${language}.docx`
-              }
+              style={{ color: getTheme!().linksColor }}
+              href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.docx`}
               download
             >
               Word
