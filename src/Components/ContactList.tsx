@@ -36,20 +36,28 @@ const ContactList: React.FC = () => {
             <ul className="nobull contact" style={{ marginTop: "30px" }}>
               <li onClick={handleCopy}>
                 <img src={mail} alt="mail icon" className="footer-icon" />
-                <span className={`${isMailCopied && "blink"}`} id="mail">
+                <span
+                  className={`${isMailCopied && "blink"} contact-list-item`}
+                  id="mail"
+                >
                   {isMailCopied ? "mail copied" : "iamtheef_th@protonmail.com"}
                 </span>
               </li>
               <li>
                 {" "}
                 <img src={tel} alt="tel" className="footer-icon" />
-                +30 6980970012 (Telegram, Viber)
+                <span className="contact-list-item">
+                  +30 6980970012 (Telegram, Viber)
+                </span>
               </li>
 
               <li onClick={handleCopy}>
                 {" "}
                 <img src={discord} alt="dscr" className="footer-icon" />
-                <span className={`${isDCopied && "blink"}`} id="discord">
+                <span
+                  className={`${isDCopied && "blink"} contact-list-item`}
+                  id="discord"
+                >
                   {isDCopied ? "discord copied" : "Th#1833"}
                 </span>
               </li>

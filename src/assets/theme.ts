@@ -3,7 +3,7 @@ import CSS from "csstype";
 export interface IThemeProp {
   bgColor: CSS.ColorProperty;
   fontColor: CSS.ColorProperty;
-  bgNumsOpacity: CSS.OpacityProperty;
+  linksColor: CSS.ColorProperty;
   navButtonColor: CSS.ColorProperty;
   navButtonHoverColor: CSS.ColorProperty;
 }
@@ -17,7 +17,7 @@ export const theme: ITheme = {
   light: {
     bgColor: "white",
     fontColor: "black",
-    bgNumsOpacity: "0.1",
+    linksColor: "#019fcd",
     navButtonColor: "black",
     navButtonHoverColor: "rgb(170, 170, 182)",
   },
@@ -25,7 +25,7 @@ export const theme: ITheme = {
   dark: {
     bgColor: "#727272",
     fontColor: "white",
-    bgNumsOpacity: "1",
+    linksColor: "#00c77f",
     navButtonColor: "white",
     navButtonHoverColor: "red",
   },

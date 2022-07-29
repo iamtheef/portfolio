@@ -40,6 +40,7 @@
   font-size: 40px;
   font-family: "VT323", monospace;
   user-select: none;
+  opacity: 0.1;
 }
 
 .nopadding {
@@ -81,7 +82,7 @@
     -moz-transform: skewX(10deg);
     transform: skewX(10deg);
   }
-  42% {
+  45% {
     text-shadow: none;
     -moz-transform: skewX(-10deg);
     transform: skewX(-10deg);
@@ -92,7 +93,7 @@
     -moz-transform: skewX(10deg);
     transform: skewX(10deg);
   }
-  52% {
+  59% {
     text-shadow: none;
     -moz-transform: skewX(-10deg);
     transform: skewX(-10deg);
@@ -177,7 +178,7 @@
     -webkit-transform: skewX(10deg);
     transform: skewX(10deg);
   }
-  82% {
+  89% {
     text-shadow: none;
     -moz-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
@@ -301,13 +302,13 @@ a {
   font-weight: bold;
   font-size: 25px;
   user-select: text;
-  transition: all 500ms ease;
+  transition: all 300ms ease;
 }
 
 .contact > li:hover {
   transition: all 500ms ease;
   color: rgba(133, 133, 133, 0.938);
-  transition: all 500ms ease;
+  transition: all 300ms ease;
 }
 
 @media screen and (max-width: 1200px) {
@@ -425,4 +426,11 @@ a {
   background-color: rgb(75, 75, 75);
   border: 1px solid rgb(111, 86, 86);
   padding: 20px;
+}
+
+.contact-list-item {
+  cursor: pointer;
+}
+.contact-list-item:hover {
+  color: rgb(201, 201, 205);
 }
