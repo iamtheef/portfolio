@@ -42,7 +42,7 @@ const Intro: React.FC = () => {
             className={`col-sm ${isDark ? "dark-" : ""}navbar-button`}
             style={{
               fontWeight: "bolder",
-              fontSize: "25px",
+              fontSize: "20px",
               paddingLeft: "7px",
               paddingRight: "7px",
             }}

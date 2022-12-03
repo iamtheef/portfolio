@@ -14,52 +14,42 @@ const About: React.FC = () => {
         <div className="row">
           <div className="col-10">
             <h1 className="intro">{getTags().aboutMe.profile}</h1>
-            <ul>
-              <li>{<p>{PROFILE}</p>}</li>
-            </ul>
+            {<p className="paragraph">{PROFILE}</p>}
           </div>
         </div>
 
         <div className="row" style={{ marginTop: "5rem" }}>
           <div className="col-12">
-            <h1 className="intro">{aboutMe.skills}</h1>
+            <h3 className="intro">{aboutMe.skills}</h3>
 
-            <ul
-              style={{
-                fontSize: "23px",
-              }}
-            >
-              <li className="mt-3">Primary</li>
+            <ul>
+              <li className="mt-3">Tools</li>
               <ul>
                 <li>TypeScript/JavaScript</li>
-                <li>Python</li>
                 <li>React/Next.js</li>
-                <li>GraphQL</li>
                 <li>Rest API Design</li>
+                <li>Python</li>
+                <li>GraphQL</li>
                 <li>Node</li>
-                <li>Flask</li>
-                <li>SQL/NoSQL Databases (PostgreSQL/MongoDB)</li>
+                <li>SQL/NoSQL and Graph Databases</li>
                 <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
-              </ul>
-
-              <li className="mt-3">Secondary</li>
-              <ul>
-                <li>SEO & Performance optimization techniques</li>
+                <li>Bash scripting</li>
                 <li>Web scraping</li>
-                <li>Analytical and problem solving abilities</li>
-                <li>Strong debugging skills</li>
-                <li>Testing</li>
-                <li>BASH scripting</li>
-              </ul>
-
-              <li className="mt-3">Tools:</li>
-              <ul>
-                <li>Express</li>
                 <li>Web sockets</li>
+                <li>Express</li>
+                <li>Testing</li>
                 <li>Redis</li>
                 <li>Docker</li>
-                <li>Jest</li>
                 <li>Git</li>
+              </ul>
+
+              <li className="mt-3">Skills</li>
+              <ul>
+                <li>Analytical and problem solving abilities</li>
+                <li>Performance optimization techniques</li>
+                <li>Strong debugging skills</li>
+                <li>Straight communication</li>
+                <li>Eager to collaborate</li>
               </ul>
             </ul>
           </div>
