@@ -16,7 +16,10 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
   const { isDark } = useContext(ThemeContext);
 
   return (
-    <div className="card" style={{ width: "auto" }}>
+    <div
+      className={`${isDark ? "dark-" : ""}gradient-bg card`}
+      style={{ width: "auto" }}
+    >
       <div className={`${isDark ? "dark-" : ""}card-body`}>
         <div className="container">
           <div className="row">

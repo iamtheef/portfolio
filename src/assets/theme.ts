@@ -15,7 +15,7 @@ export interface ITheme {
 
 export const theme: ITheme = {
   light: {
-    bgColor: "white",
+    bgColor: "#f7f7f7",
     fontColor: "black",
     linksColor: "#019fcd",
     navButtonColor: "black",
@@ -23,7 +23,7 @@ export const theme: ITheme = {
   },
 
   dark: {
-    bgColor: "#727272",
+    bgColor: "#666666",
     fontColor: "white",
     linksColor: "#00c77f",
     navButtonColor: "white",

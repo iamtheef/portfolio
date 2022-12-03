@@ -1,6 +1,4 @@
 .navbar {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +38,7 @@
   font-size: 40px;
   font-family: "VT323", monospace;
   user-select: none;
-  opacity: 0.1;
+  opacity: 0.05;
 }
 
 .nopadding {
@@ -188,10 +186,11 @@
 }
 
 .intro {
-  font-size: 35px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 28px;
+  font-weight: 200;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
@@ -199,8 +198,9 @@
 .paragraph {
   user-select: none;
   opacity: 1;
-  font-size: 20px;
-  font-family: "Lora", serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Barlow", serif;
   font-weight: initial;
 }
 
@@ -234,13 +234,19 @@
 }
 
 .card {
+  border-radius: 11px !important;
   user-select: none;
+}
+
+.card a {
+  color: rgb(70, 166, 245);
 }
 
 .project-btn {
   color: rgb(32, 32, 32) !important;
   background-color: rgb(226, 219, 219) !important;
   padding: auto;
+  font-size: 12px !important;
   margin-right: 20px;
   margin-bottom: 10px;
 }
@@ -300,7 +306,7 @@ a {
   margin-top: 50px;
   margin-bottom: 10px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
   user-select: text;
   transition: all 300ms ease;
 }
@@ -397,6 +403,7 @@ a {
 }
 
 .iamAIPic {
+  opacity: 70%;
   align-self: center;
   max-width: 500px;
 }
@@ -418,13 +425,97 @@ a {
   background-color: white !important;
 }
 
+.dark-gradient-bg {
+  background: linear-gradient(338deg, #43013b, #4a8589, #30595c);
+  background-size: 600% 600%;
+
+  -webkit-animation: DarkAnimationBG 24s ease infinite;
+  -moz-animation: DarkAnimationBG 24s ease infinite;
+  animation: DarkAnimationBG 24s ease infinite;
+}
+
+@-webkit-keyframes DarkAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+@-moz-keyframes DarkAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+@keyframes DarkAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(338deg, #acacac, #9dd8ef, #ffbfbf);
+  background-size: 600% 600%;
+
+  -webkit-animation: WhiteAnimationBG 44s ease infinite;
+  -moz-animation: WhiteAnimationBG 44s ease infinite;
+  animation: WhiteAnimationBG 44s ease infinite;
+}
+
+@-webkit-keyframes WhiteAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+@-moz-keyframes WhiteAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+@keyframes WhiteAnimationBG {
+  0% {
+    background-position: 39% 0%;
+  }
+  50% {
+    background-position: 62% 100%;
+  }
+  100% {
+    background-position: 39% 0%;
+  }
+}
+
 .card-body {
   background-color: transparent;
 }
 
 .dark-card-body {
-  background-color: rgb(75, 75, 75);
-  border: 1px solid rgb(111, 86, 86);
   padding: 20px;
 }
 

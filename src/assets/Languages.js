@@ -5,7 +5,7 @@ export const content = {
     INTRO:
       "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer, έχω γενηθεί και μεγαλώσει στο νησί της Κρήτης αλλά ζω στην Αθήνα τον τελευταίο χρόνο. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software. Θα ήθελα να ασχοληθώ με τον τομέα του AI στο μέλλον. Περισσότερα στην σελίδα",
 
-    ABOUT_ME_TAG: "Σχετικά με εμένα.",
+    ABOUT_ME_TAG: "/about.",
 
     PROFILE:
       "Fullstack developer με προτίμηση στο backend, AI enthusiast, μερικές φορές geek. Μου αρέσουν οι άνθρωποι που χαμογελούν και έχουν χιούμορ, τα παζλς και οι γρίφοι και πιστεύω ότι ο προγραμματισμός ειναι ένας πιό κομψός τρόπος να λύνεις προβλήματα. Με γοητεύει το πως μια γραμμή κώδικα μπορεί να αλλάξει την καθημερινότητα κάποιου. Στον ελεύθερο μου χρόνο μου αρέσει να γράφω ηλεκτρονική μουσική.",
@@ -33,7 +33,7 @@ export const content = {
           },
         },
         description:
-          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι.",
+          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προιόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστίκη καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του.",
       },
     ],
 
@@ -62,7 +62,7 @@ export const content = {
     INTRO:
       "My name is Thergiakis Eftichios, I am a full-stack developer born and raised in the island of Crete but I live in Athens for the last year. I consider myself a resourceful, self-motivated web developer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a web developer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the field. I am eager to expand on the AI sector in the future. More on",
 
-    ABOUT_ME_TAG: "About Me.",
+    ABOUT_ME_TAG: "/about.",
 
     PROFILE:
       " I am a fullstack web developer with a preference for the backend, ΑΙ enthusiast, sometimes a geek. I am quite humorous and I like people who smile and are open. Generally I love solving puzzles etc and I think programming is just that in a more elegant and professional level. Often get charmed by how a single line of code can affect someone's reality. Ι also like electronic music and I try to produce on my spare time.",
@@ -70,21 +70,27 @@ export const content = {
     WORK_EXP: [
       {
         title: "Resitech LTD",
-        period: {text:"Arpil 2021 - February", date: { start: "04/21", end: "02/22" }},
+        period: {
+          text: "Arpil 2021 - February",
+          date: { start: "04/21", end: "02/22" },
+        },
         description:
           "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
       },
       {
         title: "Sqauredev",
-        period: {text:"March 2022 - Today", date: {
-          start: "03/22",
-          end:
-            new Date().getMonth() +
-            "/" +
-            new Date().getYear().toString().slice(-2),
-        }},
+        period: {
+          text: "March 2022 - Today",
+          date: {
+            start: "03/22",
+            end:
+              new Date().getMonth() +
+              "/" +
+              new Date().getYear().toString().slice(-2),
+          },
+        },
         description:
-          "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project.",
+          "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project. Also possessed a key role in all phases from the developepent to the release and maintenance of the recommendation system Anty, one of the main products of Squaredev.",
       },
     ],
 
@@ -111,20 +117,20 @@ export const content = {
 export const tags = {
   GR: {
     aboutMe: {
-      profile: "ΠΡΟΦΙΛ",
-      experience: "ΕΡΓΑΣΙΑΚΗ ΕΜΠΕΙΡΙΑ",
-      skills: "ΔΕΞΙΟΤΗΤΕΣ ΚΑΙ ΤΕΧΝΟΓΝΩΣΙΑ",
-      education: "ΕΚΠΑΙΔΕΥΣΗ",
-      books: "BIBΛΙΑ",
-      languages: "ΓΛΩΣΣΕΣ",
+      profile: "Προφίλ",
+      experience: "Εργασιακή εμπειρία",
+      skills: "Δεξιότητες και τεχνογνωσία",
+      education: "Εκπαίδευση",
+      books: "Βιβλία",
+      languages: "Γλώσσες",
     },
     experience: {
-      recent: "Πρόσφατα πρότζεκτ",
+      recent: "Πρόσφατα πρότζεκτς",
       buttons: {
-        viewAPI: "Δείτε το API",
-        viewRepo: "Δείτε τον κώδικα",
-        viewClient: "Δείτε τον client",
-        visitApp: "Δείτε την εφαρμογή",
+        viewAPI: "API",
+        viewRepo: "Github",
+        viewClient: "Client",
+        visitApp: "App",
       },
       pinned: "Επιφανή",
     },
@@ -138,20 +144,20 @@ export const tags = {
 
   EN: {
     aboutMe: {
-      profile: "PROFILE",
-      experience: "WORK EXPERIENCE",
-      skills: "SKILLS & KNOWLEDGE",
-      education: "EDUCATION",
-      books: "ΒΟΟΚS",
-      languages: "LANGUAGES",
+      profile: "Profile",
+      experience: "Work Experience",
+      skills: "Skills & Knowledge",
+      education: "Education",
+      books: "Βooks",
+      languages: "Languages",
     },
     experience: {
       recent: "Recent projects",
       buttons: {
-        viewAPI: "View API",
-        viewRepo: "View repository",
-        viewClient: "View client",
-        visitApp: "Visit app",
+        viewAPI: "API",
+        viewRepo: "Github",
+        viewClient: "Client",
+        visitApp: "App",
       },
       pinned: "Pinned",
     },

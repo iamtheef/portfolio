@@ -50,10 +50,12 @@ const Experience: React.FC = () => {
           <ul>
             {WORK_EXP.map((exp: any, index: number) => (
               <li key={index}>
-                <b>{exp.title} </b>
+                <b style={{ fontFamily: "Barlow", fontSize: "20px" }}>
+                  {exp.title}{" "}
+                </b>
                 <span>
-                  <i style={{ color: "#90dc6f", marginLeft: "5px" }}>
-                    [{exp.period.text}]{" "}
+                  <i style={{ color: "#60c8d6", marginLeft: "5px" }}>
+                    {exp.period.text}{" "}
                     {calculateMonths(exp.period.date, language)}
                   </i>
                   <p>{exp.description}</p>
