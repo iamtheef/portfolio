@@ -21,7 +21,7 @@
 
 .navbar-button:hover {
   text-decoration: none;
-  color: rgb(170, 170, 182);
+  color: rgb(107, 151, 153);
 }
 
 .dark-navbar-button {
@@ -30,7 +30,7 @@
 
 .dark-navbar-button:hover {
   text-decoration: none;
-  color: rgb(201, 201, 205);
+  color: rgb(107, 151, 153);
 }
 
 .background {
@@ -199,9 +199,7 @@
   user-select: none;
   opacity: 1;
   font-size: 18px;
-  font-weight: 500;
-  font-family: "Barlow", serif;
-  font-weight: initial;
+  font-weight: 330;
 }
 
 .blink {
@@ -371,15 +369,15 @@ a {
 
 @media screen and (min-width: 601px) {
   .active {
-    border-bottom: 1px solid;
+    color: rgb(47, 71, 72);
     padding-bottom: 3px;
   }
   .active:active {
-    border-bottom: 1px solid;
+    color: rgb(47, 71, 72);
     padding-bottom: 3px;
   }
   .active:hover {
-    border-bottom: 1px solid;
+    color: rgb(107, 151, 153);
     padding-bottom: 3px;
   }
 }
@@ -410,7 +408,6 @@ a {
   background-color: black !important;
   color: #ffffff;
   text-shadow: 0 0 10px #818181;
-  border: 1px solid white !important;
 }
 
 .night-mode-toggle-icon {
@@ -425,7 +422,7 @@ a {
 }
 
 .dark-gradient-bg {
-  background: linear-gradient(338deg, #43013b, #4a8589, #30595c);
+  background: linear-gradient(338deg, #520149, #4a8589, #30595c);
   background-size: 600% 600%;
 
   -webkit-animation: DarkAnimationBG 24s ease infinite;
@@ -468,7 +465,7 @@ a {
 }
 
 .gradient-bg {
-  background: linear-gradient(338deg, #acacac, #9dd8ef, #ffbfbf);
+  background: linear-gradient(338deg, #acacac, #99cde1, #ffb4b4);
   background-size: 600% 600%;
 
   -webkit-animation: WhiteAnimationBG 44s ease infinite;
@@ -519,8 +516,9 @@ a {
 }
 
 .contact-list-item {
+  font-weight: 300;
   cursor: pointer;
 }
 .contact-list-item:hover {
-  color: rgb(201, 201, 205);
+  color: rgb(107, 151, 153);
 }

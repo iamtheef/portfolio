@@ -12,15 +12,6 @@ export const content = {
 
     WORK_EXP: [
       {
-        title: "Resitech LTD",
-        period: {
-          text: "Απρίλιος 2021 - Φεβρουάριος 2022",
-          date: { start: "04/21", end: "02/22" },
-        },
-        description:
-          "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
-      },
-      {
         title: "Squaredev",
         period: {
           text: "Mάρτιος 2022 - Σήμερα",
@@ -33,7 +24,16 @@ export const content = {
           },
         },
         description:
-          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προιόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστίκη καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του.",
+          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προιόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστική καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του.",
+      },
+      {
+        title: "Resitech LTD",
+        period: {
+          text: "Απρίλιος 2021 - Φεβρουάριος 2022",
+          date: { start: "04/21", end: "02/22" },
+        },
+        description:
+          "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
       },
     ],
 
@@ -69,15 +69,6 @@ export const content = {
 
     WORK_EXP: [
       {
-        title: "Resitech LTD",
-        period: {
-          text: "Arpil 2021 - February",
-          date: { start: "04/21", end: "02/22" },
-        },
-        description:
-          "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
-      },
-      {
         title: "Sqauredev",
         period: {
           text: "March 2022 - Today",
@@ -91,6 +82,15 @@ export const content = {
         },
         description:
           "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project. Also possessed a key role in all phases from the developepent to the release and maintenance of the recommendation system Anty, one of the main products of Squaredev.",
+      },
+      {
+        title: "Resitech LTD",
+        period: {
+          text: "Arpil 2021 - February",
+          date: { start: "04/21", end: "02/22" },
+        },
+        description:
+          "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
       },
     ],
 
