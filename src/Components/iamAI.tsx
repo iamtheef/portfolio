@@ -17,7 +17,12 @@ const IamAI: React.FC = () => {
   return (
     <div className="col-12 mt-4">
       <div className="card iamAI-card">
-        <img className="card-img iamAIPic" src={iamAIPic} alt="server img" />
+        <img
+          className="card-img iamAIPic"
+          src={iamAIPic}
+          alt="server img"
+          style={{ opacity: "70%" }}
+        />
         <div className="card-body">
           <h5 className="card-title">{iamAI.TITLE}</h5>
           <p className="card-text">{iamAI.DESCRIPTION}</p>
