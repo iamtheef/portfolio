@@ -50,7 +50,7 @@ const Experience: React.FC = () => {
           <ul>
             {WORK_EXP.map((exp: any, index: number) => (
               <li key={index}>
-                <b style={{ fontFamily: "Barlow", fontSize: "20px" }}>
+                <b style={{ fontFamily: "Nanum Gothic", fontSize: "20px" }}>
                   {exp.title}{" "}
                 </b>
                 <span>
