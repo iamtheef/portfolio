@@ -3,10 +3,11 @@ import React from "react";
 // assets
 import github from "../assets/github.png";
 import background from "../assets/wavy.gif";
-import mail from "../assets/mail.png";
+// import mail from "../assets/mail.png";
 import soundcloud from "../assets/sc.png";
 import discord from "../assets/discord.png";
 import linkedin from "../assets/linkedin.png";
+import medium from "../assets/medium.png";
 
 const Footer: React.FC = () => {
   return (
@@ -73,15 +74,15 @@ const Footer: React.FC = () => {
             </a>
 
             <a
-              href="mailto:iamtheef_th@protonmail.com"
+              href="https://medium.com/@eftihis.riise"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                title="iamtheef_th@protonmail.com"
-                alt="mail icon"
-                src={mail}
-                className="footer-icon mr-4 "
+                title="My articles on Medium"
+                alt="medium icon"
+                src={medium}
+                className="footer-icon mr-4"
               />
             </a>
           </div>

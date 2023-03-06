@@ -281,7 +281,7 @@ a {
   max-height: 150px;
 }
 .footer-text {
-  font-size: large;
+  font-size: small;
   text-align: center;
   margin-top: -145px;
   font-family: "Roboto mono";
@@ -290,7 +290,7 @@ a {
 
 .footer-icon {
   margin-bottom: 15px;
-  width: 4.3vw;
+  width: 2.8vw;
   transition: all 500ms ease;
 }
 
