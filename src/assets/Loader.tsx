@@ -8,7 +8,7 @@ export default function Loader() {
         <div className="row">
           <div
             className="col-6"
-            style={{ marginLeft: "15%", marginTop: "-5%" }}
+            style={{ marginLeft: "15vw", marginTop: "-5vh" }}
           >
             <img src={loop} alt="loader icon" className="loaderIcon blink" />
           </div>
