@@ -30,7 +30,7 @@ export const content = {
         title: "Resitech LTD",
         period: {
           text: "Απρίλιος 2021 - Φεβρουάριος 2022",
-          date: { start: "04/21", end: "02/22" },
+          date: { start: "04/21", end: "03/22" },
         },
         description:
           "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping).",
@@ -69,7 +69,7 @@ export const content = {
 
     WORK_EXP: [
       {
-        title: "Sqauredev",
+        title: "Squaredev",
         period: {
           text: "March 2022 - Today",
           date: {
@@ -87,7 +87,7 @@ export const content = {
         title: "Resitech LTD",
         period: {
           text: "Arpil 2021 - February",
-          date: { start: "04/21", end: "02/22" },
+          date: { start: "04/21", end: "03/22" },
         },
         description:
           "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping).",
