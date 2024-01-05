@@ -29,7 +29,7 @@ export const content = {
       {
         title: "Resitech LTD",
         period: {
-          text: "Απρίλιος 2021 - Φεβρουάριος 2022",
+          text: "Απρίλιος 2021 - Μάρτιος 2022",
           date: { start: "04/21", end: "03/22" },
         },
         description:
@@ -54,6 +54,8 @@ export const content = {
           "Ένα έξυπνο chatbot που απαντάει παντός τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
       },
     },
+
+    AND: " και "
   },
 
   EN: {
@@ -86,7 +88,7 @@ export const content = {
       {
         title: "Resitech LTD",
         period: {
-          text: "Arpil 2021 - February",
+          text: "Arpil 2021 - March 2022",
           date: { start: "04/21", end: "03/22" },
         },
         description:
@@ -111,6 +113,7 @@ export const content = {
           "A smart chatbot that can answer all sorts of questions, also available through an API.",
       },
     },
+    AND: " and "
   },
 };
 
