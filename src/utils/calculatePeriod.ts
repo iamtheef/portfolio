@@ -33,10 +33,16 @@ export const calculateMonths = (date: IPeriod, language: ILanguage) => {
     endMonth += 12;
   }
 
-  years = endYear - startYear;
-  months = endMonth - startMonth;
+  const startDate = new Date(startYear, startMonth - 1);
+  const endDate = new Date(endYear, endMonth - 1);
+  const timeDifference = endDate.getTime() - startDate.getTime();
 
-  if (years > 0) {
+  months = Math.ceil(timeDifference / (30 * 24 * 60 * 60 * 1000));
+
+  years = Math.floor(months / 12);
+  months = months % 12;
+
+  if (years > 0 || months > 0) {
     return `(${years} ${LITERALS[language].years(years)}${
       years > 0 && months > 0 ? LITERALS[language].and : ""
     }${months > 0 ? ` ${months} ${LITERALS[language].months(months)}` : ""})`;
