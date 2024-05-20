@@ -31,16 +31,20 @@ const About: React.FC = () => {
                 <li>Python</li>
                 <li>GraphQL</li>
                 <li>Node</li>
-                <li>SQL/NoSQL and Graph Databases</li>
+                <li>SQL/NoSQL and Graph Databases/Neo4j</li>
                 <li>HTML/CSS + several frameworks (bootstrap etc.)</li>
+                <li>FastAPI</li>
                 <li>Bash scripting</li>
                 <li>Web scraping</li>
                 <li>Web sockets</li>
                 <li>Express</li>
+                <li>Docker</li>
                 <li>Testing</li>
                 <li>Redis</li>
-                <li>Docker</li>
+                <li>MinIO</li>
                 <li>Git</li>
+                <li>ElasticSearch</li>
+                <li>Keycloak</li>
               </ul>
 
               <li className="mt-3">Skills</li>

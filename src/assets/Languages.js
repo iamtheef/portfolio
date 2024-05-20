@@ -24,7 +24,7 @@ export const content = {
           },
         },
         description:
-          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προιόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστική καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του.",
+          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προιόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστική καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του. Τελευταία συμμετείχα στο έργο Sunrise EU για την πρόβλεψη της ζήτησης πόρων σε διάφορους δημόσιους τομείς, όπως το νερό και η υγειονομική περίθαλψη. Εξερεύνησα τα πάντα, από την ανάπτυξη βιβλιοθηκών μέχρι τα deployments, το k8s, τα releases του τελικού εργαλείου κλπ.",
       },
       {
         title: "Resitech LTD",
@@ -83,7 +83,7 @@ export const content = {
           },
         },
         description:
-          "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project. Also possessed a key role in all phases from the developepent to the release and maintenance of the recommendation system Anty, one of the main products of Squaredev.",
+          "Involved in the development of European organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project. Also possessed a key role in all phases from the developepent to the release and maintenance of the recommendation system Anty, one of the main products of Squaredev. Lastly involved in the Sunrise EU project for resource demand prediction in various public sectors such as water and health care. Explored everything from library development to deployments, k8s, releases of the final tool etc.",
       },
       {
         title: "Resitech LTD",
