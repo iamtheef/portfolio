@@ -483,11 +483,13 @@ a {
 
 .card-body {
   background-color: transparent;
+  border-radius: 10px;
 }
 
 .dark-card-body {
-  color: black;
+  color: white;
   padding: 20px;
+  background-color: #666666;
 }
 
 .contact-list-item {
@@ -496,4 +498,11 @@ a {
 }
 .contact-list-item:hover {
   color: rgb(107, 151, 153);
+}
+
+.hr {
+  color: #000;
+}
+.dark-hr {
+  background-color: white;
 }

@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { ThemeContext } from "../Context/ThemeContext";
 import loadable from "@loadable/component";
 import { calculateMonths } from "../utils/calculatePeriod";
 
@@ -17,6 +18,7 @@ interface Project {
 
 const Experience: React.FC = () => {
   const { getContent } = useContext(LanguageContext);
+  const { isDark } = useContext(ThemeContext);
   const { WORK_EXP, PROJECTS } = getContent();
   const [loaded] = useState(true);
   const [projects, setProjects] = useState<any>(PROJECTS);
@@ -29,12 +31,6 @@ const Experience: React.FC = () => {
   if (!loaded) return <Loader />;
   return (
     <div className="container marginTop">
-      {/* <div>
-        <h3 className="intro">{getTags().experience.pinned}</h3>
-        <div className="row" style={{ marginTop: "-2%" }}>
-          <IamAI />
-        </div>
-      </div> */}
       <div className="row" style={{ marginTop: "5rem", marginLeft: "0.3rem" }}>
         <h1 className="intro">{aboutMe.experience}</h1>
         <div className="col-12">
@@ -69,7 +65,7 @@ const Experience: React.FC = () => {
               skills={project.skills}
               // url={project.html_url}
             />
-            <hr></hr>
+            <hr className={`${isDark ? "dark-" : ""}hr`}></hr>
           </div>
         </div>
       ))}
