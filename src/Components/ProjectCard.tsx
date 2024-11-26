@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { LanguageContext } from "../Context/LanguageContext";
+// import { LanguageContext } from "../Context/LanguageContext";
 import { ThemeContext } from "../Context/ThemeContext";
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
 
 const ProjectCard: React.FC<Props> = (props: Props) => {
   const { name, description, skills } = props;
-  const { getTags } = useContext(LanguageContext);
+  // const { getTags } = useContext(LanguageContext);
   const { isDark } = useContext(ThemeContext);
 
   return (
@@ -43,7 +43,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                  {skills.join(" · ")}
               </p>
             </div>
-            <div className="col-3">
+            {/* <div className="col-3">
               <a
                 href={"url"}
                 className="btn project-btn"
@@ -53,7 +53,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
               >
                 {getTags().experience.buttons.viewRepo}
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
