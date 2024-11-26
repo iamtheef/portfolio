@@ -238,8 +238,9 @@
 }
 
 .card {
-  border-radius: 11px !important;
+  border: transparent !important;
   user-select: none;
+
 }
 
 .card a {
@@ -263,6 +264,10 @@
 .card-description {
   font-family: "Roboto mono";
   font-size: smaller;
+}
+
+.card-text {
+   font-size: 13px
 }
 
 .spotlight {
@@ -432,55 +437,14 @@ a {
 }
 
 .dark-gradient-bg {
-  background: linear-gradient(338deg, #520149, #4a8589, #30595c);
   background-size: 600% 600%;
 
-  -webkit-animation: DarkAnimationBG 24s ease infinite;
-  -moz-animation: DarkAnimationBG 24s ease infinite;
-  animation: DarkAnimationBG 24s ease infinite;
-}
-
-@-webkit-keyframes DarkAnimationBG {
-  0% {
-    background-position: 39% 0%;
-  }
-  50% {
-    background-position: 62% 100%;
-  }
-  100% {
-    background-position: 39% 0%;
-  }
-}
-@-moz-keyframes DarkAnimationBG {
-  0% {
-    background-position: 39% 0%;
-  }
-  50% {
-    background-position: 62% 100%;
-  }
-  100% {
-    background-position: 39% 0%;
-  }
-}
-@keyframes DarkAnimationBG {
-  0% {
-    background-position: 39% 0%;
-  }
-  50% {
-    background-position: 62% 100%;
-  }
-  100% {
-    background-position: 39% 0%;
-  }
 }
 
 .gradient-bg {
-  background: linear-gradient(338deg, #acacac, #99cde1, #ffb4b4);
+  background: #f7f7f7 !important;
   background-size: 600% 600%;
 
-  -webkit-animation: WhiteAnimationBG 44s ease infinite;
-  -moz-animation: WhiteAnimationBG 44s ease infinite;
-  animation: WhiteAnimationBG 44s ease infinite;
 }
 
 @-webkit-keyframes WhiteAnimationBG {
@@ -522,6 +486,7 @@ a {
 }
 
 .dark-card-body {
+  color: black;
   padding: 20px;
 }
 

@@ -47,6 +47,7 @@ const About: React.FC = () => {
                 <li>Keycloak</li>
                 <li>K8s</li>
                 <li>Github Actions</li>
+                <li>Azure</li>
               </ul>
 
               <li className="mt-3">Skills</li>

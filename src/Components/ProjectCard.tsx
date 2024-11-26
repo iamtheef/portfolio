@@ -1,17 +1,17 @@
 import React, { useContext } from "react";
-import { getColor } from "../utils/getColor";
 import { LanguageContext } from "../Context/LanguageContext";
 import { ThemeContext } from "../Context/ThemeContext";
 
 interface Props {
-  title: string;
+  name: string;
   description: string;
-  url: string;
-  language: string;
+  duration: string;
+  company: string;
+  skills: string[];
 }
 
 const ProjectCard: React.FC<Props> = (props: Props) => {
-  const { title, description, url, language } = props;
+  const { name, description, skills } = props;
   const { getTags } = useContext(LanguageContext);
   const { isDark } = useContext(ThemeContext);
 
@@ -24,22 +24,28 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
         <div className="container">
           <div className="row">
             <div className="col-9">
-              <a className="mb-2" href={url}>
-                {title}
+              <a className="mb-2" href="/">
+                {name}
               </a>
               <p className="card-description" style={{ marginTop: "10px" }}>
                 {description}
               </p>
               <p
                 className="card-text"
-                style={{ color: `#${getColor(language)}`, fontSize: "13px" }}
+                style={{ fontWeight:"bold" ,fontSize: "13px" }}
               >
-                {language}
+                Skills
+              </p>
+              <p
+                className="card-text"
+                style={{ fontSize: "13px", marginTop: "-10px" }}
+              >
+                 {skills.join(" · ")}
               </p>
             </div>
             <div className="col-3">
               <a
-                href={url}
+                href={"url"}
                 className="btn project-btn"
                 style={{ float: "right", marginRight: -20 }}
                 target="_blank"

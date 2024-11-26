@@ -1,49 +1,40 @@
-import React, { useEffect, useState, useContext } from "react";
-import axios from "axios";
+import React, { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import loadable from "@loadable/component";
 import { calculateMonths } from "../utils/calculatePeriod";
 
 const Loader = loadable(() => import("../assets/Loader"));
 const ProjectCard = loadable(() => import("./ProjectCard"));
-const IamAI = loadable(() => import("./iamAI"));
 
 interface Project {
   name: string;
   description: string;
-  html_url: string;
+  duration: string;
+  company: string;
+  skills: string[];
   language: string;
 }
 
 const Experience: React.FC = () => {
   const { getContent } = useContext(LanguageContext);
-  const [loaded, setLoaded] = useState(false);
-  const [projects, setProjects] = useState<any>();
+  const { WORK_EXP, PROJECTS } = getContent();
+  const [loaded] = useState(true);
+  const [projects, setProjects] = useState<any>(PROJECTS);
   const { getTags, language } = useContext(LanguageContext);
-  const { WORK_EXP } = getContent();
   const { aboutMe } = getTags();
 
-  useEffect(() => {
-    axios
-      .get("https://api.github.com/users/iamtheef/repos?sort=created")
-      .then((projects) => {
-        setProjects(projects.data);
-        setLoaded(true);
-      })
-      .catch((e) => {
-        console.error(e.message);
-      });
-  }, []);
-
+  useEffect(()=> {
+    setProjects(PROJECTS)
+  }, [language, PROJECTS])
   if (!loaded) return <Loader />;
   return (
     <div className="container marginTop">
-      <div>
+      {/* <div>
         <h3 className="intro">{getTags().experience.pinned}</h3>
         <div className="row" style={{ marginTop: "-2%" }}>
           <IamAI />
         </div>
-      </div>
+      </div> */}
       <div className="row" style={{ marginTop: "5rem", marginLeft: "0.3rem" }}>
         <h1 className="intro">{aboutMe.experience}</h1>
         <div className="col-12">
@@ -68,14 +59,17 @@ const Experience: React.FC = () => {
 
       <h3 className="intro mt-5">{getTags().experience.recent}</h3>
       {projects.map((project: Project, i: number) => (
-        <div className="row mb-4" key={project.html_url}>
+        <div className="row mb-4" key={project.name}>
           <div className="col-md">
             <ProjectCard
-              title={project.name}
+              name={project.name}
               description={project.description}
-              url={project.html_url}
-              language={project.language}
+              company={project.company}
+              duration={project.duration}
+              skills={project.skills}
+              // url={project.html_url}
             />
+            <hr></hr>
           </div>
         </div>
       ))}
