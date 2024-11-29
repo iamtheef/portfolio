@@ -3,7 +3,7 @@ export const content = {
     HEADER: "Καλώς ήρθατε! Χαίρομαι που θέλετε να με γνωρίσετε.",
 
     INTRO:
-      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι full-stack developer, έχω γενηθεί, μεγαλώσει και ζω στο Ηράκλειο Κρήτης. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software και να εμβαθύνω περισσότερο στον τομέα του ΑΙ. Περισσότερα στην σελίδα",
+      "Ονομάζομαι Θεργιάκης Ευτύχιος, είμαι software engineer, έχω γενηθεί, μεγαλώσει και ζω στο Ηράκλειο Κρήτης. Είμαι εφευρετικός, αυτοδίδακτος, εργατικός και μαθαίνω γρήγορα. Ευέλικτος και ομαδικός. Ψάχνω μία θέση στον τομέα ανάπτυξης εφαρμογών όπου οι δεξιότητες μου θα προσφέρουν στο τελικό αποτέλεσμα, καθώς θα μου επιτρέπει να επεκτείνω τις γνώσεις μου στον τομέα του software και να εμβαθύνω περισσότερο στον τομέα του ΑΙ. Περισσότερα στην σελίδα",
 
     ABOUT_ME_TAG: "/about.",
 
@@ -167,7 +167,7 @@ export const content = {
     HEADER: "Welcome! I am glad you want to know me.",
 
     INTRO:
-      "My name is Thergiakis Eftichios, I am a software engineer born and raised in the capital city Heraklion of Crete island where I also live. I consider myself a resourceful, self-motivated software engineer who is hard working and a quick learner. I am flexible as well as team orientated. I am currently seeking for a software engineer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the field as well as to expand further on the AI sector. More on",
+      "My name is Thergiakis Eftichios, I am a software engineer born and raised in the capital city Heraklion of Crete island where I also live. I consider myself a resourceful, self-motivated software engineer who is hard working and a quick learner. I am flexible as well as team oriented. I am currently seeking for a software engineer role where my existing qualifications will add value to the outset, whilst I continue to further develop my knowledge in the field as well as to expand further on the AI sector. More on",
 
     ABOUT_ME_TAG: "/about.",
 

@@ -283,9 +283,8 @@ a {
 .footer {
   width: 100%;
   user-select: none;
-  bottom: 0;
   position: fixed;
-  margin-bottom: -1vh;
+  bottom: 0;
 }
 
 .footer-background {
@@ -314,8 +313,6 @@ a {
 }
 
 .contact-list {
-  outline-style: double;
-  margin-top: 50px;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 22px;
@@ -345,7 +342,7 @@ a {
   }
 
   .footer-icon {
-    width: 4vw;
+    width: 3vw;
     height: 5vh;
     margin-top: 15px;
   }
