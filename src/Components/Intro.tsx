@@ -33,24 +33,22 @@ const Intro: React.FC = () => {
         </p>
       </div>
 
-      <div>
-        <div className="intro">{HEADER}</div>
-        <p className="paragraph" style={{ marginTop: "23px" }}>
-          {INTRO}
-          <Link
-            to="/about"
-            className={`col-sm ${isDark ? "dark-" : ""}navbar-button`}
-            style={{
-              fontWeight: "bolder",
-              fontSize: "20px",
-              paddingLeft: "7px",
-              paddingRight: "7px",
-            }}
-          >
-            {ABOUT_ME_TAG}
-          </Link>
-        </p>
-      </div>
+      <div className="intro">{HEADER}</div>
+      <p className="paragraph" style={{ marginTop: "23px" }}>
+        {INTRO}
+        <Link
+          to="/about"
+          className={`col-sm ${isDark ? "dark-" : ""}navbar-button`}
+          style={{
+            fontWeight: "bolder",
+            fontSize: "20px",
+            paddingLeft: "7px",
+            paddingRight: "7px",
+          }}
+        >
+          {ABOUT_ME_TAG}
+        </Link>
+      </p>
     </div>
   );
 };

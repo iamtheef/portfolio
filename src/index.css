@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .body {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -44,7 +46,7 @@
   font-size: 40px;
   font-family: "VT323", monospace;
   user-select: none;
-  opacity: 0.05;
+  opacity: 0.06;
 }
 
 .nopadding {
@@ -192,19 +194,23 @@
 }
 
 .intro {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 28px;
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* font-family: "Nouvelle Grotesk", monospace, sans-serif; */
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
   font-weight: 200;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
 
 .paragraph {
+  /* font-family: "Inter", sans-serif; */
+  /* font-family: "Nouvelle Grotesk", monospace, sans-serif; */
   user-select: none;
   opacity: 1;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 330;
 }
 
@@ -240,7 +246,6 @@
 .card {
   border: transparent !important;
   user-select: none;
-
 }
 
 .card a {
@@ -267,7 +272,7 @@
 }
 
 .card-text {
-   font-size: 13px
+  font-size: 13px;
 }
 
 .spotlight {
@@ -435,13 +440,11 @@ a {
 
 .dark-gradient-bg {
   background-size: 600% 600%;
-
 }
 
 .gradient-bg {
   background: #f7f7f7 !important;
   background-size: 600% 600%;
-
 }
 
 @-webkit-keyframes WhiteAnimationBG {
@@ -502,4 +505,8 @@ a {
 }
 .dark-hr {
   background-color: white;
+}
+
+.container {
+  transition: all 300ms ease-in-out;
 }

@@ -7,7 +7,7 @@ const Background: React.FC = (props) => {
   useEffect(() => {
     let timer = setInterval(() => {
       setTable(makeTable());
-    }, 100);
+    }, 800);
     return () => clearInterval(timer);
   }, [setTable]);
 

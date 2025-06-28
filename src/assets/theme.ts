@@ -22,8 +22,16 @@ export const theme: ITheme = {
     navButtonHoverColor: "rgb(170, 170, 182)",
   },
 
+  // dark: {
+  //   bgColor: "#666666",
+  //   fontColor: "white",
+  //   linksColor: "#00c77f",
+  //   navButtonColor: "white",
+  //   navButtonHoverColor: "red",
+  // },
+
   dark: {
-    bgColor: "#666666",
+    bgColor: "black",
     fontColor: "white",
     linksColor: "#00c77f",
     navButtonColor: "white",
