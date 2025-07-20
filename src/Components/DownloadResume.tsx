@@ -6,30 +6,47 @@ const DownloadResume: FC = () => {
   const { language, getContent } = useContext(LanguageContext);
   const { getTheme } = useContext(ThemeContext);
 
+  const linksColor = getTheme!().linksColor;
   return (
     <>
-      <div>
-        <p>{getContent().DOWNLOAD_CV}</p>
-        <ul>
-          <li>
-            <a
-              style={{ color: getTheme!().linksColor }}
-              href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.pdf`}
-              download
-            >
-              PDF
-            </a>
-          </li>
-          <li>
-            <a
-              style={{ color: getTheme!().linksColor }}
-              href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.docx`}
-              download
-            >
-              Word
-            </a>
-          </li>
-        </ul>
+      <div
+        style={{
+          marginTop: "1.5rem",
+        }}
+      >
+        <p style={{ marginBottom: "0.5rem" }}>{getContent().DOWNLOAD_CV}</p>
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "1rem",
+          }}
+        >
+          <a
+            href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.pdf`}
+            download
+            style={{
+              color: linksColor,
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+          >
+            PDF
+          </a>
+
+          <a
+            href={`${process.env.PUBLIC_URL}/thergiakis-eftichios_cv_${language}.docx`}
+            download
+            style={{
+              color: linksColor,
+              textDecoration: "none",
+              fontWeight: "bold",
+            }}
+          >
+            Word
+          </a>
+        </div>
       </div>
     </>
   );

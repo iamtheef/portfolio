@@ -12,35 +12,51 @@ export const content = {
 
     WORK_EXP: [
       {
-        title: "Squaredev",
+        title: "Margera",
         period: {
-          text: "Mάρτιος 2022 - Σήμερα",
+          text: "Ιανουάριος 2025 - Σήμερα",
           date: {
-            start: "03/22",
-            end:
-              new Date().getMonth() +
-              "/" +
-              new Date().getYear().toString().slice(-2),
+            start: "01/25",
+            end: "Σήμερα",
           },
         },
         description:
-          "Ανάπτυξη της πλατφόρμας του Ευρωπαϊκού οργανισμού BOIP για κατοχύρωση δικαιωμάτων άλλων οργανισμών και εταιρειών ως εξωτερικός σύμβουλος στην Ιntrasoft και σημαντικός παράγοντας στο frontend κομμάτι. Ανάπτυξη του recommendation system Anty, ένα από τα κύρια προϊόντα της Squaredev στου οποίου η συμμετοχή ήταν καθοριστική καθώς ενεπλάκει σε όλα τα επίπεδα ανάπτυξής του. Επιπλέον συμμετείχα στο έργο Sunrise EU για την πρόβλεψη της ζήτησης πόρων σε διάφορους δημόσιους τομείς, όπως το νερό και η υγειονομική περίθαλψη. Εξερεύνησα τα πάντα, από την ανάπτυξη βιβλιοθηκών μέχρι τα deployments, το k8s, τα releases του τελικού εργαλείου κλπ. Τέλος ανέπτυξα μία πλατφόρμα για penetration testing σε LLMs σε συνεργασία με την AIandMe η οποία περιλαμβάνει διάφορες τεχνολογίες όπως multithreading, web-sockets, relational βάσεις δεδομένων και διάφορα deployments στο Azure καθώς και αρκετές συνεισφορές στο FE κομμάτι με Next.js",
+          "Ανάπτυξη ολοκληρωμένης πλατφόρμας παρακολούθησης trends με χρήση Τεχνητής Νοημοσύνης, LLMs και προηγμένων metrics, αξιοποιώντας τεχνολογίες όπως React, Django, SQL και BigQuery. Ενασχόληση με data warehousing και reporting, καθώς και συντήρηση σύνθετων ETL pipelines σε SQL. Δημιουργία και βελτιστοποίηση πολύπλοκων queries και procedures για την εξαγωγή, ανάλυση και διαχείριση δεδομένων μεγάλης κλίμακας.",
+      },
+      {
+        title: "Squaredev",
+        period: {
+          text: "Μάρτιος 2022 - Ιανουάριος 2025 · 2 χρόνια 11 μήνες",
+          date: {
+            start: "03/22",
+            end: "12/24",
+          },
+        },
+        description:
+          "Συνεργάστηκα ως εξωτερικός σύμβουλος στην Intrasoft για την πλατφόρμα BOIP, που αφορά την καταχώριση δικαιωμάτων οργανισμών της ΕΕ, με βασικό ρόλο στο frontend. Είχα καθοριστική συμβολή σε όλα τα στάδια ανάπτυξης του “Anty”, του recommendation system και βασικού προϊόντος της Squaredev. Συμμετείχα επίσης στο ευρωπαϊκό έργο Sunrise, για την πρόβλεψη ζήτησης πόρων σε τομείς όπως το νερό και η υγεία, από την ανάπτυξη βιβλιοθηκών μέχρι τα deployments και το Kubernetes. Τέλος, ηγήθηκα της ανάπτυξης πλατφόρμας penetration testing για LLMs σε συνεργασία με την AIandMe, χρησιμοποιώντας τεχνολογίες όπως multithreading, websockets, σχεσιακές βάσεις, Azure και frontend ανάπτυξη με Next.js.",
       },
       {
         title: "Resitech LTD",
         period: {
-          text: "Απρίλιος 2021 - Μάρτιος 2022",
+          text: "Απρίλιος 2021 - Μάρτιος 2022 · 1 χρόνος",
           date: { start: "04/21", end: "03/22" },
         },
         description:
-          "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping). Επιπλέον η ανάπτυξη ενός μικρού ισχυρού interactive εργαλείου για συλογή feedback πελατών καθώς και αναφοράς προβλημάτων μέσα από αυτό.",
+          "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping). Επιπλέον η ανάπτυξη ενός μικρού ισχυρού interactive εργαλείου για συλλογή feedback πελατών καθώς και αναφοράς προβλημάτων μέσα από αυτό.",
       },
     ],
 
     EDUCATION:
-      "Έχω παρακολουθήσει πάνω από 400 ωρες μαθημάτων στο Udemy και κατέχω τα παρακάτω πιστοποιητικά: ",
+      "ΤΕΙ Ηρακλείου – Τμήμα Εφαρμοσμένης Πληροφορικής και Πολυμέσων (2013-2019)",
 
     LANG_ARRAY: ["Ελληνικά", "Αγγλικά", "Λίγα Γαλλικά και Ιταλικά"],
+    SOFT_SKILLS: [
+      "Ικανότητες αναλυτικής σκέψης και επίλυσης προβλημάτων",
+      "Τεχνικές βελτιστοποίησης απόδοσης",
+      "Δυνατές δεξιότητες εντοπισμού και επίλυσης σφαλμάτων",
+      "Άμεση και ξεκάθαρη επικοινωνία",
+      "Διάθεση για συνεργασία",
+    ],
 
     CONTACT_PROMPT:
       "Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε μαζί μου με τους εξής τρόπους:",
@@ -58,35 +74,60 @@ export const content = {
     AND: " και ",
     PROJECTS: [
       {
-        "name": "AlandMe Platform",
-        "duration": "Σεπ 2024 - Παρόν",
-        "company": "Squaredev",
-        "description": "Ανάπτυξη από το μηδέν ενός backend για αξιολόγηση LLM πρακτόρων, χρησιμοποιώντας SQL Server/CosmosDB, Durable Functions, Azure Storage, Multithreading και γρήγορο middleware για ζωντανή αξιολόγηση των αιτημάτων χρηστών πριν φτάσουν στον πράκτορα.",
-        "skills": [
+        name: "PMI Consulting",
+        duration: "Mάρτιος 2025 - Σήμερα",
+        company: "Margera",
+        description:
+          "Ενασχόληση με data warehousing και reporting, καθώς και συντήρηση σύνθετων ETL διαδικασιών σε SQL για την αυτοματοποίηση ροών δεδομένων. Ανάπτυξη και βελτιστοποίηση πολύπλοκων queries και procedures για εξαγωγή, ανάλυση και διαχείριση δεδομένων σε μεγάλο όγκο.",
+        skills: ["SQL", "BigQuery", "Google Cloud", "Proceedures"],
+      },
+      {
+        name: "Culture Mapper",
+        duration: "Ιανουάριος 2025 - Μάρτιος 2025",
+        company: "Margera",
+        description:
+          "Ανάπτυξη πλατφόρμας παρακολούθησης trends με AI, LLMs και embeddings. Περιλάμβανε scraping και συλλογή δεδομένων (π.χ. TikTok, YouTube), ανάλυση και clustering με embeddings, καθώς και παραγωγή περιλήψεων και metrics μέσω LLMs. Υλοποίηση σε React, Django και BigQuery, με σύνθετα SQL ETLs για επεξεργασία και παρουσίαση δεδομένων.",
+        skills: [
+          "BigQuery",
+          "Google Cloud",
+          "OpenAI platform",
+          "Embeddings",
+          "SQL",
+          "Django",
+          "Python",
+          "React",
+        ],
+      },
+      {
+        name: "AIandMe Platform",
+        duration: "Σεπ 2024 - Δεκέμβριος 2024",
+        company: "Squaredev",
+        description:
+          "Σχεδίαση και υλοποίηση backend αξιολόγησης LLM agent από το μηδέν, με δυνατότητα real-time ελέγχου των prompts πριν φτάσουν στον agent. Χρησιμοποιήθηκαν SQL Server, CosmosDB, Azure Durable Functions, Azure Storage και multithreading, με middleware υψηλής απόδοσης για ζωντανή αξιολόγηση και άμεση λήψη αποφάσεων σε μεγάλη κλίμακα.",
+        skills: [
           "Python (Programming Language)",
           "Microsoft SQL Server",
           "Microsoft Azure",
           "Multithreading",
           "Storage Management",
-          "Azure Cosmos DB"
-        ]
+          "Azure Cosmos DB",
+        ],
       },
       {
-        "name": "AI Prognosis",
-        "duration": "Σεπ 2024 - Σεπ 2024",
-        "company": "Squaredev",
-        "description": "Ένας αποδοτικός προγραμματιστής ειδοποιήσεων για το έργο AI Prognosis.",
-        "skills": [
-          "Python (Programming Language)",
-          "Celery"
-        ]
+        name: "AI Prognosis",
+        duration: "Σεπ 2024 - Σεπ 2024",
+        company: "Squaredev",
+        description:
+          "Ανάπτυξη scheduler υψηλής απόδοσης για το έργο AI Prognosis με χρήση του Celery, για αξιόπιστη και επεκτάσιμη αποστολή ειδοποιήσεων σε πραγματικό χρόνο. Σχεδιασμένος με έμφαση στην ακρίβεια και την αποδοτικότητα, εξυπηρετώντας τη συνεχή επικοινωνία με αυξανόμενο αριθμό χρηστών.",
+        skills: ["Python (Programming Language)", "Celery"],
       },
       {
-        "name": "Sunrise EU",
-        "duration": "Νοε 2023 - Σεπ 2024",
-        "company": "Squaredev",
-        "description": "Ένα εργαλείο πρόβλεψης ζήτησης πολλαπλών τομέων για το κοινό. Αναπτύχθηκε και αυτοματοποιήθηκε η ανάπτυξη διάφορων μοντέλων μηχανικής μάθησης που χρησιμοποιούνται για να βοηθήσουν δημόσιους οργανισμούς στις αποφάσεις τους για τη διαχείριση πόρων.",
-        "skills": [
+        name: "Sunrise EU",
+        duration: "Νοε 2023 - Σεπ 2024",
+        company: "Squaredev",
+        description:
+          "Ανάπτυξη εργαλείου πρόβλεψης ζήτησης για πολλαπλούς δημόσιους τομείς, με στόχο την υποστήριξη της λήψης αποφάσεων σε θέματα διαχείρισης πόρων. Αυτοματοποιήθηκε η ανάπτυξη διαφορετικών μοντέλων μηχανικής μάθησης προσαρμοσμένων σε τομείς όπως το νερό, η υγεία και η ενέργεια, προσφέροντας επεκτάσιμη και βασισμένη στα δεδομένα πληροφόρηση.",
+        skills: [
           "Python (Programming Language)",
           "Elasticsearch",
           "Keycloak",
@@ -95,72 +136,84 @@ export const content = {
           "GitHub Actions",
           "Kubernetes",
           "Docker Products",
-          "Continuous Integration and Continuous Delivery (CI/CD)"
+          "Continuous Integration and Continuous Delivery (CI/CD)",
         ],
-        "additional_info": "timepulse: Μια μικρή βιβλιοθήκη που φτιάξαμε για την ενσωμάτωση διαφορετικών μοντέλων στο έργο Sunrise"
+        additional_info:
+          "timepulse: Μια μικρή βιβλιοθήκη που φτιάξαμε για την ενσωμάτωση διαφορετικών μοντέλων στο έργο Sunrise",
       },
       {
-        "name": "UpHellas",
-        "duration": "Ιουλ 2023 - Ιουλ 2023",
-        "company": "Squaredev",
-        "description": "Βελτιστοποίηση του MLTool για αποδοτική επίλυση προβλημάτων συνδέσεων εγγραφών χρησιμοποιώντας παράλληλη επεξεργασία στην Python.",
-        "skills": [
+        name: "UpHellas",
+        duration: "Ιουλ 2023 - Ιουλ 2023",
+        company: "Squaredev",
+        description:
+          "Βελτιστοποίηση του εργαλείου MLTool για την αποδοτική επίλυση του σύνθετου προβλήματος συσχέτισης εγγραφών (record linkage), με χρήση παραλληλοποίησης σε Python. Έμφαση στην απόδοση και την κλιμάκωση μέσω τεχνικών multiprocessing για ταχύτερη επεξεργασία μεγάλων συνόλων δεδομένων.",
+        skills: [
           "Parallel Processing",
           "Multithreading",
-          "Python (Programming Language)"
-        ]
+          "Python (Programming Language)",
+          "Record Linkage",
+        ],
       },
       {
-        "name": "Anty",
-        "duration": "Μαϊ 2022 - Ιαν 2023",
-        "company": "Squaredev",
-        "description": "Ένα σύστημα συστάσεων μεγάλης κλίμακας υψηλών επιδόσεων. Το σύστημα αυτό αναπτύχθηκε και αναπτύχθηκε για να υποστηρίζει διάφορες e-pharmacies, διαχειριζόμενο υψηλά φορτία ταυτόχρονα από διάφορα καταστήματα. Παρέχει αποδοτικές εξατομικευμένες συστάσεις σε όλους τους πελάτες, διασφαλίζοντας αδιάλειπτη ενσωμάτωση σε διάφορες πλατφόρμες.",
-        "skills": [
+        name: "Anty",
+        duration: "Μαϊ 2022 - Ιαν 2023",
+        company: "Squaredev",
+        description:
+          "Σχεδίαση και ανάπτυξη συστήματος προτάσεων υψηλής απόδοσης και μεγάλης κλίμακας, το οποίο υποστήριζε πολλαπλά e-pharmacies σε διαφορετικές πλατφόρμες. Το σύστημα διαχειριζόταν μεγάλο ταυτόχρονο φορτίο από διαφορετικά καταστήματα, προσφέροντας εξατομικευμένες προτάσεις με υψηλή ταχύτητα και αρμονική ενσωμάτωση σε διαφορετικά περιβάλλοντα.",
+        skills: [
           "Python (Programming Language)",
           "Neo4j",
           "PostgreSQL",
           "Kubernetes",
-          "Continuous Integration and Continuous Delivery (CI/CD)"
+          "Continuous Integration and Continuous Delivery (CI/CD)",
         ],
-        "related_article": "Graphs (should be) everywhere"
+        related_article: "Graphs (should be) everywhere",
       },
       {
-        "name": "BOIP Platform (Intrasoft)",
-        "duration": "Μαρ 2022 - Αυγ 2022",
-        "company": "Squaredev",
-        "description": "Ευρωπαϊκό έργο για το BOIP, έναν οργανισμό για την προστασία δικαιωμάτων άλλων πλατφορμών/οργανισμών.",
-        "skills": [
+        name: "BOIP Platform (Intrasoft)",
+        duration: "Μαρ 2022 - Αυγ 2022",
+        company: "Squaredev",
+        description:
+          "Συμμετοχή στο ευρωπαϊκό έργο BOIP, μια πλατφόρμα για την καταχώριση και προστασία δικαιωμάτων άλλων οργανισμών. Εστίαση στην ανάπτυξη frontend με χρήση Styled Components, Material UI και σχεδιαστικά mockups από Figma.",
+        skills: [
           "React.js",
           "JavaScript",
-          "TypeScript"
-        ]
+          "TypeScript",
+          "Material UI",
+          "Figma",
+          "Styled Components",
+        ],
       },
       {
-        "name": "Chatbot Gadget",
-        "duration": "Ιουλ 2021 - Αυγ 2021",
-        "company": "Tychetech Ltd",
-        "description": "Ένα μικρό εργαλείο που λειτουργεί σε όλους τους browsers για έρευνες χρηστών.",
-        "skills": [
+        name: "Chatbot Gadget",
+        duration: "Ιουλ 2021 - Αυγ 2021",
+        company: "Resitech LTD",
+        description:
+          "Ανάπτυξη ενός μικρού αλλά σύνθετου widget ερωτηματολογίων, πλήρως συμβατού με όλους τους σύγχρονους browsers. Υλοποιήθηκε με custom state management σε καθαρό JavaScript και αποθήκευση δεδομένων σε MongoDB, με πολλαπλά στάδια ροής και λογικής για τη διαχείριση χρηστών και απαντήσεων.",
+        skills: ["JavaScript", "Node.js", "MongoDB"],
+      },
+      {
+        name: "Web scraping",
+        duration: "Μαϊ 2021 - Ιουν 2021",
+        company: "Resitech LTD",
+        description:
+          "Υλοποίηση web scraping σε μεγάλη κλίμακα από ιστότοπους ακινήτων σε όλη την Ελλάδα, με στόχο τη δημιουργία βάσης δεδομένων για ανάλυση με τεχνικές machine learning. Το έργο περιλάμβανε σύνθετα και ετερογενή δεδομένα από πολλούς παρόχους, απαιτώντας ανθεκτικές και επεκτάσιμες στρατηγικές συλλογής.",
+        skills: [
           "JavaScript",
-          "Node.js"
-        ]
+          "Python (Programming Language)",
+          "Node.js",
+          "MongoDB",
+        ],
       },
       {
-        "name": "Web scraping",
-        "duration": "Μαϊ 2021 - Ιουν 2021",
-        "company": "Tychetech Ltd",
-        "description": "Web scraping μεγάλων ιστότοπων με δεδομένα ακινήτων για τη δημιουργία μιας βάσης δεδομένων για ανάλυση ML.",
-        "skills": ["JavaScript", "Python (Programming Language)", "Node.js"]
+        name: "Resitech real estate platform",
+        duration: "Μαρ 2021 - Μαϊ 2021",
+        company: "Resitech LTD",
+        description:
+          "Ανάπτυξη της πλατφόρμας real estate της Resitech για την οπτικοποίηση δεδομένων της ΕΛΣΤΑΤ μέσω διαδραστικών γραφημάτων. Χρησιμοποιήθηκε Chart.js για την απεικόνιση σύνθετων δεδομένων με διαφορετικούς τύπους και γεωγραφικές περιοχές, δημιουργώντας ένα δυναμικό και καλά δομημένο UI.",
+        skills: ["React.js", "JavaScript"],
       },
-      {
-        "name": "Resitech real estate platform",
-        "duration": "Μαρ 2021 - Μαϊ 2021",
-        "company": "Tychetech Ltd",
-        "description": "Πλατφόρμα ακινήτων της Resitech για την παρουσίαση δεδομένων της ΕΛΣΤΑΤ σε γραφήματα.",
-        "skills": ["React.js", "JavaScript"]
-      }
-    ]
-    
+    ],
   },
 
   EN: {
@@ -176,24 +229,33 @@ export const content = {
 
     WORK_EXP: [
       {
-        title: "Squaredev",
+        title: "Margera",
         period: {
-          text: "March 2022 - Today",
+          text: "Jan 2025 - Today",
           date: {
-            start: "03/22",
-            end:
-              new Date().getMonth() +
-              "/" +
-              new Date().getYear().toString().slice(-2),
+            start: "01/25",
+            end: "Today",
           },
         },
         description:
-          "Involved in the development of EU organization BOIP platform for rights registration of other organizations as an external consultant in Intrasoft and an important contributor in the frontend part of the project. Also possessed a key role in all phases from the development to the release and maintenance of the recommendation system Anty, one of the main products of Squaredev. Additionally involved in the Sunrise EU project for resource demand prediction in various public sectors such as water and health care. Explored everything from library development to deployments, k8s, releases of the final tool etc. Lastly developed an LLM penetration testing platform in cooperation with AIandMe which includes various technologies such as multithreading, web-sockets, relational databases and Azure various deployments as well as several contributions to the FE using Next.js.",
+          "Developed a comprehensive AI-powered trend monitoring platform integrating LLMs, custom metrics, and data insights using technologies such as React, Django, SQL, and BigQuery. Involved in data warehousing and reporting processes, while maintaining large-scale ETL pipelines written in SQL. Designed and optimized complex queries and stored procedures for large-scale data extraction, analysis, and management.",
+      },
+      {
+        title: "Squaredev",
+        period: {
+          text: "Mar 2022 - Jan 2025 · 2 yrs 11 mos",
+          date: {
+            start: "03/22",
+            end: "01/25",
+          },
+        },
+        description:
+          "Worked as an external consultant at Intrasoft on BOIP, a rights registration platform for EU organizations, focusing primarily on frontend development. Played a key role in the full lifecycle of “Anty,” a recommendation system and flagship product at Squaredev. Contributed to the EU-funded Sunrise project on resource demand prediction for sectors like water and healthcare, covering everything from library development to deployments and Kubernetes. Also led development of an LLM penetration testing platform with AIandMe, involving technologies such as multithreading, websockets, relational databases, Azure deployments, and frontend work in Next.js.",
       },
       {
         title: "Resitech LTD",
         period: {
-          text: "Arpil 2021 - March 2022",
+          text: "Arpil 2021 - March 2022 · 1 year",
           date: { start: "04/21", end: "03/22" },
         },
         description:
@@ -202,7 +264,15 @@ export const content = {
     ],
 
     EDUCATION:
-      "Total time spent on lectures on Udemy is over 400 hours and I have successfully obtained the certificates below: ",
+      "Heraklion TEI – Department of Applied Informatics and Multimedia (2013-2019)",
+
+    SOFT_SKILLS: [
+      "Analytical and problem solving abilities",
+      "Performance optimization techniques",
+      "Strong debugging skills",
+      "Straight communication",
+      "Eager to collaborate",
+    ],
 
     LANG_ARRAY: ["Greek", "English", "Basic French and Italian"],
 
@@ -221,35 +291,60 @@ export const content = {
     AND: " and ",
     PROJECTS: [
       {
-        "name": "AlandMe ",
-        "duration": "Sep 2024 - Present",
-        "company": "Squaredev",
-        "description": "Custom LLM agent evaluation backend from scratch using SQL Server/CosmosDB, Durable functions, Azure Storage, Multithreading and a fast middleware for live evaluation of user prompts before they reach the agent.",
-        "skills": [
+        name: "PMI Consulting",
+        duration: "Mar 2025 - Today",
+        company: "Margera",
+        description:
+          "Worked on data warehousing and reporting, maintaining complex BigQuery and SQL-based ETL pipelines to automate data flows. Designed and optimized advanced queries and procedures for large-scale data extraction, analysis, and management.",
+        skills: ["SQL", "BigQuery", "Google Cloud", "Proceedures"],
+      },
+      {
+        name: "Culture Mapper",
+        duration: "Jan 2025 - Mar 2025",
+        company: "Margera",
+        description:
+          "Developed a trend monitoring platform using AI, LLMs, and embeddings. Involved data scraping (e.g. TikTok, YouTube), clustering and analysis via embeddings, and automated summaries and metrics powered by LLMs. Built with React, Django, BigQuery, and complex SQL-based ETLs for scalable data processing.",
+        skills: [
+          "BigQuery",
+          "Google Cloud",
+          "OpenAI platform",
+          "Embeddings",
+          "SQL",
+          "Django",
+          "Python",
+          "React",
+        ],
+      },
+      {
+        name: "AIandMe Platform",
+        duration: "Sep 2024 - Jan 2025",
+        company: "Squaredev",
+        description:
+          "Designed and built a custom LLM agent evaluation backend from scratch, enabling real-time prompt inspection before reaching the agent. Utilized SQL Server, CosmosDB, Azure Durable Functions, Azure Storage, and multithreading. Included a high-performance middleware layer to support live evaluation and fast decision-making at scale.",
+        skills: [
           "Python (Programming Language)",
           "Microsoft SQL Server",
           "Microsoft Azure",
           "Multithreading",
           "Storage Management",
-          "Azure Cosmos DB"
-        ]
+          "Azure Cosmos DB",
+        ],
       },
       {
-        "name": "AI Prognosis",
-        "duration": "Sep 2024 - Sep 2024",
-        "company": "Squaredev",
-        "description": "A well performant scheduler to send notifications to users for the AI Prognosis project.",
-        "skills": [
-          "Python (Programming Language)",
-          "Celery"
-        ]
+        name: "AI Prognosis",
+        duration: "Sep 2024 - Sep 2024",
+        company: "Squaredev",
+        description:
+          "Developed a high-performance notification scheduler for the AI Prognosis project using Celery, enabling reliable and scalable delivery of time-sensitive updates to users. Designed for precision and efficiency to support consistent communication across a growing user base.",
+        skills: ["Python (Programming Language)", "Celery"],
       },
       {
-        "name": "Sunrise EU",
-        "duration": "Nov 2023 - Sep 2024",
-        "company": "Squaredev",
-        "description": "A multi-sector demand prediction tool for the public. Developed and automated deployment of various ML models used to assist public entities in their desisions to support resource management.",
-        "skills": [
+        name: "Sunrise EU",
+        duration: "Nov 2023 - Sep 2024",
+        company: "Squaredev",
+        description:
+          "Developed a multi-sector demand prediction tool to support public sector decision-making in resource management. Automated the deployment of various machine learning models tailored to different domains, enabling scalable and data-driven insights for areas such as water, healthcare, and energy.",
+        skills: [
           "Python (Programming Language)",
           "Elasticsearch",
           "Keycloak",
@@ -258,72 +353,84 @@ export const content = {
           "GitHub Actions",
           "Kubernetes",
           "Docker Products",
-          "Continuous Integration and Continuous Delivery (CI/CD)"
+          "Continuous Integration and Continuous Delivery (CI/CD)",
         ],
-        "additional_info": "timepulse: A small library we made to integrate different models in the Sunrise project"
+        additional_info:
+          "timepulse: A small library we made to integrate different models in the Sunrise project",
       },
       {
-        "name": "UpHellas",
-        "duration": "Jul 2023 - Jul 2023",
-        "company": "Squaredev",
-        "description": "Optimization of MLTool to solve a record linkage problem efficiently using parallel processing in Python.",
-        "skills": [
-            "Parallel Processing",
-            "Multithreading",
-            "Python (Programming Language)"
-        ]
-    },
-    {
-        "name": "Anty",
-        "duration": "May 2022 - Jan 2023",
-        "company": "Squaredev",
-        "description": "A high-performance large-scale recommender system. This system was developed and deployed to support multiple e-pharmacies, handling high concurrent loads from various shops. It efficiently serves personalized recommendations to all clients, ensuring seamless integration across different platforms.",
-        "skills": [
-            "Python (Programming Language)",
-            "Neo4j",
-            "PostgreSQL",
-            "Kubernetes",
-            "Continuous Integration and Continuous Delivery (CI/CD)"
+        name: "UpHellas",
+        duration: "Jul 2023 - Jul 2023",
+        company: "Squaredev",
+        description:
+          "Optimized the MLTool framework to efficiently solve a complex record linkage problem using parallel processing in Python. Focused on improving performance and scalability through multiprocessing techniques, enabling faster matching across large datasets.",
+        skills: [
+          "Parallel Processing",
+          "Multithreading",
+          "Python (Programming Language)",
+          "Record Liknage",
         ],
-        "related_article": "Graphs (should be) everywhere"
-    },
-    {
-        "name": "BOIP Platform (Intrasoft)",
-        "duration": "Mar 2022 - Aug 2022",
-        "company": "Squaredev",
-        "description": "EU project for BOIP, an organization for right protection of other platforms/organizations.",
-        "skills": [
-            "React.js",
-            "JavaScript",
-            "TypeScript"
-        ]
-    },
-    {
-        "name": "Chatbot Gadget",
-        "duration": "Jul 2021 - Aug 2021",
-        "company": "Tychetech Ltd",
-        "description": "A small gadget working in all browsers for user surveys.",
-        "skills": [
-            "JavaScript",
-            "Node.js"
-        ]
-    },
-    {
-      "name": "Web scraping",
-      "duration": "May 2021 - Jun 2021",
-      "company": "Tychetech Ltd",
-      "description": "Web scraping large scale sites with real estate data for building a database for ML analysis",
-      "skills": ["JavaScript", "Python (Programming Language)", "Node.js"]
-    },
-    {
-      "name": "Resitech real estate platform",
-      "duration": "Mar 2021 - May 2021",
-      "company": "Tychetech Ltd",
-      "description": "Resitech's real estate platform for presenting data of Elstat in charts",
-      "skills": ["React.js", "JavaScript"]
-    }
-    ]
-    
+      },
+      {
+        name: "Anty",
+        duration: "May 2022 - Jan 2023",
+        company: "Squaredev",
+        description:
+          "Designed and deployed a high-performance, large-scale recommendation system supporting multiple e-pharmacies across different platforms. Engineered to handle high-concurrency traffic from various shops, the system delivers fast and personalized suggestions with seamless integration and scalable architecture.",
+        skills: [
+          "Python (Programming Language)",
+          "Neo4j",
+          "PostgreSQL",
+          "Kubernetes",
+          "Continuous Integration and Continuous Delivery (CI/CD)",
+        ],
+        related_article: "Graphs (should be) everywhere",
+      },
+      {
+        name: "BOIP Platform (Intrasoft)",
+        duration: "Mar 2022 - Aug 2022",
+        company: "Squaredev",
+        description:
+          "Worked on the EU-funded BOIP project, a platform for the registration and protection of rights for other organizations. Focused on frontend development using Styled Components, Material UI, and designs provided via Figma.",
+        skills: [
+          "React.js",
+          "JavaScript",
+          "TypeScript",
+          "Material UI",
+          "Figma",
+          "Styled Components",
+        ],
+      },
+      {
+        name: "Chatbot Gadget",
+        duration: "Jul 2021 - Aug 2021",
+        company: "Resitech LTD",
+        description:
+          "Developed a lightweight yet complex browser-compatible survey widget, designed to work seamlessly across all modern browsers. Built with custom plain JavaScript state management and backed by MongoDB, the project involved multiple layers of logic for user flow and data handling.",
+        skills: ["JavaScript", "Node.js"],
+      },
+      {
+        name: "Web scraping",
+        duration: "May 2021 - Jun 2021",
+        company: "Resitech LTD",
+        description:
+          "Performed large-scale web scraping of real estate platforms across Greece to build a comprehensive database for machine learning analysis. The project involved handling complex and heterogeneous data from multiple property providers, requiring scalable and robust scraping strategies.",
+        skills: [
+          "JavaScript",
+          "Python (Programming Language)",
+          "Node.js",
+          "MongoDB",
+        ],
+      },
+      {
+        name: "Resitech real estate platform",
+        duration: "Mar 2021 - May 2021",
+        company: "Resitech LTD",
+        description:
+          "Developed Resitech's real estate platform for visualizing ELSTAT data through interactive charts. Used Chart.js to present complex datasets covering multiple data types and geographical regions, resulting in a dynamic and highly structured UI.",
+        skills: ["React.js", "JavaScript", "Charts.js"],
+      },
+    ],
   },
 };
 

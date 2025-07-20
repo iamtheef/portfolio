@@ -22,53 +22,55 @@ const Experience: React.FC = () => {
   const { WORK_EXP, PROJECTS } = getContent();
   const [loaded] = useState(true);
   const [projects, setProjects] = useState<any>(PROJECTS);
-  const { getTags, language } = useContext(LanguageContext);
-  const { aboutMe } = getTags();
+  const { language } = useContext(LanguageContext);
 
-  useEffect(()=> {
-    setProjects(PROJECTS)
-  }, [language, PROJECTS])
+  useEffect(() => {
+    setProjects(PROJECTS);
+  }, [language, PROJECTS]);
   if (!loaded) return <Loader />;
   return (
     <div className="container marginTop">
-      <div className="row" style={{ marginTop: "5rem", marginLeft: "0.3rem" }}>
-        <h1 className="intro">{aboutMe.experience}</h1>
+      <div className="">
         <div className="col-12">
-          <ul>
+          <ul className="timeline">
             {WORK_EXP.map((exp: any, index: number) => (
-              <li key={index}>
-                <b style={{ fontFamily: "Nanum Gothic", fontSize: "20px" }}>
-                  {exp.title}{" "}
-                </b>
-                <span>
-                  <i style={{ color: "#60c8d6", marginLeft: "5px" }}>
-                    {exp.period.text}{" "}
-                    {calculateMonths(exp.period.date, language)}
-                  </i>
-                  <p>{exp.description}</p>
-                </span>
-              </li>
+              <React.Fragment key={`exp-${index}`}>
+                <li className="timeline-item">
+                  <div className="timeline-line" />
+                  <div
+                    className={`${isDark ? "dark-" : ""}glass-timeline-dot`}
+                  />
+                  <div className="timeline-content">
+                    <ProjectCard
+                      description={exp.description}
+                      company={exp.company}
+                      isGlass={true}
+                      skills={[]}
+                      name={exp.title}
+                      duration={exp.period.text}
+                    />
+                  </div>
+                </li>
+
+                {projects
+                  .filter((p: Project) => p.company === exp.title)
+                  .map((project: Project, pIndex: number) => (
+                    <li
+                      key={`project-${index}-${pIndex}`}
+                      className="timeline-item"
+                    >
+                      <div className="timeline-line" />
+                      <div className={`${isDark ? "dark-" : ""}timeline-dot`} />
+                      <div className="timeline-content">
+                        <ProjectCard {...project} />
+                      </div>
+                    </li>
+                  ))}
+              </React.Fragment>
             ))}
           </ul>
         </div>
       </div>
-
-      <h3 className="intro mt-5">{getTags().experience.recent}</h3>
-      {projects.map((project: Project, i: number) => (
-        <div className="row mb-4" key={project.name}>
-          <div className="col-md">
-            <ProjectCard
-              name={project.name}
-              description={project.description}
-              company={project.company}
-              duration={project.duration}
-              skills={project.skills}
-              // url={project.html_url}
-            />
-            <hr className={`${isDark ? "dark-" : ""}hr`}></hr>
-          </div>
-        </div>
-      ))}
     </div>
   );
 };

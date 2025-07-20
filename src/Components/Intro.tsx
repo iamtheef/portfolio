@@ -34,7 +34,10 @@ const Intro: React.FC = () => {
       </div>
 
       <div className="intro">{HEADER}</div>
-      <p className="paragraph" style={{ marginTop: "23px" }}>
+      <p
+        className={`paragraph ${isDark ? "dark-paragraph" : ""}`}
+        style={{ marginTop: "23px" }}
+      >
         {INTRO}
         <Link
           to="/about"
