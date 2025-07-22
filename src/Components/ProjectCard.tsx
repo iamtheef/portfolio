@@ -34,7 +34,11 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                   <b className="duration-text-right">{duration}</b>
                 </div>
               ) : (
-                <a className="mb-2" href="/">
+                <a
+                  className="mb-2"
+                  href="/"
+                  onClick={(e) => e.preventDefault()}
+                >
                   {name}
                 </a>
               )}

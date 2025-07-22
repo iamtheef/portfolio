@@ -44,7 +44,7 @@ const DownloadResume: FC = () => {
               fontWeight: "bold",
             }}
           >
-            Word
+            DOCX
           </a>
         </div>
       </div>

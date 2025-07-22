@@ -37,6 +37,7 @@
 }
 
 .dark-navbar-button {
+  padding: 6px 10px;
   color: white;
 }
 
@@ -371,6 +372,7 @@ a {
 
 @media screen and (max-width: 601px) {
   .active {
+    color: rgb(74, 141, 145);
     padding-bottom: 3px;
   }
 
@@ -385,6 +387,10 @@ a {
   .footer-icon {
     height: 4vh;
     width: 6vw;
+  }
+  .card-body,
+  .dark-card-body {
+    padding: 4% !important;
   }
 }
 
@@ -490,7 +496,7 @@ a {
 
 .card-body {
   position: relative;
-  padding: 1% !important;
+  padding: 1%;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
