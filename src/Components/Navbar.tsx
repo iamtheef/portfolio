@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { LanguageContext } from "../Context/LanguageContext";
 import { ThemeContext } from "../Context/ThemeContext";
 import isActive from "../utils/isActive";
@@ -11,45 +11,59 @@ export const Navbar: React.FC = () => {
   const { isDark, setIsDark } = useContext(ThemeContext);
   const { home, experience, aboutMe, contact } = getTags().navbar;
   const [dropdown, setDropdown] = useState(false);
+  const navigate = useNavigate();
+
+  const handleScrollNavigate = (path: string) => {
+    const target = document.querySelector(`[data-path="${path}"]`);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+      navigate(path, { replace: true });
+    }
+  };
+
+  const linkClass = (path: string) =>
+    `col-lg ${isDark ? "dark-" : ""}navbar-button  ${
+      isActive(`#${path === "/" ? "/" : path}`) ? "active" : ""
+    }`;
 
   return (
-    <div className="mt-4">
+    <div
+      className="mt-4"
+      style={{
+        position: "sticky",
+        top: 0,
+        background: `${isDark ? "#000000" : "#f7f7f7"}`,
+        zIndex: 10000,
+      }}
+    >
       <div className="container">
         <div className="row navbar">
           <div className="col">
             <div className="row pt-2">
-              <Link
-                to="/"
-                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
-                  isActive("#/") ? "active" : ""
-                }`}
+              <button
+                onClick={() => handleScrollNavigate("/")}
+                className={linkClass("/")}
               >
                 {home}
-              </Link>
-              <Link
-                to="/experience"
-                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
-                  isActive("#/experience") && "active"
-                }`}
+              </button>
+              <button
+                onClick={() => handleScrollNavigate("/experience")}
+                className={linkClass("/experience")}
               >
                 {experience}
-              </Link>
-              <Link
-                to="/about"
-                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
-                  isActive("#/about") && "active"
-                }`}
+              </button>
+              <button
+                onClick={() => handleScrollNavigate("/about")}
+                className={linkClass("/about")}
               >
                 {aboutMe}
-              </Link>
-              <Link
-                to="/contact"
-                className={`col-lg ${isDark ? "dark-" : ""}navbar-button ${
-                  isActive("#/contact") && "active"
-                }`}
+              </button>
+              <button
+                onClick={() => handleScrollNavigate("/contact")}
+                className={linkClass("/contact")}
               >
                 {contact}
-              </Link>
+              </button>
             </div>
           </div>
 
@@ -67,15 +81,11 @@ export const Navbar: React.FC = () => {
               className="btn dropdown-toggle"
               type="button"
               id="dropdownMenuButton"
-              data-toggle="dropdown"
             >
               {language}
             </button>
             <div
-              // negative margin is to make the menu open to the left of the button's bottom
-              style={{
-                marginLeft: "-170%",
-              }}
+              style={{ marginLeft: "-170%" }}
               className={`dropdown-menu ${dropdown && "expanded"}`}
               aria-labelledby="dropdownMenuButton"
             >

@@ -5,8 +5,8 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
-
 .navbar {
+  z-index: 1000;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -15,7 +15,6 @@
   user-select: none;
   transition: all 500ms ease !important;
 }
-
 .navbar > span {
   transition: all 500ms ease !important;
 }
@@ -29,6 +28,8 @@
   transition: background-color 0.3s ease, color 0.3s ease;
   border-radius: 8px;
   padding: 6px 10px;
+  outline: none !important;
+  text-align: left;
 }
 
 .navbar-button:hover {
@@ -38,6 +39,8 @@
 }
 
 .dark-navbar-button {
+  text-align: left;
+  outline: none !important;
   max-width: 60% !important;
   padding: 6px 10px;
   color: white;
