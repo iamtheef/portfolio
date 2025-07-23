@@ -53,7 +53,7 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
 
-          <div className="">
+          <div className="pl-3">
             <img
               className="night-mode-toggle-icon"
               src={isDark ? moonLight : moonDark}

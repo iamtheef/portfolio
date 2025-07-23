@@ -24,6 +24,7 @@
 }
 
 .navbar-button {
+  max-width: 60% !important;
   color: black;
   transition: background-color 0.3s ease, color 0.3s ease;
   border-radius: 8px;
@@ -37,6 +38,7 @@
 }
 
 .dark-navbar-button {
+  max-width: 60% !important;
   padding: 6px 10px;
   color: white;
 }
@@ -388,10 +390,6 @@ a {
     height: 4vh;
     width: 6vw;
   }
-  .card-body,
-  .dark-card-body {
-    padding: 4% !important;
-  }
 }
 
 .nobull {
@@ -496,7 +494,7 @@ a {
 
 .card-body {
   position: relative;
-  padding: 1%;
+  padding: 2vh !important;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
@@ -510,7 +508,7 @@ a {
 .dark-card-body {
   position: relative;
   color: white;
-  padding: 1%;
+  padding: 2vh !important;
   border-radius: 12px;
   background: rgba(20, 20, 20, 0.3);
   backdrop-filter: blur(10px);
