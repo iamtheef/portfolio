@@ -26,10 +26,12 @@ export const Navbar: React.FC = () => {
     }
   };
 
-  const linkClass = (path: string) =>
-    `col-lg ${isDark ? "dark-" : ""}navbar-button  ${
-      isActive(`#${path === "/" ? "/" : path}`) ? "active" : ""
+  const linkClass = (path: string) => {
+    const hashPath = `#${path === "/" ? "/" : path}`;
+    return `col-lg ${isDark ? "dark-" : ""}navbar-button ${
+      isActive(hashPath) ? "active" : ""
     }`;
+  };
 
   return (
     <div
