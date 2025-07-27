@@ -14,10 +14,15 @@ export const Navbar: React.FC = () => {
   const navigate = useNavigate();
 
   const handleScrollNavigate = (path: string) => {
-    const target = document.querySelector(`[data-path="${path}"]`);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth" });
+    if (path === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
       navigate(path, { replace: true });
+    } else {
+      const target = document.querySelector(`[data-path="${path}"]`);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+        navigate(path, { replace: true });
+      }
     }
   };
 

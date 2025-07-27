@@ -1,5 +1,6 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useContext } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { ThemeContext } from "../Context/ThemeContext";
 
 import Intro from "./Intro";
 import Experience from "./Experience";
@@ -9,6 +10,7 @@ import Contact from "./Contact";
 const ScrollPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const { isMobile } = useContext(ThemeContext);
 
   const sections = {
     "/": useRef(null),
@@ -50,7 +52,7 @@ const ScrollPage = () => {
       },
       {
         threshold: 0.1,
-        rootMargin: "0px 0px -50% 0px",
+        rootMargin: "-5% 0px -20% 0px",
       }
     );
 
@@ -67,12 +69,34 @@ const ScrollPage = () => {
     };
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    let timeoutId;
+
+    const handleScroll = () => {
+      // Clear any existing timeout
+      clearTimeout(timeoutId);
+
+      // Only navigate to home if we've been at the top for a short moment
+      timeoutId = setTimeout(() => {
+        if (window.scrollY === 0 && location.pathname !== "/") {
+          navigate("/", { replace: true });
+        }
+      }, 100); // Small delay
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeoutId);
+    };
   }, [navigate, location.pathname]);
 
   const sectionStyle = {
     padding: "100px 24px",
     minHeight: "75vh", // Increased from 10vh to ensure sections are tall enough
-    scrollMarginTop: "80px",
+    scrollMarginTop: "20px",
     borderBottom: "1px solid rgba(0, 0, 0, 0.05)",
   };
 
@@ -83,7 +107,7 @@ const ScrollPage = () => {
     color: "#444",
     opacity: 0.7,
     textAlign: "left",
-    marginLeft: "15vw",
+    marginLeft: isMobile ? "6vw" : "14vw",
   };
 
   return (

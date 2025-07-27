@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState, useRef } from "react";
+import React, { useContext, useState, useRef } from "react";
 
 // assets
 import github from "../assets/github.png";
@@ -17,21 +17,9 @@ type Paw = {
 };
 
 const Footer: React.FC = () => {
-  const { isDark } = useContext(ThemeContext);
+  const { isDark, isMobile } = useContext(ThemeContext);
   const [paws, setPaws] = useState<Paw[]>([]);
   const footerRef = useRef<HTMLDivElement>(null);
-
-  const useIsMobile = () => {
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 970);
-
-    useEffect(() => {
-      const handleResize = () => setIsMobile(window.innerWidth < 970);
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
-
-    return isMobile;
-  };
 
   const iconStyle = {
     width: 24,
@@ -40,7 +28,6 @@ const Footer: React.FC = () => {
     transition: "transform 0.2s",
   };
 
-  const isMobile = useIsMobile();
   const bgColor = isDark ? "#000000" : "#f7f7f7";
   const textColor = isDark ? "#ccc" : "#444";
 

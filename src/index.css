@@ -378,7 +378,7 @@ a {
 @media screen and (max-width: 601px) {
   .active {
     color: rgb(74, 141, 145);
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
   }
 
   .hello {
@@ -410,15 +410,15 @@ a {
 @media screen and (min-width: 601px) {
   .active {
     color: rgb(74, 141, 145);
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
   }
   .active:active {
     color: rgb(47, 71, 72);
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
   }
   .active:hover {
     color: rgb(107, 151, 153);
-    padding-bottom: 3px;
+    /* padding-bottom: 3px; */
   }
 }
 
