@@ -57,6 +57,7 @@ const About: React.FC = () => {
                   <li>– K8s</li>
                   <li>– Github Actions</li>
                   <li>– Azure</li>
+                  <li>– Google Cloud Platform</li>
                 </ul>
               </div>
               <div className="col-md-6">

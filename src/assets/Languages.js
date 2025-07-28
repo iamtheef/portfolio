@@ -111,6 +111,7 @@ export const content = {
           "Multithreading",
           "Storage Management",
           "Azure Cosmos DB",
+          "Azure Durable Functions",
         ],
       },
       {
@@ -129,7 +130,7 @@ export const content = {
           "Ανάπτυξη εργαλείου πρόβλεψης ζήτησης για πολλαπλούς δημόσιους τομείς, με στόχο την υποστήριξη της λήψης αποφάσεων σε θέματα διαχείρισης πόρων. Αυτοματοποιήθηκε η ανάπτυξη διαφορετικών μοντέλων μηχανικής μάθησης προσαρμοσμένων σε τομείς όπως το νερό, η υγεία και η ενέργεια, προσφέροντας επεκτάσιμη και βασισμένη στα δεδομένα πληροφόρηση.",
         skills: [
           "Python (Programming Language)",
-          "Elasticsearch",
+          "ElasticSearch",
           "Keycloak",
           "MinIO Object Storage Suite",
           "Bash",
@@ -137,6 +138,7 @@ export const content = {
           "Kubernetes",
           "Docker Products",
           "Continuous Integration and Continuous Delivery (CI/CD)",
+          "ArgoCD",
         ],
         additional_info:
           "timepulse: Μια μικρή βιβλιοθήκη που φτιάξαμε για την ενσωμάτωση διαφορετικών μοντέλων στο έργο Sunrise",
@@ -164,8 +166,11 @@ export const content = {
           "Python (Programming Language)",
           "Neo4j",
           "PostgreSQL",
+          "FastAPI",
           "Kubernetes",
           "Continuous Integration and Continuous Delivery (CI/CD)",
+          "Grafana",
+          "ArgoCD",
         ],
         related_article: "Graphs (should be) everywhere",
       },
@@ -328,6 +333,7 @@ export const content = {
           "Multithreading",
           "Storage Management",
           "Azure Cosmos DB",
+          "Azure Durable Functions",
         ],
       },
       {
@@ -346,7 +352,7 @@ export const content = {
           "Developed a multi-sector demand prediction tool to support public sector decision-making in resource management. Automated the deployment of various machine learning models tailored to different domains, enabling scalable and data-driven insights for areas such as water, healthcare, and energy.",
         skills: [
           "Python (Programming Language)",
-          "Elasticsearch",
+          "ElasticSearch",
           "Keycloak",
           "MinIO Object Storage Suite",
           "Bash",
@@ -354,6 +360,7 @@ export const content = {
           "Kubernetes",
           "Docker Products",
           "Continuous Integration and Continuous Delivery (CI/CD)",
+          "ArgoCD",
         ],
         additional_info:
           "timepulse: A small library we made to integrate different models in the Sunrise project",
@@ -381,8 +388,11 @@ export const content = {
           "Python (Programming Language)",
           "Neo4j",
           "PostgreSQL",
+          "FastAPI",
           "Kubernetes",
           "Continuous Integration and Continuous Delivery (CI/CD)",
+          "Grafana",
+          "ArgoCD",
         ],
         related_article: "Graphs (should be) everywhere",
       },
