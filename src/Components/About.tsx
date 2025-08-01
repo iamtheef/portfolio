@@ -124,7 +124,7 @@ const About: React.FC = () => {
               </li>
               <li>
                 {" "}
-                – Designing Data-Intensive Applications - Martin Kleppmann
+                – Designing Data Intensive Applications - Martin Kleppmann
               </li>
             </ul>
           </div>
