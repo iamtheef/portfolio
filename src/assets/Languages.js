@@ -74,6 +74,20 @@ export const content = {
     AND: " και ",
     PROJECTS: [
       {
+        name: "TV Attribution",
+        duration: "Ιούλιος 2025 - Ιούλιος 2025",
+        company: "Margera",
+        description:
+          "Υλοποίησα ένα σύστημα που στοχεύει στοιχεία της πλατφόρμας, εξάγει το περιεχόμενό τους σε αρχεία CSV και τροφοδοτεί τα δεδομένα στο Gemini για τη δημιουργία συστάσεων. Οι συστάσεις εμφανίζονταν μέσω ειδικού εικονιδίου στο UI και ενσωματώνονταν απευθείας στα εκτυπώσιμα αποτελέσματα της πλατφόρμας, βελτιώνοντας τις επιχειρηματικές γνώσεις και τη χρηστικότητα για τον πελάτη.",
+        skills: [
+          "Python",
+          "Google Cloud",
+          "Gemini",
+          "Data Extraction",
+          "Prompt Engineering",
+        ],
+      },
+      {
         name: "PMI Consulting",
         duration: "Mάρτιος 2025 - Σήμερα",
         company: "Margera",
@@ -96,6 +110,7 @@ export const content = {
           "Django",
           "Python",
           "React",
+          "Prompt Engineering",
         ],
       },
       {
@@ -111,7 +126,9 @@ export const content = {
           "Multithreading",
           "Storage Management",
           "Azure Cosmos DB",
+          "Azure Functions",
           "Azure Durable Functions",
+          "Prompt Engineering",
         ],
       },
       {
@@ -190,7 +207,7 @@ export const content = {
         ],
       },
       {
-        name: "Chatbot Gadget",
+        name: "Chatbot Widget",
         duration: "Ιουλ 2021 - Αυγ 2021",
         company: "Resitech LTD",
         description:
@@ -264,7 +281,7 @@ export const content = {
           date: { start: "04/21", end: "03/22" },
         },
         description:
-          "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping). Additionally developed a small powerful interactive gadget used to collect client feedback as well as problem reporting integrated in various platforms like e-shops.",
+          "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping). Additionally developed a small powerful interactive widget used to collect client feedback as well as problem reporting integrated in various platforms like e-shops.",
       },
     ],
 
@@ -296,6 +313,20 @@ export const content = {
     AND: " and ",
     PROJECTS: [
       {
+        name: "TV Attribution",
+        duration: "July 2025 - July 2025",
+        company: "Margera",
+        description:
+          "Implemented a system to target platform UI elements, extract their content into CSV files, and feed the data into Gemini for generating recommendations. Displayed recommendations via a dedicated icon in the UI and embedded them directly into the platform’s printable reports, enhancing client insights and usability.",
+        skills: [
+          "Python",
+          "Google Cloud",
+          "Gemini",
+          "Data Extraction",
+          "Prompt Engineering",
+        ],
+      },
+      {
         name: "PMI Consulting",
         duration: "Mar 2025 - Today",
         company: "Margera",
@@ -318,6 +349,7 @@ export const content = {
           "Django",
           "Python",
           "React",
+          "Prompt Engineering",
         ],
       },
       {
@@ -333,7 +365,9 @@ export const content = {
           "Multithreading",
           "Storage Management",
           "Azure Cosmos DB",
+          "Azure Functions",
           "Azure Durable Functions",
+          "Prompt Engineering",
         ],
       },
       {
@@ -412,7 +446,7 @@ export const content = {
         ],
       },
       {
-        name: "Chatbot Gadget",
+        name: "Chatbot Widget",
         duration: "Jul 2021 - Aug 2021",
         company: "Resitech LTD",
         description:

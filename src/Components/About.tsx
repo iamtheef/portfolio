@@ -58,6 +58,7 @@ const About: React.FC = () => {
                   <li>– Github Actions</li>
                   <li>– Azure</li>
                   <li>– Google Cloud Platform</li>
+                  <li>– Prompt Engineering</li>
                 </ul>
               </div>
               <div className="col-md-6">
@@ -118,12 +119,12 @@ const About: React.FC = () => {
             <h1 className="intro">{aboutMe.books}</h1>
             <ul>
               <li>
-                – Clean Code: A Handbook of Agile Software Craftsmanship –
+                – Clean Code: A Handbook of Agile Software Craftsmanship -
                 Robert C. Martin
               </li>
               <li>
                 {" "}
-                – Designing Data-Intensive Applications – Martin Kleppmann
+                – Designing Data-Intensive Applications - Martin Kleppmann
               </li>
             </ul>
           </div>
