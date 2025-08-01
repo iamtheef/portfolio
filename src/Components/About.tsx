@@ -119,12 +119,12 @@ const About: React.FC = () => {
             <h1 className="intro">{aboutMe.books}</h1>
             <ul>
               <li>
-                – Clean Code: A Handbook of Agile Software Craftsmanship -
+                – Clean Code: A Handbook of Agile Software Craftsmanship by
                 Robert C. Martin
               </li>
               <li>
                 {" "}
-                – Designing Data Intensive Applications - Martin Kleppmann
+                – Designing Data Intensive Applications by Martin Kleppmann
               </li>
             </ul>
           </div>
