@@ -20,6 +20,7 @@ export const content = {
             end: "Σήμερα",
           },
         },
+        hasRecLetter: true,
         description:
           "Ανάπτυξη ολοκληρωμένης πλατφόρμας παρακολούθησης trends με χρήση Τεχνητής Νοημοσύνης, LLMs και προηγμένων metrics, αξιοποιώντας τεχνολογίες όπως React, Django, SQL και BigQuery. Ενασχόληση με data warehousing και reporting, καθώς και συντήρηση σύνθετων ETL pipelines σε SQL. Δημιουργία και βελτιστοποίηση πολύπλοκων queries και procedures για την εξαγωγή, ανάλυση και διαχείριση δεδομένων μεγάλης κλίμακας.",
       },
@@ -32,6 +33,7 @@ export const content = {
             end: "12/24",
           },
         },
+        hasRecLetter: false,
         description:
           "Συνεργάστηκα ως εξωτερικός σύμβουλος στην Intrasoft για την πλατφόρμα BOIP, που αφορά την καταχώριση δικαιωμάτων οργανισμών της ΕΕ, με βασικό ρόλο στο frontend. Είχα καθοριστική συμβολή σε όλα τα στάδια ανάπτυξης του “Anty”, του recommendation system και βασικού προϊόντος της Squaredev. Συμμετείχα επίσης στο ευρωπαϊκό έργο Sunrise, για την πρόβλεψη ζήτησης πόρων σε τομείς όπως το νερό και η υγεία, από την ανάπτυξη βιβλιοθηκών μέχρι τα deployments και το Kubernetes. Τέλος, ηγήθηκα της ανάπτυξης πλατφόρμας penetration testing για LLMs σε συνεργασία με την AIandMe, χρησιμοποιώντας τεχνολογίες όπως multithreading, websockets, σχεσιακές βάσεις, Azure και frontend ανάπτυξη με Next.js.",
       },
@@ -41,6 +43,7 @@ export const content = {
           text: "Απρίλιος 2021 - Μάρτιος 2022 · 1 χρόνος",
           date: { start: "04/21", end: "03/22" },
         },
+        hasRecLetter: false,
         description:
           "Ανάπτυξη της πλατφόρμας της Resitech LTD για παρουσίαση NLP και Real Estate δεδομένων σε μορφή γραφημάτων με χρήση τεχνολογιών όπως React.js, Node.js, και Mongo DB σε βάση δεδομένων, καθώς και συλλογή δεδομένων από σελίδες real estate (web scraping). Επιπλέον η ανάπτυξη ενός μικρού ισχυρού interactive εργαλείου για συλλογή feedback πελατών καθώς και αναφοράς προβλημάτων μέσα από αυτό.",
       },
@@ -259,6 +262,7 @@ export const content = {
             end: "Today",
           },
         },
+        hasRecLetter: true,
         description:
           "Developed a comprehensive AI-powered trend monitoring platform integrating LLMs, custom metrics, and data insights using technologies such as React, Django, SQL, and BigQuery. Involved in data warehousing and reporting processes, while maintaining large-scale ETL pipelines written in SQL. Designed and optimized complex queries and stored procedures for large-scale data extraction, analysis, and management.",
       },
@@ -271,6 +275,7 @@ export const content = {
             end: "01/25",
           },
         },
+        hasRecLetter: false,
         description:
           "Worked as an external consultant at Intrasoft on BOIP, a rights registration platform for EU organizations, focusing primarily on frontend development. Played a key role in the full lifecycle of “Anty,” a recommendation system and flagship product at Squaredev. Contributed to the EU-funded Sunrise project on resource demand prediction for sectors like water and healthcare, covering everything from library development to deployments and Kubernetes. Also led development of an LLM penetration testing platform with AIandMe, involving technologies such as multithreading, websockets, relational databases, Azure deployments, and frontend work in Next.js.",
       },
@@ -280,6 +285,7 @@ export const content = {
           text: "Arpil 2021 - March 2022 · 1 year",
           date: { start: "04/21", end: "03/22" },
         },
+        hasRecLetter: false,
         description:
           "Involved in the development of Resitech platform for presenting NLP and real estate analytics data with technologies like React.js, Node.js, and Mongo DB as well as collecting data from Real Estate pages (web scraping). Additionally developed a small powerful interactive widget used to collect client feedback as well as problem reporting integrated in various platforms like e-shops.",
       },

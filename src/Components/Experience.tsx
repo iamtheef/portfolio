@@ -2,7 +2,6 @@ import React, { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { ThemeContext } from "../Context/ThemeContext";
 import loadable from "@loadable/component";
-import { calculateMonths } from "../utils/calculatePeriod";
 
 const Loader = loadable(() => import("../assets/Loader"));
 const ProjectCard = loadable(() => import("./ProjectCard"));
@@ -48,6 +47,7 @@ const Experience: React.FC = () => {
                       skills={[]}
                       name={exp.title}
                       duration={exp.period.text}
+                      hasRecLetter={exp.hasRecLetter}
                     />
                   </div>
                 </li>

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 // import { LanguageContext } from "../Context/LanguageContext";
 import { ThemeContext } from "../Context/ThemeContext";
+import InfoIcon from "../assets/InfoIcon";
 
 interface Props {
   name: string;
@@ -9,12 +10,20 @@ interface Props {
   company: string;
   skills: string[];
   isGlass?: boolean;
+  hasRecLetter?: boolean;
 }
 
 const ProjectCard: React.FC<Props> = (props: Props) => {
   // const { getTags } = useContext(LanguageContext);
   const { isDark } = useContext(ThemeContext);
-  const { name, description, skills, isGlass = false, duration } = props;
+  const {
+    name,
+    description,
+    skills,
+    hasRecLetter,
+    isGlass = false,
+    duration,
+  } = props;
 
   return (
     <div>
@@ -30,7 +39,16 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                     alignItems: "center",
                   }}
                 >
-                  <b>{name}</b>
+                  <b>
+                    {name}
+
+                    {hasRecLetter ? (
+                      <InfoIcon
+                        isDark={isDark}
+                        previewSrc={`${process.env.PUBLIC_URL}/${name}RecLetter.jpg`}
+                      />
+                    ) : null}
+                  </b>
                   <b className="duration-text-right">{duration}</b>
                 </div>
               ) : (
@@ -42,6 +60,7 @@ const ProjectCard: React.FC<Props> = (props: Props) => {
                   {name}
                 </a>
               )}
+
               {!isGlass && <div className="duration-text">{duration}</div>}
               <div className="col-9 pl-1">
                 <p className={`${isDark ? "dark-" : ""}card-description`}>
