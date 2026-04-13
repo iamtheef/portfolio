@@ -41,7 +41,7 @@ const ScrollPage = () => {
 
         if (intersectingEntries.length > 0) {
           const mostVisible = intersectingEntries.reduce((prev, current) =>
-            current.intersectionRatio > prev.intersectionRatio ? current : prev
+            current.intersectionRatio > prev.intersectionRatio ? current : prev,
           );
 
           const path = mostVisible.target.getAttribute("data-path");
@@ -53,7 +53,7 @@ const ScrollPage = () => {
       {
         threshold: 0.1,
         rootMargin: "-5% 0px -20% 0px",
-      }
+      },
     );
 
     // Observe all sections
@@ -97,7 +97,10 @@ const ScrollPage = () => {
     padding: "100px 24px",
     minHeight: "75vh", // Increased from 10vh to ensure sections are tall enough
     scrollMarginTop: "20px",
-    borderBottom: "1px solid rgba(0, 0, 0, 0.05)",
+    backgroundImage: "linear-gradient(rgba(0,0,0,0.3), rgba(255,255,255,0.3))",
+    backgroundSize: "70% 1px",
+    backgroundPosition: "bottom center",
+    backgroundRepeat: "no-repeat",
   };
 
   const headingStyle = {
@@ -107,7 +110,8 @@ const ScrollPage = () => {
     color: "#444",
     opacity: 0.7,
     textAlign: "left",
-    marginLeft: isMobile ? "6vw" : "14vw",
+    // marginLeft: isMobile ? "6vw" : "12vw",
+    marginLeft: "10%",
   };
 
   return (
@@ -127,7 +131,7 @@ const ScrollPage = () => {
         <About />
       </section>
 
-      <section ref={sections["/contact"]} style={sectionStyle}>
+      <section ref={sections["/contact"]} style={{ ...sectionStyle, padding: "0%", paddingTop: "5%" }}>
         <h2 style={headingStyle}>Contact</h2>
         <Contact />
       </section>

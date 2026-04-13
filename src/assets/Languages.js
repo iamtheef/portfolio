@@ -12,12 +12,25 @@ export const content = {
 
     WORK_EXP: [
       {
+        title: "Younet",
+        period: {
+          text: "Οκτώβριος 2025 - Σήμερα",
+          date: {
+            start: "10/25",
+            end: "Σήμερα",
+          },
+        },
+        hasRecLetter: false,
+        description:
+          "Σχεδιασμός, ανάπτυξη και συντήρηση πολλαπλών web εφαρμογών και εσωτερικών εργαλείων σε production περιβάλλον, καλύπτοντας διαφορετικά business needs και ροές χρηστών. Ανάληψη πρωτοβουλιών σε backend αρχιτεκτονική, integrations μεταξύ συστημάτων και διαχείριση δεδομένων, με έμφαση στην απόδοση, αξιοπιστία και επεκτασιμότητα. Εργασία σε σύνθετα queries, data flows και βελτιστοποίηση υπαρχουσών λύσεων, καθώς και ενεργή συμβολή στη συνολική τεχνική κατεύθυνση και εξέλιξη των εφαρμογών.",
+      },
+      {
         title: "Margera",
         period: {
-          text: "Ιανουάριος 2025 - Σήμερα",
+          text: "Ιανουάριος 2025 - Ιούλιος 2025",
           date: {
             start: "01/25",
-            end: "Σήμερα",
+            end: "06/25",
           },
         },
         hasRecLetter: true,
@@ -49,8 +62,7 @@ export const content = {
       },
     ],
 
-    EDUCATION:
-      "ΤΕΙ Ηρακλείου – Τμήμα Εφαρμοσμένης Πληροφορικής και Πολυμέσων (2013-2019)",
+    EDUCATION: "ΤΕΙ Ηρακλείου – Τμήμα Εφαρμοσμένης Πληροφορικής και Πολυμέσων (2013-2019)",
 
     LANG_ARRAY: ["Ελληνικά", "Αγγλικά", "Λίγα Γαλλικά και Ιταλικά"],
     SOFT_SKILLS: [
@@ -61,34 +73,75 @@ export const content = {
       "Διάθεση για συνεργασία",
     ],
 
-    CONTACT_PROMPT:
-      "Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε μαζί μου με τους εξής τρόπους:",
+    CONTACT_PROMPT: "Εάν έχω ξεχάσει να αναφέρω κάτι μπορείτε πάντα να επικοινωνήσετε μαζί μου με τους εξής τρόπους:",
 
     DOWNLOAD_CV: "Kατεβάστε το βιογραφικό μου",
 
     PINNED: {
       iamAI: {
         TITLE: "iamAI",
-        DESCRIPTION:
-          "Ένα έξυπνο chatbot που απαντάει παντός τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
+        DESCRIPTION: "Ένα έξυπνο chatbot που απαντάει παντός τύπου ερωτήσεις, καθώς είναι και διαθέσιμο μέσω API.",
       },
     },
 
     AND: " και ",
     PROJECTS: [
       {
+        name: "Nemeseas",
+        duration: "Φεβρουάριος 2026 - Σήμερα",
+        company: "Younet",
+        description:
+          "Σχεδιασμός και ανάπτυξη του backend για ένα ολοκληρωμένο σύστημα κρατήσεων εστιατορίων (Nemeseas), με πλήρη ευθύνη αρχιτεκτονικής και υλοποίησης. Δημιουργία scalable και reusable backend σε Node.js (TypeScript), με έμφαση στην απόδοση και την εμπειρία ανάπτυξης. Υλοποίηση caching, mailing systems, schedulers, task queues και προηγμένων REST APIs. Ενσωμάτωση πληρωμών και υποστήριξη frontend. Δημιουργία reusable boilerplate για αύξηση της παραγωγικότητας και συντηρησιμότητας του κώδικα.",
+        skills: [
+          "Node.js",
+          "TypeScript",
+          "Architecture",
+          "REST APIs",
+          "Caching",
+          "Task Queues",
+          "Payments",
+          "System Design",
+        ],
+      },
+      {
+        name: "Cloudo",
+        duration: "Μάρτιος 2026",
+        company: "Younet",
+        description:
+          "Συμμετοχή στον σχεδιασμό και την ανάπτυξη του Cloudo, ενός private cloud συστήματος διαχείρισης αρχείων για την Ορθόδοξο Ακαδημία Κρήτης (ΟΑΚ). Εστίαση στην ασφαλή αποθήκευση και ψηφιοποίηση πολύτιμου αρχειακού υλικού. Υλοποίηση λειτουργιών διαχείρισης αρχείων, ρόλων και δικαιωμάτων πρόσβασης, συμβάλλοντας στη διατήρηση και ψηφιακή οργάνωση σημαντικών δεδομένων.",
+        skills: [
+          "Full-Stack Development",
+          "System Design",
+          "Access Control",
+          "File Management",
+          "TypeScript",
+          "Express",
+          "Next.js",
+        ],
+      },
+      {
+        name: "CampusHub",
+        duration: "Φεβρουάριος 2026",
+        company: "Younet",
+        description:
+          "Συμμετοχή στην ταχεία ανάπτυξη της πλατφόρμας πρακτικής άσκησης CampusHub, με στόχο τη μείωση της γραφειοκρατίας μεταξύ φοιτητών και εργοδοτών. Εργασία υπό αυστηρά deadlines με υλοποίηση νέων λειτουργιών και επίλυση κρίσιμων προβλημάτων σε frontend και backend. Συμβολή στη σταθεροποίηση της πλατφόρμας πριν την παράδοση και βελτίωση της συνολικής εμπειρίας χρήστη.",
+        skills: ["Full-Stack Development", "React", "Node.js", "Bug Fixing", "Rapid Delivery", "Debugging"],
+      },
+      {
+        name: "Idealink (Κοινωνικό Δίκτυο ΠΑΔΑ)",
+        duration: "Οκτώβριος 2025 - Φεβρουάριος 2026",
+        company: "Younet",
+        description:
+          "Ενασχόληση με μεγάλη πλατφόρμα κοινωνικής δικτύωσης (Idealink) για το Πανεπιστήμιο Δυτικής Αττικής, με έμφαση στη βελτιστοποίηση απόδοσης και την επεκτασιμότητα. Εντοπισμός και επίλυση κρίσιμων bottlenecks στη βάση δεδομένων, βελτιώνοντας σημαντικά την απόκριση του συστήματος. Βελτιστοποίηση και επέκταση υπαρχόντων backend components σε αρχιτεκτονική microservices με Node.js, με υλοποίηση νέων λειτουργιών και ανασχεδιασμό κρίσιμων μερών του συστήματος, όπως το database driver, για μεγαλύτερη επαναχρησιμοποίηση και βελτίωση της αποδοτικότητας της ομάδας. Υλοποίηση νέων λειτουργιών που επιτάχυναν την ανάπτυξη και συμβολή σε frontend bug fixing για σταθερότητα της πλατφόρμας.",
+        skills: ["Node.js", "Microservices", "Performance Optimization", "Database Tuning", "Refactoring", "Debugging"],
+      },
+      {
         name: "TV Attribution",
         duration: "Ιούλιος 2025 - Ιούλιος 2025",
         company: "Margera",
         description:
           "Υλοποίησα ένα σύστημα που στοχεύει στοιχεία της πλατφόρμας, εξάγει το περιεχόμενό τους σε αρχεία CSV και τροφοδοτεί τα δεδομένα στο Gemini για τη δημιουργία συστάσεων. Οι συστάσεις εμφανίζονταν μέσω ειδικού εικονιδίου στο UI και ενσωματώνονταν απευθείας στα εκτυπώσιμα αποτελέσματα της πλατφόρμας, βελτιώνοντας τις επιχειρηματικές γνώσεις και τη χρηστικότητα για τον πελάτη.",
-        skills: [
-          "Python",
-          "Google Cloud",
-          "Gemini",
-          "Data Extraction",
-          "Prompt Engineering",
-        ],
+        skills: ["Python", "Google Cloud", "Gemini", "Data Extraction", "Prompt Engineering"],
       },
       {
         name: "PMI Consulting",
@@ -169,12 +222,7 @@ export const content = {
         company: "Squaredev",
         description:
           "Βελτιστοποίηση του εργαλείου MLTool για την αποδοτική επίλυση του σύνθετου προβλήματος συσχέτισης εγγραφών (record linkage), με χρήση παραλληλοποίησης σε Python. Έμφαση στην απόδοση και την κλιμάκωση μέσω τεχνικών multiprocessing για ταχύτερη επεξεργασία μεγάλων συνόλων δεδομένων.",
-        skills: [
-          "Parallel Processing",
-          "Multithreading",
-          "Python (Programming Language)",
-          "Record Linkage",
-        ],
+        skills: ["Parallel Processing", "Multithreading", "Python (Programming Language)", "Record Linkage"],
       },
       {
         name: "Anty",
@@ -200,14 +248,7 @@ export const content = {
         company: "Squaredev",
         description:
           "Συμμετοχή στο ευρωπαϊκό έργο BOIP, μια πλατφόρμα για την καταχώριση και προστασία δικαιωμάτων άλλων οργανισμών. Εστίαση στην ανάπτυξη frontend με χρήση Styled Components, Material UI και σχεδιαστικά mockups από Figma.",
-        skills: [
-          "React.js",
-          "JavaScript",
-          "TypeScript",
-          "Material UI",
-          "Figma",
-          "Styled Components",
-        ],
+        skills: ["React.js", "JavaScript", "TypeScript", "Material UI", "Figma", "Styled Components"],
       },
       {
         name: "Chatbot Widget",
@@ -223,12 +264,7 @@ export const content = {
         company: "Resitech LTD",
         description:
           "Υλοποίηση web scraping σε μεγάλη κλίμακα από ιστότοπους ακινήτων σε όλη την Ελλάδα, με στόχο τη δημιουργία βάσης δεδομένων για ανάλυση με τεχνικές machine learning. Το έργο περιλάμβανε σύνθετα και ετερογενή δεδομένα από πολλούς παρόχους, απαιτώντας ανθεκτικές και επεκτάσιμες στρατηγικές συλλογής.",
-        skills: [
-          "JavaScript",
-          "Python (Programming Language)",
-          "Node.js",
-          "MongoDB",
-        ],
+        skills: ["JavaScript", "Python (Programming Language)", "Node.js", "MongoDB"],
       },
       {
         name: "Resitech real estate platform",
@@ -254,12 +290,25 @@ export const content = {
 
     WORK_EXP: [
       {
+        title: "Younet",
+        period: {
+          text: "October 2025 - Present",
+          date: {
+            start: "10/25",
+            end: "Present",
+          },
+        },
+        hasRecLetter: false,
+        description:
+          "Designed, developed, and maintained multiple web applications and internal tools in a production environment, supporting diverse business needs and user flows. Took ownership of backend architecture, system integrations, and data management, with a strong focus on performance, reliability, and scalability. Worked on complex queries, data flows, and optimization of existing solutions, while actively contributing to the overall technical direction and evolution of the platform.",
+      },
+      {
         title: "Margera",
         period: {
-          text: "Jan 2025 - Today",
+          text: "Jan 2025 - July 2025",
           date: {
             start: "01/25",
-            end: "Today",
+            end: "06/25",
           },
         },
         hasRecLetter: true,
@@ -291,8 +340,7 @@ export const content = {
       },
     ],
 
-    EDUCATION:
-      "Heraklion TEI – Department of Applied Informatics and Multimedia (2013-2019)",
+    EDUCATION: "Heraklion TEI – Department of Applied Informatics and Multimedia (2013-2019)",
 
     SOFT_SKILLS: [
       "Analytical and problem solving abilities",
@@ -304,33 +352,74 @@ export const content = {
 
     LANG_ARRAY: ["Greek", "English", "Basic French and Italian"],
 
-    CONTACT_PROMPT:
-      "If I left anything out or you have further questions feel free to contact me.",
+    CONTACT_PROMPT: "If I left anything out or you have further questions feel free to contact me.",
 
     DOWNLOAD_CV: "Download my CV",
 
     PINNED: {
       iamAI: {
         TITLE: "iamAI",
-        DESCRIPTION:
-          "A smart chatbot that can answer all sorts of questions, also available through an API.",
+        DESCRIPTION: "A smart chatbot that can answer all sorts of questions, also available through an API.",
       },
     },
     AND: " and ",
     PROJECTS: [
+      {
+        name: "Nemeseas",
+        duration: "February 2026 - Present",
+        company: "Younet",
+        description:
+          "Designed and developed the backend of a full end-to-end restaurant booking system (Nemeseas), taking full ownership of both architecture and implementation. Built a scalable and reusable backend in Node.js (TypeScript), focusing on performance and developer experience. Implemented caching, mailing systems, schedulers, task queues, and advanced REST APIs. Integrated payment systems and supported frontend integration. Created a reusable backend boilerplate to improve team productivity and maintainability.",
+        skills: [
+          "Node.js",
+          "TypeScript",
+          "Architecture",
+          "REST APIs",
+          "Caching",
+          "Task Queues",
+          "Payments",
+          "System Design",
+        ],
+      },
+      {
+        name: "Cloudo",
+        duration: "March 2026",
+        company: "Younet",
+        description:
+          "Contributed to the design and development of Cloudo, a private cloud file management system for the Orthodox Academy of Crete (OAC). Focused on secure storage and digital preservation of valuable archival material. Implemented file management features, access control, roles, and permissions, contributing to the digitization and organization of sensitive data.",
+        skills: [
+          "Full-Stack Development",
+          "System Design",
+          "Access Control",
+          "File Management",
+          "TypeScript",
+          "Express",
+          "Next.js",
+        ],
+      },
+      {
+        name: "CampusHub",
+        duration: "February 2026",
+        company: "Younet",
+        description:
+          "Contributed to the rapid development of the CampusHub internship platform, aiming to reduce bureaucracy between students and employers. Worked under strict deadlines, implementing new features and resolving critical issues across both frontend and backend. Helped stabilize the platform before delivery and improved overall user experience.",
+        skills: ["Full-Stack Development", "React", "Node.js", "Bug Fixing", "Rapid Delivery", "Debugging"],
+      },
+      {
+        name: "Idealink (University of West Attica Social Network)",
+        duration: "October 2025 - February 2026",
+        company: "Younet",
+        description:
+          "Worked on a large-scale social networking platform (Idealink) for the University of West Attica, focusing on performance optimization and scalability. Identified and resolved critical database bottlenecks, significantly improving system responsiveness. Optimized and extended existing backend components in a Node.js microservices architecture, introducing new features and redesigning critical parts such as the database driver to improve reusability and team efficiency. Also contributed to frontend bug fixing to enhance overall platform stability.",
+        skills: ["Node.js", "Microservices", "Performance Optimization", "Database Tuning", "Refactoring", "Debugging"],
+      },
       {
         name: "TV Attribution",
         duration: "July 2025 - July 2025",
         company: "Margera",
         description:
           "Implemented a system to target platform UI elements, extract their content into CSV files, and feed the data into Gemini for generating recommendations. Displayed recommendations via a dedicated icon in the UI and embedded them directly into the platform’s printable reports, enhancing client insights and usability.",
-        skills: [
-          "Python",
-          "Google Cloud",
-          "Gemini",
-          "Data Extraction",
-          "Prompt Engineering",
-        ],
+        skills: ["Python", "Google Cloud", "Gemini", "Data Extraction", "Prompt Engineering"],
       },
       {
         name: "PMI Consulting",
@@ -402,8 +491,7 @@ export const content = {
           "Continuous Integration and Continuous Delivery (CI/CD)",
           "ArgoCD",
         ],
-        additional_info:
-          "timepulse: A small library we made to integrate different models in the Sunrise project",
+        additional_info: "timepulse: A small library we made to integrate different models in the Sunrise project",
       },
       {
         name: "UpHellas",
@@ -411,12 +499,7 @@ export const content = {
         company: "Squaredev",
         description:
           "Optimized the MLTool framework to efficiently solve a complex record linkage problem using parallel processing in Python. Focused on improving performance and scalability through multiprocessing techniques, enabling faster matching across large datasets.",
-        skills: [
-          "Parallel Processing",
-          "Multithreading",
-          "Python (Programming Language)",
-          "Record Liknage",
-        ],
+        skills: ["Parallel Processing", "Multithreading", "Python (Programming Language)", "Record Liknage"],
       },
       {
         name: "Anty",
@@ -442,14 +525,7 @@ export const content = {
         company: "Squaredev",
         description:
           "Worked on the EU-funded BOIP project, a platform for the registration and protection of rights for other organizations. Focused on frontend development using Styled Components, Material UI, and designs provided via Figma.",
-        skills: [
-          "React.js",
-          "JavaScript",
-          "TypeScript",
-          "Material UI",
-          "Figma",
-          "Styled Components",
-        ],
+        skills: ["React.js", "JavaScript", "TypeScript", "Material UI", "Figma", "Styled Components"],
       },
       {
         name: "Chatbot Widget",
@@ -465,12 +541,7 @@ export const content = {
         company: "Resitech LTD",
         description:
           "Performed large-scale web scraping of real estate platforms across Greece to build a comprehensive database for machine learning analysis. The project involved handling complex and heterogeneous data from multiple property providers, requiring scalable and robust scraping strategies.",
-        skills: [
-          "JavaScript",
-          "Python (Programming Language)",
-          "Node.js",
-          "MongoDB",
-        ],
+        skills: ["JavaScript", "Python (Programming Language)", "Node.js", "MongoDB"],
       },
       {
         name: "Resitech real estate platform",

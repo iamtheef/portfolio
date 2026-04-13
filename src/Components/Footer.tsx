@@ -83,8 +83,7 @@ const Footer: React.FC = () => {
         style={{
           height: "3px",
           width: "100%",
-          background:
-            "linear-gradient(270deg, #3dc4eeff, #f06d8bff, #2deeceff, #d6ee20ff)",
+          background: "linear-gradient(270deg, #3dc4eeff, #f06d8bff, #2deeceff, #d6ee20ff)",
           backgroundSize: "400% 400%",
           animation: "moveGradient 6s ease infinite",
           position: "absolute",
@@ -117,11 +116,9 @@ const Footer: React.FC = () => {
       {/* Footer */}
       <div className="container">
         <p style={{ marginBottom: "0.7rem" }}>
-          Built with 💻, caffeine ☕, and deployed by sheer willpower on GitHub
-          Pages.
+          Built with 💻, caffeine ☕, and deployed by sheer willpower on GitHub Pages.
           <br />
-          &copy; {new Date().getFullYear()} Thergiakis Eftichios — All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Thergiakis Eftichios — All rights reserved.
         </p>
 
         <div
@@ -133,46 +130,24 @@ const Footer: React.FC = () => {
             marginBottom: "0.3rem",
           }}
         >
-          <a
-            href="https://github.com/iamtheef"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/iamtheef" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" style={iconStyle} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/iamtheef/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/iamtheef/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" style={iconStyle} />
           </a>
-          <a
-            href="https://soundcloud.com/dj_theef"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={soundcloud} alt="SoundCloud" style={iconStyle} />
-          </a>
-          <a
-            href="https://discordapp.com/users/469766971437613057"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://discordapp.com/users/469766971437613057" target="_blank" rel="noopener noreferrer">
             <img src={discord} alt="Discord" style={iconStyle} />
           </a>
-          <a
-            href="https://medium.com/@eftihis.riise"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://medium.com/@eftihis.riise" target="_blank" rel="noopener noreferrer">
             <img src={medium} alt="Medium" style={iconStyle} />
+          </a>
+          <a href="https://soundcloud.com/dj_theef" target="_blank" rel="noopener noreferrer">
+            <img src={soundcloud} alt="SoundCloud" style={iconStyle} />
           </a>
         </div>
 
-        <p style={{ fontSize: "0.7rem", opacity: 0.5 }}>
-          Hosted on GitHub Pages • May contain traces of cats 🐈
-        </p>
+        <p style={{ fontSize: "0.7rem", opacity: 0.5 }}>Hosted on GitHub Pages • May contain traces of cats 🐈</p>
       </div>
     </footer>
   );

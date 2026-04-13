@@ -1,17 +1,21 @@
 import { generateDigits } from "./generateDigits";
 import React from "react";
 
-const defaultLines = () => {
-  return Math.ceil(document.getElementById("root")?.scrollHeight! / 46);
-};
+// const defaultLines = () => {
+//   return Math.ceil(document.getElementById("root")?.scrollHeight! / 46);
+// };
 
-const linesPerHash: any = {
-  contact: 13,
-};
+// const linesPerHash: any = {
+//   contact: 13,
+// };
 
 const cuclulateLines = () => {
-  const hash = window.location.hash.slice(2);
-  return !!linesPerHash[hash] ? linesPerHash[hash] : defaultLines();
+  // const hash = window.location.hash.slice(2);
+  // return !!linesPerHash[hash] ? linesPerHash[hash] : defaultLines();
+
+  // single page value
+  // return 175;
+  return Math.round(document.documentElement.scrollHeight / 42);
 };
 
 export const makeTable = () => {
@@ -22,7 +26,7 @@ export const makeTable = () => {
     newTable.push(
       <div className="header col" key={i}>
         {generateDigits()}
-      </div>
+      </div>,
     );
   }
   return <div>{newTable}</div>;
