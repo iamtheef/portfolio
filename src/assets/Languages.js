@@ -144,8 +144,8 @@ export const content = {
         skills: ["Python", "Google Cloud", "Gemini", "Data Extraction", "Prompt Engineering"],
       },
       {
-        name: "PMI Consulting",
-        duration: "Mάρτιος 2025 - Σήμερα",
+        name: "Philip Morris International Consulting",
+        duration: "Mάρτιος 2025 - Ιούλιος 2025",
         company: "Margera",
         description:
           "Ενασχόληση με data warehousing και reporting, καθώς και συντήρηση σύνθετων ETL διαδικασιών σε SQL για την αυτοματοποίηση ροών δεδομένων. Ανάπτυξη και βελτιστοποίηση πολύπλοκων queries και procedures για εξαγωγή, ανάλυση και διαχείριση δεδομένων σε μεγάλο όγκο.",
@@ -422,8 +422,8 @@ export const content = {
         skills: ["Python", "Google Cloud", "Gemini", "Data Extraction", "Prompt Engineering"],
       },
       {
-        name: "PMI Consulting",
-        duration: "Mar 2025 - Today",
+        name: "Philip Morris International Consulting",
+        duration: "Mar 2025 - Jul 2025",
         company: "Margera",
         description:
           "Worked on data warehousing and reporting, maintaining complex BigQuery and SQL-based ETL pipelines to automate data flows. Designed and optimized advanced queries and procedures for large-scale data extraction, analysis, and management.",
