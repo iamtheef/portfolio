@@ -152,11 +152,11 @@ export const content = {
         skills: ["SQL", "BigQuery", "Google Cloud", "Proceedures"],
       },
       {
-        name: "Culture Mapper",
+        name: "Culture Mapper (Publicis Groupe)",
         duration: "Ιανουάριος 2025 - Μάρτιος 2025",
         company: "Margera",
         description:
-          "Ανάπτυξη πλατφόρμας παρακολούθησης trends με AI, LLMs και embeddings. Περιλάμβανε scraping και συλλογή δεδομένων (π.χ. TikTok, YouTube), ανάλυση και clustering με embeddings, καθώς και παραγωγή περιλήψεων και metrics μέσω LLMs. Υλοποίηση σε React, Django και BigQuery, με σύνθετα SQL ETLs για επεξεργασία και παρουσίαση δεδομένων.",
+          "Ανάπτυξη πλατφόρμας παρακολούθησης trends με AI, LLMs και embeddings για την Publicis Groupe. Περιλάμβανε scraping και συλλογή δεδομένων (π.χ. TikTok, YouTube), ανάλυση και clustering με embeddings, καθώς και παραγωγή περιλήψεων και metrics μέσω LLMs. Υλοποίηση σε React, Django και BigQuery, με σύνθετα SQL ETLs για επεξεργασία και παρουσίαση δεδομένων.",
         skills: [
           "BigQuery",
           "Google Cloud",
@@ -430,11 +430,11 @@ export const content = {
         skills: ["SQL", "BigQuery", "Google Cloud", "Proceedures"],
       },
       {
-        name: "Culture Mapper",
+        name: "Culture Mapper (Publicis Groupe)",
         duration: "Jan 2025 - Mar 2025",
         company: "Margera",
         description:
-          "Developed a trend monitoring platform using AI, LLMs, and embeddings. Involved data scraping (e.g. TikTok, YouTube), clustering and analysis via embeddings, and automated summaries and metrics powered by LLMs. Built with React, Django, BigQuery, and complex SQL-based ETLs for scalable data processing.",
+          "Developed a trend monitoring platform using AI, LLMs, and embeddings for Publicis Groupe. Involved data scraping (e.g. TikTok, YouTube), clustering and analysis via embeddings, and automated summaries and metrics powered by LLMs. Built with React, Django, BigQuery, and complex SQL-based ETLs for scalable data processing.",
         skills: [
           "BigQuery",
           "Google Cloud",
